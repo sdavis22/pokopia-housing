@@ -26,12 +26,9 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-        env:
-          NODE_ENV: development
       - run: npm run build
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
-          NODE_ENV: development
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
