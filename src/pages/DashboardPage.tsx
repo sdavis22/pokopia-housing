@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 import { allCompatiblePairs } from '../utils/scoring';
+import { PokemonSprite } from '../components/PokemonSprite';
 
 export default function DashboardPage() {
   const { state, dispatch } = useApp();
@@ -79,7 +80,13 @@ export default function DashboardPage() {
             <ul className="space-y-2">
               {topPairs.map((pair, i) => (
                 <li key={i} className="flex items-center justify-between text-sm">
-                  <span className="text-gray-800">{pair.members[0].name} + {pair.members[1].name}</span>
+                  <span className="flex items-center gap-1 text-gray-800">
+                    <PokemonSprite pokemon={pair.members[0]} size="xs" />
+                    {pair.members[0].name}
+                    <span className="text-gray-400 mx-0.5">+</span>
+                    <PokemonSprite pokemon={pair.members[1]} size="xs" />
+                    {pair.members[1].name}
+                  </span>
                   <span className="bg-indigo-100 text-indigo-700 text-xs font-semibold px-2 py-0.5 rounded-full">
                     {pair.score}pts
                   </span>

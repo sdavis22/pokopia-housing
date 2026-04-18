@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import type { Pokemon } from '../types';
+import { PokemonSprite } from '../components/PokemonSprite';
 import {
   allCompatiblePairs,
   allCompatibleGroups,
@@ -28,8 +29,9 @@ function GroupRow({ group }: { group: CompatibilityGroup }) {
     <li className="flex items-center justify-between gap-3 py-2 px-3 rounded-lg hover:bg-gray-50">
       <div className="flex flex-wrap items-center gap-1 min-w-0">
         {group.members.map((p, i) => (
-          <span key={p.id} className="text-sm text-gray-800">
+          <span key={p.id} className="inline-flex items-center gap-0.5 text-sm text-gray-800">
             {i > 0 && <span className="text-gray-400 mx-0.5">+</span>}
+            <PokemonSprite pokemon={p} size="xs" />
             {p.name}
           </span>
         ))}

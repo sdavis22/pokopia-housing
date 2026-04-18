@@ -3,6 +3,7 @@ import { useApp } from '../context/AppContext';
 import type { HouseGroup, Pokemon } from '../types';
 import { ISLANDS } from '../config/scoring';
 import { computeHouseAnalysis, rankFurnitureForHouse } from '../utils/scoring';
+import { PokemonSprite } from '../components/PokemonSprite';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 function TagChip({ label, color = 'gray' }: { label: string; color?: 'gray' | 'green' | 'yellow' | 'red' | 'indigo' }) {
@@ -295,6 +296,7 @@ export default function GroupBuilderPage() {
                           }`}>
                             {inGroup ? '✓' : ''}
                           </span>
+                          <PokemonSprite pokemon={p} size="xs" />
                           {p.name}
                           <span className="text-xs text-gray-400 ml-auto">{p.idealHabitat}</span>
                         </button>

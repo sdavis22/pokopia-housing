@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { ISLANDS } from '../config/scoring';
 import type { Island } from '../config/scoring';
+import { PokemonSprite } from '../components/PokemonSprite';
 
 const HABITAT_COLORS: Record<string, string> = {
   Warm: 'bg-orange-100 text-orange-700',
@@ -93,6 +94,7 @@ function IslandEditor({ selected, onClose }: { selected: Selection; onClose: () 
                     onChange={e => setPokemonIsland(p.id, e.target.checked)}
                     className="accent-indigo-600 shrink-0"
                   />
+                  <PokemonSprite pokemon={p} size="xs" />
                   <span className="text-sm text-gray-800 flex-1 truncate">{p.name}</span>
                   <span className={`text-xs px-1.5 py-0.5 rounded-full shrink-0 ${HABITAT_COLORS[p.idealHabitat] ?? 'bg-gray-100 text-gray-600'}`}>
                     {p.idealHabitat}
@@ -188,7 +190,8 @@ export default function IslandsPage() {
                 ) : (
                   <div className="flex flex-wrap gap-1">
                     {poke.map(p => (
-                      <span key={p.id} className={`text-xs px-2 py-0.5 rounded-full font-medium ${HABITAT_COLORS[p.idealHabitat] ?? 'bg-gray-100 text-gray-700'}`} title={p.idealHabitat}>
+                      <span key={p.id} className={`inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full font-medium ${HABITAT_COLORS[p.idealHabitat] ?? 'bg-gray-100 text-gray-700'}`} title={p.idealHabitat}>
+                        <PokemonSprite pokemon={p} size="xs" />
                         {p.name}
                       </span>
                     ))}

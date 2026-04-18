@@ -4,6 +4,7 @@ import type { Pokemon } from '../types';
 import { ISLANDS } from '../config/scoring';
 import { topCompatiblePokemon, rankFurnitureForPokemon } from '../utils/scoring';
 import { favoritesOverlap } from '../utils/overlap';
+import { PokemonSprite } from '../components/PokemonSprite';
 
 function TagChip({ label, color = 'gray' }: { label: string; color?: 'gray' | 'indigo' | 'green' | 'amber' }) {
   const colors = {
@@ -44,6 +45,7 @@ function PokemonForm({ initial, onSave, onCancel, existingIds }: {
   const [favInput, setFavInput] = useState(initial?.favorites?.join(', ') ?? '');
   const [specInput, setSpecInput] = useState(initial?.specialty?.join(', ') ?? '');
   const [notes, setNotes] = useState(initial?.notes ?? '');
+  const [image, setImage] = useState(initial?.image ?? '');
   const [error, setError] = useState('');
 
   const isEdit = !!initial?.id;
@@ -59,6 +61,7 @@ function PokemonForm({ initial, onSave, onCancel, existingIds }: {
       favorites: favInput.split(',').map(s => s.trim()).filter(Boolean),
       specialty: specInput.split(',').map(s => s.trim()).filter(Boolean),
       notes: notes.trim() || undefined,
+      image: image.trim() || undefined,
     });
   }
 
@@ -112,6 +115,10 @@ function PokemonForm({ initial, onSave, onCancel, existingIds }: {
         <label className="block text-xs font-medium text-gray-600 mb-1">Notes</label>
         <textarea className="input w-full" value={notes} onChange={e => setNotes(e.target.value)} rows={2} />
       </div>
+      <div>
+        <label className="block text-xs font-medium text-gray-600 mb-1">Image URL (overrides auto-sprite)</label>
+        <input className="input w-full" value={image} onChange={e => setImage(e.target.value)} placeholder="https://…" />
+      </div>
       <div className="flex gap-2">
         <button type="submit" className="btn-primary">{isEdit ? 'Save Changes' : 'Add Pokemon'}</button>
         <button type="button" onClick={onCancel} className="btn-secondary">Cancel</button>
@@ -132,9 +139,14 @@ function PokemonDetail({ pokemon, allPokemon, allFurniture }: {
     <div className="space-y-4">
       <div>
         <div className="flex items-center gap-2 mb-2">
-          <h3 className="text-lg font-bold text-gray-900">{pokemon.name}</h3>
-          {pokemon.pokedexNumber && <span className="text-sm text-gray-400">#{pokemon.pokedexNumber}</span>}
-          <HabitatBadge habitat={pokemon.idealHabitat} />
+          <PokemonSprite pokemon={pokemon} size="md" />
+          <div>
+            <div className="flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gray-900">{pokemon.name}</h3>
+              {pokemon.pokedexNumber && <span className="text-sm text-gray-400">#{pokemon.pokedexNumber}</span>}
+              <HabitatBadge habitat={pokemon.idealHabitat} />
+            </div>
+          </div>
         </div>
         {pokemon.specialty.length > 0 && (
           <div className="flex flex-wrap gap-1 mb-2">
@@ -157,6 +169,7 @@ function PokemonDetail({ pokemon, allPokemon, allFurniture }: {
               const { shared } = favoritesOverlap(pokemon, p);
               return (
                 <li key={p.id} className="flex items-center gap-2 text-sm">
+                  <PokemonSprite pokemon={p} size="xs" />
                   <span className="font-medium">{p.name}</span>
                   <HabitatBadge habitat={p.idealHabitat} />
                   <span className="bg-indigo-100 text-indigo-700 text-xs px-2 py-0.5 rounded-full ml-auto">{score}pts</span>
@@ -277,6 +290,7 @@ export default function PokemonExplorerPage() {
               }`}
             >
               <div className="flex items-center gap-2">
+                <PokemonSprite pokemon={p} size="sm" />
                 <span className="font-medium text-sm">{p.name}</span>
                 {p.pokedexNumber && <span className="text-xs text-gray-400">#{p.pokedexNumber}</span>}
                 <HabitatBadge habitat={p.idealHabitat} />

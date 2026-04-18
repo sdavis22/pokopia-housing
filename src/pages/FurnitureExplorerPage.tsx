@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import type { Furniture } from '../types';
+import { PokemonSprite } from '../components/PokemonSprite';
 
 function FurnitureForm({ initial, onSave, onCancel, existingIds }: {
   initial?: Partial<Furniture>;
@@ -98,7 +99,8 @@ function FurnitureDetail({ furniture }: { furniture: Furniture }) {
         ) : (
           <div className="flex flex-wrap gap-2">
             {matchingPokemon.map(p => (
-              <span key={p.id} className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">
+              <span key={p.id} className="inline-flex items-center gap-1 text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">
+                <PokemonSprite pokemon={p} size="xs" />
                 {p.name}
               </span>
             ))}
