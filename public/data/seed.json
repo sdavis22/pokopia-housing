@@ -4911,36 +4911,6 @@
       ]
     },
     {
-      "id": "toxtricity-amped-form",
-      "name": "Toxtricity Amped Form",
-      "idealHabitat": "Humid",
-      "specialty": [
-        "Generate",
-        "Hype"
-      ],
-      "favorites": [
-        "Electronics",
-        "Play spaces",
-        "Slender objects",
-        "Sharp stuff"
-      ]
-    },
-    {
-      "id": "toxtricity-low-key-form",
-      "name": "Toxtricity Low Key Form",
-      "idealHabitat": "Humid",
-      "specialty": [
-        "Generate",
-        "Hype"
-      ],
-      "favorites": [
-        "Electronics",
-        "Play spaces",
-        "Slender objects",
-        "Sharp stuff"
-      ]
-    },
-    {
       "id": "stereo-rotom",
       "name": "Stereo Rotom",
       "idealHabitat": "Bright",
@@ -4952,21 +4922,6 @@
         "Group Activities",
         "Shiny stuff",
         "Blocky stuff"
-      ]
-    },
-    {
-      "id": "professor-tangrowth",
-      "name": "Professor Tangrowth",
-      "idealHabitat": "Humid",
-      "specialty": [
-        "Appraise"
-      ],
-      "favorites": [
-        "Strange stuff",
-        "Lots of nature",
-        "Letters and words",
-        "Group Activities",
-        "Complicated stuff"
       ]
     },
     {
@@ -4985,39 +4940,23 @@
       ]
     },
     {
-      "id": "shellos-east-sea",
-      "name": "Shellos East Sea",
+      "id": "toxtricity",
+      "name": "Toxtricity",
       "idealHabitat": "Humid",
       "specialty": [
-        "Water"
+        "Generate",
+        "Hype"
       ],
       "favorites": [
-        "Lots of water",
-        "Ocean vibes",
-        "Containers",
-        "Cleanliness",
-        "Colorful stuff"
+        "Electronics",
+        "Play spaces",
+        "Slender objects",
+        "Sharp stuff"
       ]
     },
     {
-      "id": "gastrodon-east-sea",
-      "name": "Gastrodon East Sea",
-      "idealHabitat": "Humid",
-      "specialty": [
-        "Water",
-        "Trade"
-      ],
-      "favorites": [
-        "Lots of water",
-        "Ocean vibes",
-        "Containers",
-        "Lots of dirt",
-        "Cleanliness"
-      ]
-    },
-    {
-      "id": "tatsugiri-curly-form",
-      "name": "Tatsugiri Curly Form",
+      "id": "tatsugiri",
+      "name": "Tatsugiri",
       "idealHabitat": "Humid",
       "specialty": [
         "Trade"
@@ -5026,36 +4965,10 @@
         "Lots of water",
         "Group Activities",
         "Ocean vibes",
-        "Gatherings"
-      ]
-    },
-    {
-      "id": "tatsugiri-droopy-form",
-      "name": "Tatsugiri Droopy Form",
-      "idealHabitat": "Humid",
-      "specialty": [
-        "Trade"
-      ],
-      "favorites": [
-        "Lots of water",
-        "Group Activities",
-        "Ocean vibes",
+        "Gatherings",
         "Spinning stuff",
-        "Blocky stuff"
-      ]
-    },
-    {
-      "id": "tatsugiri-stretchy-form",
-      "name": "Tatsugiri Stretchy Form",
-      "idealHabitat": "Humid",
-      "specialty": [
-        "Trade"
-      ],
-      "favorites": [
-        "Lots of water",
+        "Blocky stuff",
         "Letters and words",
-        "Group Activities",
-        "Ocean vibes",
         "Containers"
       ]
     }

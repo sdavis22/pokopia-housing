@@ -145,7 +145,39 @@ function main() {
     }
   }
 
-  console.log('\nBuilding JSON...');
+  console.log('\nDeduplicating...');
+
+  // Merge form variants into canonical entries, drop NPCs
+  // Each entry: [variantId, canonicalId | null (drop)]
+  const MERGE = [
+    ['toxtricity-amped-form',   'toxtricity'],
+    ['toxtricity-low-key-form', 'toxtricity'],
+    ['shellos-east-sea',        'shellos'],
+    ['gastrodon-east-sea',      'gastrodon'],
+    ['tatsugiri-curly-form',    'tatsugiri'],
+    ['tatsugiri-droopy-form',   'tatsugiri'],
+    ['tatsugiri-stretchy-form', 'tatsugiri'],
+    ['professor-tangrowth',     null],  // NPC, not a playable Pokemon
+  ];
+
+  for (const [variantId, canonicalId] of MERGE) {
+    const variant = allPokemon.get(variantId);
+    if (!variant) continue;
+    if (canonicalId) {
+      // Create canonical entry if it doesn't exist yet
+      if (!allPokemon.has(canonicalId)) {
+        allPokemon.set(canonicalId, { ...variant, id: canonicalId, name: canonicalId.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) });
+      }
+      // Merge favorites
+      const canonical = allPokemon.get(canonicalId);
+      for (const fav of variant.favorites) {
+        if (!canonical.favorites.includes(fav)) canonical.favorites.push(fav);
+      }
+    }
+    allPokemon.delete(variantId);
+  }
+
+  console.log('Building JSON...');
 
   const pokemonArr = [...allPokemon.values()].sort((a, b) => (a.pokedexNumber ?? 9999) - (b.pokedexNumber ?? 9999));
   const furnitureArr = [...allFurniture.values()];
