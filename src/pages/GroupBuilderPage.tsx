@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import type { HouseGroup, Pokemon } from '../types';
+import { ISLANDS } from '../config/scoring';
 import { computeHouseAnalysis, rankFurnitureForHouse } from '../utils/scoring';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
@@ -232,7 +233,10 @@ export default function GroupBuilderPage() {
                   }`}
                 >
                   <div className="font-medium text-sm">{h.name}</div>
-                  <div className="text-xs text-gray-400">{h.pokemonIds.length} Pokemon · {(h.selectedFurnitureIds ?? []).length} furniture</div>
+                  <div className="text-xs text-gray-400 flex items-center gap-1">
+                    {h.pokemonIds.length} Pokemon · {(h.selectedFurnitureIds ?? []).length} furniture
+                    {h.island && <span className="text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded-full">{h.island}</span>}
+                  </div>
                 </button>
               ))}
             </div>
@@ -255,6 +259,21 @@ export default function GroupBuilderPage() {
                   >
                     Delete
                   </button>
+                </div>
+                <div className="flex items-center gap-2 mb-3 pb-3 border-b border-gray-100">
+                  <label className="text-xs font-medium text-gray-500 shrink-0">Island</label>
+                  <select
+                    className="input text-sm py-1 flex-1"
+                    value={activeGroup.island ?? ''}
+                    onChange={e => {
+                      const updated = { ...activeGroup, island: e.target.value as HouseGroup['island'] || undefined };
+                      dispatch({ type: 'EDIT_HOUSE', payload: updated });
+                      setSelectedGroup(updated);
+                    }}
+                  >
+                    <option value="">— Unassigned —</option>
+                    {ISLANDS.map(i => <option key={i} value={i}>{i}</option>)}
+                  </select>
                 </div>
                 <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Add/Remove Pokemon</h4>
                 <div className="space-y-1 max-h-60 overflow-y-auto">
@@ -289,11 +308,11 @@ export default function GroupBuilderPage() {
                 <div className="space-y-1 max-h-60 overflow-y-auto">
                   {state.furniture.length === 0 && <p className="text-sm text-gray-400">No furniture yet.</p>}
                   {state.furniture
-                    .filter(f => members.some(p => p.favorites.includes(f.category)))
+                    .filter(f => members.some(p => f.categories.some(c => p.favorites.includes(c))))
                     .sort((a, b) => a.name.localeCompare(b.name))
                     .map(f => {
                       const selected = (activeGroup.selectedFurnitureIds ?? []).includes(f.id);
-                      const coveredCount = members.filter(p => p.favorites.includes(f.category)).length;
+                      const coveredCount = members.filter(p => f.categories.some(c => p.favorites.includes(c))).length;
                       return (
                         <button
                           key={f.id}
@@ -312,7 +331,7 @@ export default function GroupBuilderPage() {
                         </button>
                       );
                     })}
-                  {members.length > 0 && state.furniture.filter(f => members.some(p => p.favorites.includes(f.category))).length === 0 && (
+                  {members.length > 0 && state.furniture.filter(f => members.some(p => f.categories.some(c => p.favorites.includes(c)))).length === 0 && (
                     <p className="text-sm text-gray-400">No matching furniture for current members.</p>
                   )}
                 </div>

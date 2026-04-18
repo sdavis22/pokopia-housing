@@ -4,14 +4,16 @@ import DashboardPage from './pages/DashboardPage';
 import PokemonExplorerPage from './pages/PokemonExplorerPage';
 import FurnitureExplorerPage from './pages/FurnitureExplorerPage';
 import GroupBuilderPage from './pages/GroupBuilderPage';
-import DataManagerPage from './pages/DataManagerPage';
+import PairsPage from './pages/PairsPage';
+import IslandsPage from './pages/IslandsPage';
 
 const NAV_ITEMS = [
   { to: '/', label: 'Dashboard', end: true },
   { to: '/pokemon', label: 'Pokemon' },
   { to: '/furniture', label: 'Furniture' },
   { to: '/groups', label: 'Groups' },
-  { to: '/data', label: 'Data' },
+  { to: '/islands', label: 'Islands' },
+  { to: '/pairs', label: 'Compatibility' },
 ];
 
 function Sidebar() {
@@ -68,7 +70,8 @@ function AppRoutes() {
         <Route path="/pokemon" element={<PokemonExplorerPage />} />
         <Route path="/furniture" element={<FurnitureExplorerPage />} />
         <Route path="/groups" element={<GroupBuilderPage />} />
-        <Route path="/data" element={<DataManagerPage />} />
+        <Route path="/islands" element={<IslandsPage />} />
+        <Route path="/pairs" element={<PairsPage />} />
       </Routes>
     </Layout>
   );

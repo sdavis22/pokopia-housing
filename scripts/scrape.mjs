@@ -78,7 +78,7 @@ function parsePage(html, categoryName) {
   let m;
   while ((m = itemRe.exec(html)) !== null) {
     const name = decodeHtml(m[1]);
-    if (name) furniture.push({ id: toId(name), name, category: categoryName });
+    if (name) furniture.push({ id: toId(name), name, categories: [categoryName] });
   }
 
   // --- Pokemon rows: match name+habitat, then grab specialties from the block up to next </tr>
@@ -133,7 +133,12 @@ function main() {
     const { furniture, pokemon } = parsePage(html, categoryName);
 
     for (const f of furniture) {
-      if (!allFurniture.has(f.id)) allFurniture.set(f.id, f);
+      if (allFurniture.has(f.id)) {
+        const existing = allFurniture.get(f.id);
+        if (!existing.categories.includes(categoryName)) existing.categories.push(categoryName);
+      } else {
+        allFurniture.set(f.id, f);
+      }
     }
     for (const p of pokemon) {
       if (allPokemon.has(p.id)) {

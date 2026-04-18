@@ -21,6 +21,15 @@ export type FurnitureCategory = (typeof FURNITURE_CATEGORIES)[number];
 
 export const HABITATS = ['Warm', 'Bright', 'Humid', 'Dark', 'Dry', 'Cool'] as const;
 
+export const ISLANDS = [
+  'Withering Wasteland',
+  'Rocky Ridges',
+  'Bleak Beach',
+  'Sparkling Skylands',
+  'Pallet Town',
+] as const;
+export type Island = (typeof ISLANDS)[number];
+
 export const SPECIALTIES = [
   'Burn', 'Water', 'Generate', 'Crush', 'Build', 'Chop', 'Fly',
   'Bulldoze', 'Gather', 'Recycle', 'Trade', 'Litter', 'Search',

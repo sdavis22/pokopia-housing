@@ -1,6 +1,7 @@
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
-import { topCompatiblePokemon } from '../utils/scoring';
+import { allCompatiblePairs } from '../utils/scoring';
 
 export default function DashboardPage() {
   const { state, dispatch } = useApp();
@@ -8,17 +9,10 @@ export default function DashboardPage() {
 
   const isEmpty = pokemon.length === 0 && furniture.length === 0;
 
-  const topPairs: Array<{ a: string; b: string; score: number }> = [];
-  if (pokemon.length >= 2) {
-    for (let i = 0; i < pokemon.length; i++) {
-      const matches = topCompatiblePokemon(pokemon[i], pokemon);
-      if (matches.length > 0) {
-        topPairs.push({ a: pokemon[i].name, b: matches[0].pokemon.name, score: matches[0].score });
-      }
-    }
-    topPairs.sort((a, b) => b.score - a.score);
-    topPairs.splice(5);
-  }
+  const topPairs = useMemo(
+    () => allCompatiblePairs(pokemon).slice(0, 5),
+    [pokemon],
+  );
 
   return (
     <div className="max-w-4xl mx-auto space-y-6">
@@ -33,8 +27,7 @@ export default function DashboardPage() {
           >
             Load sample data
           </button>{' '}
-          to get started, or go to{' '}
-          <Link to="/data" className="underline font-medium">Data Manager</Link> to import your own.
+          to get started.
         </div>
       )}
 
@@ -43,7 +36,7 @@ export default function DashboardPage() {
           { label: 'Pokemon', value: pokemon.length, to: '/pokemon' },
           { label: 'Furniture Items', value: furniture.length, to: '/furniture' },
           { label: 'House Groups', value: houseGroups.length, to: '/groups' },
-          { label: 'Categories', value: furnitureCategories.length, to: '/data' },
+          { label: 'Categories', value: furnitureCategories.length, to: '/furniture' },
         ].map(({ label, value, to }) => (
           <Link
             key={label}
@@ -74,14 +67,19 @@ export default function DashboardPage() {
         </div>
 
         <div className="bg-white rounded-lg border border-gray-200 p-4">
-          <h3 className="font-semibold text-gray-700 mb-3">Top Compatible Pairs</h3>
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="font-semibold text-gray-700">Top Compatible Pairs</h3>
+            {topPairs.length > 0 && (
+              <Link to="/pairs" className="text-xs text-indigo-600 hover:underline">View all →</Link>
+            )}
+          </div>
           {topPairs.length === 0 ? (
             <p className="text-sm text-gray-400">Add at least 2 Pokemon to see compatibility.</p>
           ) : (
             <ul className="space-y-2">
               {topPairs.map((pair, i) => (
                 <li key={i} className="flex items-center justify-between text-sm">
-                  <span className="text-gray-800">{pair.a} + {pair.b}</span>
+                  <span className="text-gray-800">{pair.members[0].name} + {pair.members[1].name}</span>
                   <span className="bg-indigo-100 text-indigo-700 text-xs font-semibold px-2 py-0.5 rounded-full">
                     {pair.score}pts
                   </span>

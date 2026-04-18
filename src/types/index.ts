@@ -1,3 +1,6 @@
+import type { Island } from '../config/scoring';
+export type { Island };
+
 export type Habitat = 'Warm' | 'Bright' | 'Humid' | 'Dark' | 'Dry' | 'Cool';
 
 export type Pokemon = {
@@ -5,6 +8,7 @@ export type Pokemon = {
   name: string;
   pokedexNumber?: number;
   idealHabitat: Habitat;
+  island?: Island;
   favorites: string[];   // furniture category names, e.g. "Wooden stuff", "Lots of fire"
   specialty: string[];   // what they do in Pokopia: "Burn", "Grow", "Generate", etc.
   notes?: string;
@@ -14,7 +18,7 @@ export type Pokemon = {
 export type Furniture = {
   id: string;
   name: string;
-  category: string;      // matches a Pokemon favorites value, e.g. "Hard stuff"
+  categories: string[];  // furniture category names, e.g. ["Hard stuff", "Stone stuff"]
   description?: string;
   notes?: string;
   image?: string;
@@ -23,6 +27,7 @@ export type Furniture = {
 export type HouseGroup = {
   id: string;
   name: string;
+  island?: Island;
   pokemonIds: string[];
   selectedFurnitureIds?: string[];
 };

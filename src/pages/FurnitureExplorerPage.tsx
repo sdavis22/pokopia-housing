@@ -11,7 +11,7 @@ function FurnitureForm({ initial, onSave, onCancel, existingIds }: {
   const { state } = useApp();
   const [id, setId] = useState(initial?.id ?? '');
   const [name, setName] = useState(initial?.name ?? '');
-  const [category, setCategory] = useState(initial?.category ?? state.furnitureCategories[0] ?? '');
+  const [categories, setCategories] = useState<string[]>(initial?.categories ?? (state.furnitureCategories[0] ? [state.furnitureCategories[0]] : []));
   const [description, setDescription] = useState(initial?.description ?? '');
   const [notes, setNotes] = useState(initial?.notes ?? '');
   const [error, setError] = useState('');
@@ -20,11 +20,12 @@ function FurnitureForm({ initial, onSave, onCancel, existingIds }: {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!id.trim() || !name.trim()) { setError('ID and Name are required'); return; }
+    if (categories.length === 0) { setError('Select at least one category'); return; }
     if (!isEdit && existingIds.includes(id.trim())) { setError(`ID "${id}" already exists`); return; }
     onSave({
       id: id.trim(),
       name: name.trim(),
-      category,
+      categories,
       description: description.trim() || undefined,
       notes: notes.trim() || undefined,
     });
@@ -44,10 +45,16 @@ function FurnitureForm({ initial, onSave, onCancel, existingIds }: {
         </div>
       </div>
       <div>
-        <label className="block text-xs font-medium text-gray-600 mb-1">Category</label>
-        <select className="input w-full" value={category} onChange={e => setCategory(e.target.value)}>
+        <label className="block text-xs font-medium text-gray-600 mb-1">Categories</label>
+        <select
+          multiple
+          className="input w-full h-28"
+          value={categories}
+          onChange={e => setCategories([...e.target.selectedOptions].map(o => o.value))}
+        >
           {state.furnitureCategories.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
+        <p className="text-xs text-gray-400 mt-1">Hold Cmd/Ctrl to select multiple</p>
       </div>
       <div>
         <label className="block text-xs font-medium text-gray-600 mb-1">Description</label>
@@ -67,15 +74,17 @@ function FurnitureForm({ initial, onSave, onCancel, existingIds }: {
 
 function FurnitureDetail({ furniture }: { furniture: Furniture }) {
   const { state } = useApp();
-  const matchingPokemon = state.pokemon.filter(p => p.favorites.includes(furniture.category));
+  const matchingPokemon = state.pokemon.filter(p => furniture.categories.some(c => p.favorites.includes(c)));
 
   return (
     <div className="space-y-4">
       <div>
         <h3 className="text-lg font-bold text-gray-900">{furniture.name}</h3>
-        <span className="inline-block mt-1 text-xs font-medium bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full">
-          {furniture.category}
-        </span>
+        <div className="flex flex-wrap gap-1 mt-1">
+          {furniture.categories.map(c => (
+            <span key={c} className="inline-block text-xs font-medium bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full">{c}</span>
+          ))}
+        </div>
         {furniture.description && <p className="text-sm text-gray-600 mt-2">{furniture.description}</p>}
         {furniture.notes && <p className="text-sm text-gray-500 mt-1 italic">{furniture.notes}</p>}
       </div>
@@ -85,7 +94,7 @@ function FurnitureDetail({ furniture }: { furniture: Furniture }) {
           Pokemon that love this ({matchingPokemon.length})
         </h4>
         {matchingPokemon.length === 0 ? (
-          <p className="text-sm text-gray-400">No Pokemon in your dataset prefer "{furniture.category}".</p>
+          <p className="text-sm text-gray-400">No Pokemon in your dataset prefer these categories.</p>
         ) : (
           <div className="flex flex-wrap gap-2">
             {matchingPokemon.map(p => (
@@ -102,14 +111,14 @@ function FurnitureDetail({ furniture }: { furniture: Furniture }) {
         {(() => {
           const benefited = state.houseGroups.filter(h => {
             const members = state.pokemon.filter(p => h.pokemonIds.includes(p.id));
-            return members.some(p => p.favorites.includes(furniture.category));
+            return members.some(p => furniture.categories.some(c => p.favorites.includes(c)));
           });
           if (benefited.length === 0) return <p className="text-sm text-gray-400">None yet.</p>;
           return (
             <ul className="space-y-1">
               {benefited.map(h => {
                 const members = state.pokemon.filter(p => h.pokemonIds.includes(p.id));
-                const count = members.filter(p => p.favorites.includes(furniture.category)).length;
+                const count = members.filter(p => furniture.categories.some(c => p.favorites.includes(c))).length;
                 return (
                   <li key={h.id} className="text-sm flex items-center gap-2">
                     <span className="font-medium">{h.name}</span>
@@ -135,11 +144,11 @@ export default function FurnitureExplorerPage() {
 
   const filtered = state.furniture
     .filter(f => f.name.toLowerCase().includes(search.toLowerCase()))
-    .filter(f => !filterCategory || f.category === filterCategory)
+    .filter(f => !filterCategory || f.categories.includes(filterCategory))
     .sort((a, b) => {
       if (sortBy === 'name') return a.name.localeCompare(b.name);
-      const aMatches = state.pokemon.filter(p => p.favorites.includes(a.category)).length;
-      const bMatches = state.pokemon.filter(p => p.favorites.includes(b.category)).length;
+      const aMatches = state.pokemon.filter(p => a.categories.some(c => p.favorites.includes(c))).length;
+      const bMatches = state.pokemon.filter(p => b.categories.some(c => p.favorites.includes(c))).length;
       return bMatches - aMatches;
     });
 
@@ -189,7 +198,7 @@ export default function FurnitureExplorerPage() {
             <p className="text-gray-400 text-sm p-4">No furniture found.</p>
           )}
           {filtered.map(f => {
-            const matches = state.pokemon.filter(p => p.favorites.includes(f.category)).length;
+            const matches = state.pokemon.filter(p => f.categories.some(c => p.favorites.includes(c))).length;
             return (
               <button
                 key={f.id}
@@ -202,7 +211,9 @@ export default function FurnitureExplorerPage() {
               >
                 <div className="flex items-center gap-2">
                   <span className="font-medium text-sm">{f.name}</span>
-                  <span className="text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full">{f.category}</span>
+                  {f.categories.map(c => (
+                    <span key={c} className="text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full">{c}</span>
+                  ))}
                   <span className="ml-auto text-xs text-gray-400">{matches} Pokemon</span>
                 </div>
               </button>

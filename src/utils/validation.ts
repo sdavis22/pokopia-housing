@@ -48,8 +48,8 @@ export function validateImport(data: unknown): { errors: ValidationError[]; data
       errors.push({ field: 'furniture', message: `Duplicate furniture id: ${furn.id}` });
     }
     furnitureIds.add(furn.id);
-    if (!furn.category) {
-      errors.push({ field: 'furniture', message: `Furniture ${furn.id} is missing category` });
+    if (!Array.isArray(furn.categories) || (furn.categories as unknown[]).length === 0) {
+      errors.push({ field: 'furniture', message: `Furniture ${furn.id} is missing categories` });
     }
   }
 

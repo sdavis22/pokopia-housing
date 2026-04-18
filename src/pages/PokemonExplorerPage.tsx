@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import type { Pokemon } from '../types';
+import { ISLANDS } from '../config/scoring';
 import { topCompatiblePokemon, rankFurnitureForPokemon } from '../utils/scoring';
 import { favoritesOverlap } from '../utils/overlap';
 
@@ -174,7 +175,7 @@ function PokemonDetail({ pokemon, allPokemon, allFurniture }: {
             {furniture.slice(0, 8).map(({ furniture: f }) => (
               <li key={f.id} className="flex items-center gap-2 text-sm">
                 <span className="font-medium">{f.name}</span>
-                <TagChip label={f.category} />
+                {f.categories.map(c => <TagChip key={c} label={c} />)}
               </li>
             ))}
           </ul>
@@ -189,6 +190,7 @@ export default function PokemonExplorerPage() {
   const [search, setSearch] = useState('');
   const [filterHabitat, setFilterHabitat] = useState('');
   const [filterFav, setFilterFav] = useState('');
+  const [filterIsland, setFilterIsland] = useState('');
   const [sortBy, setSortBy] = useState<'name' | 'favorites'>('name');
   const [selected, setSelected] = useState<Pokemon | null>(null);
   const [editing, setEditing] = useState<Pokemon | null | 'new'>(null);
@@ -197,6 +199,11 @@ export default function PokemonExplorerPage() {
     .filter(p => p.name.toLowerCase().includes(search.toLowerCase()))
     .filter(p => !filterHabitat || p.idealHabitat === filterHabitat)
     .filter(p => !filterFav || p.favorites.includes(filterFav))
+    .filter(p => {
+      if (!filterIsland) return true;
+      if (filterIsland === '__unassigned__') return !p.island;
+      return p.island === filterIsland;
+    })
     .sort((a, b) =>
       sortBy === 'name'
         ? a.name.localeCompare(b.name)
@@ -243,6 +250,11 @@ export default function PokemonExplorerPage() {
           <option value="">All favorites</option>
           {state.furnitureCategories.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
+        <select className="input" value={filterIsland} onChange={e => setFilterIsland(e.target.value)}>
+          <option value="">All islands</option>
+          {ISLANDS.map(i => <option key={i} value={i}>{i}</option>)}
+          <option value="__unassigned__">Unassigned</option>
+        </select>
         <select className="input" value={sortBy} onChange={e => setSortBy(e.target.value as 'name' | 'favorites')}>
           <option value="name">Sort: Name</option>
           <option value="favorites">Sort: Most Favorites</option>
@@ -268,6 +280,7 @@ export default function PokemonExplorerPage() {
                 <span className="font-medium text-sm">{p.name}</span>
                 {p.pokedexNumber && <span className="text-xs text-gray-400">#{p.pokedexNumber}</span>}
                 <HabitatBadge habitat={p.idealHabitat} />
+                {p.island && <span className="text-xs text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded-full">{p.island}</span>}
                 <span className="ml-auto text-xs text-gray-400">{p.favorites.length} favs</span>
               </div>
             </button>
@@ -283,6 +296,21 @@ export default function PokemonExplorerPage() {
                   dispatch({ type: 'DELETE_POKEMON', payload: selected.id });
                   setSelected(null);
                 }}>Delete</button>
+              </div>
+              <div className="flex items-center gap-2 mb-3 pb-3 border-b border-gray-100">
+                <label className="text-xs font-medium text-gray-500">Island</label>
+                <select
+                  className="input text-sm py-1 flex-1"
+                  value={selected.island ?? ''}
+                  onChange={e => {
+                    const updated = { ...selected, island: e.target.value as Pokemon['island'] || undefined };
+                    dispatch({ type: 'EDIT_POKEMON', payload: updated });
+                    setSelected(updated);
+                  }}
+                >
+                  <option value="">— Unassigned —</option>
+                  {ISLANDS.map(i => <option key={i} value={i}>{i}</option>)}
+                </select>
               </div>
               <PokemonDetail pokemon={selected} allPokemon={state.pokemon} allFurniture={state.furniture} />
             </div>
