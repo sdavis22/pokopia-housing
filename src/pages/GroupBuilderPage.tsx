@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import type { HouseGroup, Pokemon } from '../types';
 import { ISLANDS } from '../config/scoring';
-import { computeHouseAnalysis, rankFurnitureForHouse } from '../utils/scoring';
-import { PokemonSprite } from '../components/PokemonSprite';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
+import { computeHouseAnalysis } from '../utils/scoring';
+import { SearchablePokemonPicker } from '../components/SearchablePokemonPicker';
+import { SearchableFurnitureList } from '../components/SearchableFurnitureList';
 
 function TagChip({ label, color = 'gray' }: { label: string; color?: 'gray' | 'green' | 'yellow' | 'red' | 'indigo' }) {
   const colors = {
@@ -17,18 +17,10 @@ function TagChip({ label, color = 'gray' }: { label: string; color?: 'gray' | 'g
   return <span className={`inline-block text-xs font-medium px-2 py-0.5 rounded-full ${colors[color]}`}>{label}</span>;
 }
 
-function HouseSummary({ members, selectedFurnitureIds }: { members: Pokemon[]; selectedFurnitureIds: string[] }) {
-  const { state } = useApp();
+function HouseSummary({ members }: { members: Pokemon[] }) {
   if (members.length === 0) return <p className="text-sm text-gray-400">Add Pokemon to see analysis.</p>;
 
   const analysis = computeHouseAnalysis(members);
-  const rankedFurniture = rankFurnitureForHouse(state.furniture, members, selectedFurnitureIds).slice(0, 8);
-
-  const chartData = rankedFurniture.map(({ furniture, coveredBy }) => ({
-    name: furniture.name.length > 16 ? furniture.name.slice(0, 14) + '…' : furniture.name,
-    members: coveredBy.length,
-  }));
-
   const habitatGroups = Object.entries(analysis.habitatBreakdown);
 
   return (
@@ -38,6 +30,12 @@ function HouseSummary({ members, selectedFurnitureIds }: { members: Pokemon[]; s
         <span className="bg-indigo-600 text-white text-sm font-bold px-3 py-0.5 rounded-full">{analysis.cohesionScore}</span>
       </div>
 
+      {habitatGroups.length === 1 && (
+        <div>
+          <p className="text-xs font-semibold text-blue-600 uppercase mb-1">Shared Habitat (+3)</p>
+          <TagChip label={habitatGroups[0][0]} color="indigo" />
+        </div>
+      )}
       {habitatGroups.length > 1 && (
         <div>
           <p className="text-xs font-semibold text-gray-500 uppercase mb-1">Habitat Mix</p>
@@ -78,19 +76,6 @@ function HouseSummary({ members, selectedFurnitureIds }: { members: Pokemon[]; s
         </div>
       )}
 
-      {rankedFurniture.length > 0 && (
-        <div>
-          <p className="text-xs font-semibold text-gray-500 uppercase mb-2">Top Furniture Suggestions</p>
-          <ResponsiveContainer width="100%" height={180}>
-            <BarChart data={chartData} layout="vertical" margin={{ left: 0, right: 8, top: 0, bottom: 0 }}>
-              <XAxis type="number" tick={{ fontSize: 11 }} allowDecimals={false} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 11 }} width={110} />
-              <Tooltip formatter={(v) => [`${v} members`, 'Covered by']} />
-              <Bar dataKey="members" fill="#6366f1" radius={[0, 3, 3, 0]} />
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
-      )}
     </div>
   );
 }
@@ -150,6 +135,7 @@ export default function GroupBuilderPage() {
   const { state, dispatch } = useApp();
   const [selectedGroup, setSelectedGroup] = useState<HouseGroup | null>(null);
   const [newName, setNewName] = useState('');
+  const [newIsland, setNewIsland] = useState<HouseGroup['island']>(undefined);
   const [showNewForm, setShowNewForm] = useState(false);
 
   const activeGroup = selectedGroup
@@ -165,12 +151,14 @@ export default function GroupBuilderPage() {
     const group: HouseGroup = {
       id: `house-${Date.now()}`,
       name: newName.trim(),
+      island: newIsland,
       pokemonIds: [],
       selectedFurnitureIds: [],
     };
     dispatch({ type: 'ADD_HOUSE', payload: group });
     setSelectedGroup(group);
     setNewName('');
+    setNewIsland(undefined);
     setShowNewForm(false);
   }
 
@@ -210,6 +198,14 @@ export default function GroupBuilderPage() {
             onKeyDown={e => e.key === 'Enter' && createGroup()}
             autoFocus
           />
+          <select
+            className="input"
+            value={newIsland ?? ''}
+            onChange={e => setNewIsland(e.target.value as HouseGroup['island'] || undefined)}
+          >
+            <option value="">— No island —</option>
+            {ISLANDS.map(i => <option key={i} value={i}>{i}</option>)}
+          </select>
           <button className="btn-primary" onClick={createGroup}>Create</button>
           <button className="btn-secondary" onClick={() => setShowNewForm(false)}>Cancel</button>
         </div>
@@ -261,89 +257,32 @@ export default function GroupBuilderPage() {
                     Delete
                   </button>
                 </div>
-                <div className="flex items-center gap-2 mb-3 pb-3 border-b border-gray-100">
-                  <label className="text-xs font-medium text-gray-500 shrink-0">Island</label>
-                  <select
-                    className="input text-sm py-1 flex-1"
-                    value={activeGroup.island ?? ''}
-                    onChange={e => {
-                      const updated = { ...activeGroup, island: e.target.value as HouseGroup['island'] || undefined };
-                      dispatch({ type: 'EDIT_HOUSE', payload: updated });
-                      setSelectedGroup(updated);
-                    }}
-                  >
-                    <option value="">— Unassigned —</option>
-                    {ISLANDS.map(i => <option key={i} value={i}>{i}</option>)}
-                  </select>
-                </div>
                 <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Add/Remove Pokemon</h4>
-                <div className="space-y-1 max-h-60 overflow-y-auto">
-                  {state.pokemon.length === 0 && <p className="text-sm text-gray-400">No Pokemon yet.</p>}
-                  {state.pokemon
-                    .sort((a, b) => a.name.localeCompare(b.name))
-                    .map(p => {
-                      const inGroup = activeGroup.pokemonIds.includes(p.id);
-                      return (
-                        <button
-                          key={p.id}
-                          onClick={() => togglePokemon(p.id)}
-                          className={`w-full text-left text-sm px-2 py-1 rounded flex items-center gap-2 transition-colors ${
-                            inGroup ? 'bg-indigo-100 text-indigo-800' : 'hover:bg-gray-100'
-                          }`}
-                        >
-                          <span className={`w-4 h-4 rounded border flex-shrink-0 flex items-center justify-center text-xs ${
-                            inGroup ? 'bg-indigo-600 border-indigo-600 text-white' : 'border-gray-300'
-                          }`}>
-                            {inGroup ? '✓' : ''}
-                          </span>
-                          <PokemonSprite pokemon={p} size="xs" />
-                          {p.name}
-                          <span className="text-xs text-gray-400 ml-auto">{p.idealHabitat}</span>
-                        </button>
-                      );
-                    })}
-                </div>
+                <SearchablePokemonPicker
+                  pokemon={state.pokemon}
+                  selectedIds={activeGroup.pokemonIds}
+                  onToggle={togglePokemon}
+                  renderMeta={p => (
+                    <span className="text-xs text-gray-400 shrink-0">{p.idealHabitat}</span>
+                  )}
+                />
               </div>
 
               <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Assign Furniture</h4>
-                <div className="space-y-1 max-h-60 overflow-y-auto">
-                  {state.furniture.length === 0 && <p className="text-sm text-gray-400">No furniture yet.</p>}
-                  {state.furniture
-                    .filter(f => members.some(p => f.categories.some(c => p.favorites.includes(c))))
-                    .sort((a, b) => a.name.localeCompare(b.name))
-                    .map(f => {
-                      const selected = (activeGroup.selectedFurnitureIds ?? []).includes(f.id);
-                      const coveredCount = members.filter(p => f.categories.some(c => p.favorites.includes(c))).length;
-                      return (
-                        <button
-                          key={f.id}
-                          onClick={() => toggleFurniture(f.id)}
-                          className={`w-full text-left text-sm px-2 py-1 rounded flex items-center gap-2 transition-colors ${
-                            selected ? 'bg-indigo-100 text-indigo-800' : 'hover:bg-gray-100'
-                          }`}
-                        >
-                          <span className={`w-4 h-4 rounded border flex-shrink-0 flex items-center justify-center text-xs ${
-                            selected ? 'bg-indigo-600 border-indigo-600 text-white' : 'border-gray-300'
-                          }`}>
-                            {selected ? '✓' : ''}
-                          </span>
-                          <span className="flex-1">{f.name}</span>
-                          <span className="text-xs text-gray-400">{coveredCount}/{members.length}</span>
-                        </button>
-                      );
-                    })}
-                  {members.length > 0 && state.furniture.filter(f => members.some(p => f.categories.some(c => p.favorites.includes(c)))).length === 0 && (
-                    <p className="text-sm text-gray-400">No matching furniture for current members.</p>
-                  )}
-                </div>
+                <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Furniture</h4>
+                <SearchableFurnitureList
+                  furniture={state.furniture}
+                  members={members}
+                  selectedIds={activeGroup.selectedFurnitureIds ?? []}
+                  onToggle={toggleFurniture}
+                />
               </div>
             </div>
 
             <div className="space-y-4">
               <div className="bg-white border border-gray-200 rounded-lg p-4">
                 <h4 className="text-xs font-semibold text-gray-500 uppercase mb-3">House Analysis</h4>
-                <HouseSummary members={members} selectedFurnitureIds={activeGroup.selectedFurnitureIds ?? []} />
+                <HouseSummary members={members} />
               </div>
               {members.length >= 2 && (
                 <div className="bg-white border border-gray-200 rounded-lg p-4">

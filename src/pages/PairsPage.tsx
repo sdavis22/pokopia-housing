@@ -8,6 +8,7 @@ import {
   groupsContainingSeed,
   type CompatibilityGroup,
 } from '../utils/scoring';
+import { ISLANDS } from '../config/scoring';
 
 const HABITAT_COLORS: Record<string, string> = {
   Warm: 'bg-orange-100 text-orange-700',
@@ -122,12 +123,13 @@ export default function PairsPage() {
   const [groupSize, setGroupSize] = useState<2 | 3 | 4>(2);
   const [search, setSearch] = useState('');
   const [filterHabitat, setFilterHabitat] = useState('');
+  const [filterIsland, setFilterIsland] = useState('');
   const [minScore, setMinScore] = useState(0);
   const [seed, setSeed] = useState<Pokemon | null>(null);
   const [page, setPage] = useState(1);
 
   // Reset page when filters/size/seed change
-  useEffect(() => { setPage(1); }, [groupSize, search, filterHabitat, minScore, seed]);
+  useEffect(() => { setPage(1); }, [groupSize, search, filterHabitat, filterIsland, minScore, seed]);
 
   // --- Global pairs (always computed, fast) ---
   const pairs = useMemo(() => allCompatiblePairs(pokemon), [pokemon]);
@@ -140,14 +142,14 @@ export default function PairsPage() {
     if (seed || groupSize === 2) return;
     setComputing(true);
     setGlobalGroups([]);
-    // Defer to next tick so the loading state renders first
+    const pool = filterIsland ? pokemon.filter(p => p.island === filterIsland) : pokemon;
     const id = setTimeout(() => {
-      const result = allCompatibleGroups(pokemon, groupSize as 3 | 4);
+      const result = allCompatibleGroups(pool, groupSize as 3 | 4);
       setGlobalGroups(result);
       setComputing(false);
     }, 0);
     return () => clearTimeout(id);
-  }, [pokemon, groupSize, seed]);
+  }, [pokemon, groupSize, seed, filterIsland]);
 
   // --- Seed groups ---
   const [seedGroups, setSeedGroups] = useState<CompatibilityGroup[]>([]);
@@ -157,13 +159,14 @@ export default function PairsPage() {
     if (!seed || groupSize === 2) return;
     setSeedComputing(true);
     setSeedGroups([]);
+    const pool = filterIsland ? pokemon.filter(p => p.island === filterIsland || p.id === seed.id) : pokemon;
     const id = setTimeout(() => {
-      const result = groupsContainingSeed(seed, pokemon, groupSize as 3 | 4);
+      const result = groupsContainingSeed(seed, pool, groupSize as 3 | 4);
       setSeedGroups(result);
       setSeedComputing(false);
     }, 0);
     return () => clearTimeout(id);
-  }, [seed, pokemon, groupSize]);
+  }, [seed, pokemon, groupSize, filterIsland]);
 
   // --- Pick the active raw result set ---
   const activeGroups: CompatibilityGroup[] = useMemo(() => {
@@ -184,10 +187,11 @@ export default function PairsPage() {
     return activeGroups.filter(g => {
       if (q && !g.members.some(p => p.name.toLowerCase().includes(q))) return false;
       if (filterHabitat && !g.members.some(p => p.idealHabitat === filterHabitat)) return false;
+      if (filterIsland && !g.members.every(p => p.island === filterIsland)) return false;
       if (g.score < minScore) return false;
       return true;
     });
-  }, [activeGroups, search, filterHabitat, minScore]);
+  }, [activeGroups, search, filterHabitat, filterIsland, minScore]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const pageSlice = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
@@ -233,6 +237,15 @@ export default function PairsPage() {
           {['Warm', 'Bright', 'Humid', 'Dark', 'Dry', 'Cool'].map(h => (
             <option key={h} value={h}>{h}</option>
           ))}
+        </select>
+
+        <select
+          className="border border-gray-300 rounded px-2 py-1.5 text-sm focus:outline-none focus:border-indigo-400"
+          value={filterIsland}
+          onChange={e => setFilterIsland(e.target.value)}
+        >
+          <option value="">All islands</option>
+          {ISLANDS.map(i => <option key={i} value={i}>{i}</option>)}
         </select>
 
         <select

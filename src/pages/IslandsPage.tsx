@@ -3,6 +3,7 @@ import { useApp } from '../context/AppContext';
 import { ISLANDS } from '../config/scoring';
 import type { Island } from '../config/scoring';
 import { PokemonSprite } from '../components/PokemonSprite';
+import { SearchablePokemonPicker } from '../components/SearchablePokemonPicker';
 
 const HABITAT_COLORS: Record<string, string> = {
   Warm: 'bg-orange-100 text-orange-700',
@@ -26,7 +27,6 @@ type Selection = Island | '__unassigned__';
 function IslandEditor({ selected, onClose }: { selected: Selection; onClose: () => void }) {
   const { state, dispatch } = useApp();
   const { pokemon, houseGroups } = state;
-  const [pokemonSearch, setPokemonSearch] = useState('');
   const [groupSearch, setGroupSearch] = useState('');
 
   const isOnSelected = (island?: Island) =>
@@ -45,10 +45,6 @@ function IslandEditor({ selected, onClose }: { selected: Selection; onClose: () 
     const island = checked && selected !== '__unassigned__' ? selected as Island : undefined;
     dispatch({ type: 'EDIT_HOUSE', payload: { ...g, island } });
   }
-
-  const filteredPokemon = pokemon
-    .filter(p => p.name.toLowerCase().includes(pokemonSearch.toLowerCase()))
-    .sort((a, b) => a.name.localeCompare(b.name));
 
   const filteredGroups = houseGroups
     .filter(h => h.name.toLowerCase().includes(groupSearch.toLowerCase()))
@@ -73,38 +69,24 @@ function IslandEditor({ selected, onClose }: { selected: Selection; onClose: () 
       <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-gray-100">
         {/* Pokemon */}
         <div className="px-4 py-3 space-y-2">
-          <div className="flex items-center justify-between">
-            <p className="text-xs font-semibold text-gray-500 uppercase">Pokemon</p>
-            <input
-              className="border border-gray-200 rounded px-2 py-0.5 text-xs w-32 focus:outline-none focus:border-indigo-400"
-              placeholder="Filter…"
-              value={pokemonSearch}
-              onChange={e => setPokemonSearch(e.target.value)}
-            />
-          </div>
-          <div className="space-y-0.5 max-h-64 overflow-y-auto">
-            {filteredPokemon.map(p => {
-              const onThis = isOnSelected(p.island);
-              const onOther = !onThis && !!p.island;
+          <p className="text-xs font-semibold text-gray-500 uppercase">Pokemon</p>
+          <SearchablePokemonPicker
+            pokemon={pokemon}
+            selectedIds={pokemon.filter(p => isOnSelected(p.island)).map(p => p.id)}
+            onToggle={(id) => setPokemonIsland(id, !isOnSelected(pokemon.find(p => p.id === id)?.island))}
+            maxHeight="max-h-64"
+            renderMeta={p => {
+              const onOther = !isOnSelected(p.island) && !!p.island;
               return (
-                <label key={p.id} className="flex items-center gap-2 px-1 py-1 rounded hover:bg-gray-50 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={onThis}
-                    onChange={e => setPokemonIsland(p.id, e.target.checked)}
-                    className="accent-indigo-600 shrink-0"
-                  />
-                  <PokemonSprite pokemon={p} size="xs" />
-                  <span className="text-sm text-gray-800 flex-1 truncate">{p.name}</span>
+                <>
                   <span className={`text-xs px-1.5 py-0.5 rounded-full shrink-0 ${HABITAT_COLORS[p.idealHabitat] ?? 'bg-gray-100 text-gray-600'}`}>
                     {p.idealHabitat}
                   </span>
                   {onOther && <span className="text-xs text-gray-400 italic truncate max-w-20">{p.island}</span>}
-                </label>
+                </>
               );
-            })}
-            {filteredPokemon.length === 0 && <p className="text-xs text-gray-400 py-2">No Pokemon match.</p>}
-          </div>
+            }}
+          />
         </div>
 
         {/* Houses */}

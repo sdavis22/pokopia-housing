@@ -17,9 +17,13 @@ export function houseCohesionScore(
   analysis: HouseAnalysis,
   config: ScoringConfig = DEFAULT_SCORING_CONFIG,
 ): number {
+  const habitatBonus = Object.keys(analysis.habitatBreakdown).length === 1
+    ? config.sameHabitatBonus
+    : 0;
   return (
     analysis.sharedFavorites.length * config.houseSharedByAllPoints +
-    analysis.partialFavorites.length * config.houseSharedByHalfPoints
+    analysis.partialFavorites.length * config.houseSharedByHalfPoints +
+    habitatBonus
   );
 }
 

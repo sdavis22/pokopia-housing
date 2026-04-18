@@ -21,6 +21,7 @@ const SPRITE_EXCEPTIONS: Record<string, string> = {
   'Tatsugiri':      `${SPRITE_BASE}/952.png`,
   'Paldean Wooper': `${SPRITE_BASE}/10254.png`,
   'Stereo Rotom':   `${SPRITE_BASE}/479.png`,
+  "Farfetch'd":     `${SPRITE_BASE}/83.png`,
 };
 
 function spriteUrl(pokemon: Pokemon): string | null {
