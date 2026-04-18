@@ -25,8 +25,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install
-      - run: ls node_modules/vite node_modules/@types/node
+      - run: npm install --include=dev
       - run: npm run build
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
