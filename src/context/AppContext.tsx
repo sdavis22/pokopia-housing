@@ -46,7 +46,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       return;
     }
     // No stored data — fetch seed from public/data/seed.json
-    fetch('/data/seed.json')
+    fetch(`${import.meta.env.BASE_URL}data/seed.json`)
       .then(r => r.json())
       .then((data: AppData) => dispatch({ type: 'IMPORT_DATA', payload: data }))
       .catch(() => {/* start empty if fetch fails */})
