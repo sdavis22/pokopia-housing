@@ -1,5 +1,5 @@
 import { HashRouter, Routes, Route, NavLink } from 'react-router-dom';
-import { AppProvider } from './context/AppContext';
+import { AppProvider, useApp } from './context/AppContext';
 import DashboardPage from './pages/DashboardPage';
 import PokemonExplorerPage from './pages/PokemonExplorerPage';
 import FurnitureExplorerPage from './pages/FurnitureExplorerPage';
@@ -49,19 +49,36 @@ function Layout({ children }: { children: React.ReactNode }) {
   );
 }
 
+function AppRoutes() {
+  const { loading } = useApp();
+  if (loading) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-gray-50">
+        <div className="text-center">
+          <div className="text-4xl mb-3">🏠</div>
+          <p className="text-gray-500 text-sm">Loading Pokopia data...</p>
+        </div>
+      </div>
+    );
+  }
+  return (
+    <Layout>
+      <Routes>
+        <Route path="/" element={<DashboardPage />} />
+        <Route path="/pokemon" element={<PokemonExplorerPage />} />
+        <Route path="/furniture" element={<FurnitureExplorerPage />} />
+        <Route path="/groups" element={<GroupBuilderPage />} />
+        <Route path="/data" element={<DataManagerPage />} />
+      </Routes>
+    </Layout>
+  );
+}
+
 export default function App() {
   return (
     <AppProvider>
       <HashRouter>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<DashboardPage />} />
-            <Route path="/pokemon" element={<PokemonExplorerPage />} />
-            <Route path="/furniture" element={<FurnitureExplorerPage />} />
-            <Route path="/groups" element={<GroupBuilderPage />} />
-            <Route path="/data" element={<DataManagerPage />} />
-          </Routes>
-        </Layout>
+        <AppRoutes />
       </HashRouter>
     </AppProvider>
   );

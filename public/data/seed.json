@@ -1,0 +1,8101 @@
+{
+  "furnitureCategories": [
+    "Hard stuff",
+    "Wooden stuff",
+    "Lots of fire",
+    "Soft stuff",
+    "Cute stuff",
+    "Electronics",
+    "Glass stuff",
+    "Round stuff",
+    "Spooky stuff",
+    "Strange stuff",
+    "Garbage",
+    "Rides",
+    "Lots of nature",
+    "Lots of water",
+    "Fabric",
+    "Looks like food",
+    "Wobbly stuff",
+    "Stone stuff",
+    "Letters and words",
+    "Group Activities",
+    "Watching stuff",
+    "Complicated stuff",
+    "Play spaces",
+    "Healing",
+    "Exercise",
+    "Luxury",
+    "Nice breezes",
+    "Ocean vibes",
+    "Construction",
+    "Containers",
+    "Shiny stuff",
+    "Metal stuff",
+    "Spinning stuff",
+    "Lots of dirt",
+    "Blocky stuff",
+    "Slender objects",
+    "Cleanliness",
+    "Pretty flowers",
+    "Colorful stuff",
+    "Gatherings",
+    "Sharp stuff",
+    "Symbols"
+  ],
+  "pokemon": [
+    {
+      "id": "bulbasaur",
+      "name": "Bulbasaur",
+      "pokedexNumber": 1,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Lots of nature",
+        "Lots of water",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "ivysaur",
+      "name": "Ivysaur",
+      "pokedexNumber": 2,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Lots of nature",
+        "Pretty flowers",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "venusaur",
+      "name": "Venusaur",
+      "pokedexNumber": 3,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Lots of nature",
+        "Luxury",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "charmander",
+      "name": "Charmander",
+      "pokedexNumber": 4,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Wooden stuff",
+        "Lots of fire",
+        "Group Activities",
+        "Exercise"
+      ]
+    },
+    {
+      "id": "charmeleon",
+      "name": "Charmeleon",
+      "pokedexNumber": 5,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Wooden stuff",
+        "Lots of fire",
+        "Rides",
+        "Exercise"
+      ]
+    },
+    {
+      "id": "charizard",
+      "name": "Charizard",
+      "pokedexNumber": 6,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Fly"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of fire",
+        "Exercise",
+        "Luxury",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "squirtle",
+      "name": "Squirtle",
+      "pokedexNumber": 7,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Lots of water",
+        "Group Activities",
+        "Healing",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "wartortle",
+      "name": "Wartortle",
+      "pokedexNumber": 8,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of water",
+        "Healing",
+        "Exercise",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "blastoise",
+      "name": "Blastoise",
+      "pokedexNumber": 9,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Healing",
+        "Exercise",
+        "Luxury",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "pidgey",
+      "name": "Pidgey",
+      "pokedexNumber": 16,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Fly",
+        "Search"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Lots of nature",
+        "Watching stuff",
+        "Play spaces",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "pidgeotto",
+      "name": "Pidgeotto",
+      "pokedexNumber": 17,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Fly",
+        "Search"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Lots of nature",
+        "Looks like food",
+        "Watching stuff",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "pidgeot",
+      "name": "Pidgeot",
+      "pokedexNumber": 18,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Fly",
+        "Chop"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Soft stuff",
+        "Lots of nature",
+        "Luxury",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "ekans",
+      "name": "Ekans",
+      "pokedexNumber": 23,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Garbage",
+        "Lots of nature",
+        "Watching stuff",
+        "Spinning stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "arbok",
+      "name": "Arbok",
+      "pokedexNumber": 24,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Garbage",
+        "Lots of nature",
+        "Watching stuff",
+        "Spinning stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "pikachu",
+      "name": "Pikachu",
+      "pokedexNumber": 25,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Electronics",
+        "Glass stuff",
+        "Round stuff",
+        "Rides",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "raichu",
+      "name": "Raichu",
+      "pokedexNumber": 26,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Hype"
+      ],
+      "favorites": [
+        "Electronics",
+        "Glass stuff",
+        "Round stuff",
+        "Group Activities",
+        "Play spaces"
+      ]
+    },
+    {
+      "id": "clefairy",
+      "name": "Clefairy",
+      "pokedexNumber": 35,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Hype"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Group Activities",
+        "Play spaces",
+        "Healing",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "clefable",
+      "name": "Clefable",
+      "pokedexNumber": 36,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Hype",
+        "Trade"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Group Activities",
+        "Play spaces",
+        "Healing",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "vulpix",
+      "name": "Vulpix",
+      "pokedexNumber": 37,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Soft stuff",
+        "Cute stuff",
+        "Round stuff",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "ninetales",
+      "name": "Ninetales",
+      "pokedexNumber": 38,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Soft stuff",
+        "Watching stuff",
+        "Luxury",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "jigglypuff",
+      "name": "Jigglypuff",
+      "pokedexNumber": 39,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Hype"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Wobbly stuff",
+        "Play spaces",
+        "Healing"
+      ]
+    },
+    {
+      "id": "wigglytuff",
+      "name": "Wigglytuff",
+      "pokedexNumber": 40,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Hype",
+        "Trade"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Group Activities",
+        "Play spaces",
+        "Healing"
+      ]
+    },
+    {
+      "id": "zubat",
+      "name": "Zubat",
+      "pokedexNumber": 41,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Spooky stuff",
+        "Complicated stuff",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "golbat",
+      "name": "Golbat",
+      "pokedexNumber": 42,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Spooky stuff",
+        "Complicated stuff",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "oddish",
+      "name": "Oddish",
+      "pokedexNumber": 43,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Lots of nature",
+        "Lots of water",
+        "Lots of dirt",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "gloom",
+      "name": "Gloom",
+      "pokedexNumber": 44,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Garbage",
+        "Lots of nature",
+        "Lots of dirt",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "vileplume",
+      "name": "Vileplume",
+      "pokedexNumber": 45,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Lots of nature",
+        "Lots of dirt",
+        "Pretty flowers",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "paras",
+      "name": "Paras",
+      "pokedexNumber": 46,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Looks like food",
+        "Watching stuff",
+        "Lots of dirt"
+      ]
+    },
+    {
+      "id": "parasect",
+      "name": "Parasect",
+      "pokedexNumber": 47,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Strange stuff",
+        "Lots of nature",
+        "Watching stuff",
+        "Lots of dirt"
+      ]
+    },
+    {
+      "id": "venonat",
+      "name": "Venonat",
+      "pokedexNumber": 48,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Letters and words",
+        "Watching stuff",
+        "Complicated stuff"
+      ]
+    },
+    {
+      "id": "venomoth",
+      "name": "Venomoth",
+      "pokedexNumber": 49,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Watching stuff",
+        "Nice breezes",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "diglett",
+      "name": "Diglett",
+      "pokedexNumber": 50,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Hype"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Group Activities",
+        "Play spaces",
+        "Lots of dirt",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "dugtrio",
+      "name": "Dugtrio",
+      "pokedexNumber": 51,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Hype",
+        "Crush"
+      ],
+      "favorites": [
+        "Group Activities",
+        "Play spaces",
+        "Lots of dirt",
+        "Slender objects",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "meowth",
+      "name": "Meowth",
+      "pokedexNumber": 52,
+      "idealHabitat": "Cool",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Glass stuff",
+        "Group Activities",
+        "Luxury",
+        "Containers",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "persian",
+      "name": "Persian",
+      "pokedexNumber": 53,
+      "idealHabitat": "Cool",
+      "specialty": [
+        "Trade",
+        "Search"
+      ],
+      "favorites": [
+        "Group Activities",
+        "Watching stuff",
+        "Luxury",
+        "Containers",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "psyduck",
+      "name": "Psyduck",
+      "pokedexNumber": 54,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Lots of water",
+        "Complicated stuff",
+        "Ocean vibes"
+      ]
+    },
+    {
+      "id": "golduck",
+      "name": "Golduck",
+      "pokedexNumber": 55,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Lots of water",
+        "Complicated stuff",
+        "Ocean vibes",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "growlithe",
+      "name": "Growlithe",
+      "pokedexNumber": 58,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Search"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Letters and words",
+        "Nice breezes",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "arcanine",
+      "name": "Arcanine",
+      "pokedexNumber": 59,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Search"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Watching stuff",
+        "Nice breezes",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "poliwag",
+      "name": "Poliwag",
+      "pokedexNumber": 60,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Round stuff",
+        "Rides",
+        "Lots of water",
+        "Spinning stuff",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "poliwhirl",
+      "name": "Poliwhirl",
+      "pokedexNumber": 61,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of nature",
+        "Lots of water",
+        "Exercise",
+        "Spinning stuff",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "poliwrath",
+      "name": "Poliwrath",
+      "pokedexNumber": 62,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Build"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Group Activities",
+        "Exercise",
+        "Construction",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "abra",
+      "name": "Abra",
+      "pokedexNumber": 63,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Teleport"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Strange stuff",
+        "Wobbly stuff",
+        "Watching stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "kadabra",
+      "name": "Kadabra",
+      "pokedexNumber": 64,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Teleport"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Wobbly stuff",
+        "Watching stuff",
+        "Containers",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "alakazam",
+      "name": "Alakazam",
+      "pokedexNumber": 65,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Teleport",
+        "Trade"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Wobbly stuff",
+        "Letters and words",
+        "Watching stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "machop",
+      "name": "Machop",
+      "pokedexNumber": 66,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Build",
+        "Gather"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Group Activities",
+        "Exercise",
+        "Construction"
+      ]
+    },
+    {
+      "id": "machoke",
+      "name": "Machoke",
+      "pokedexNumber": 67,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Build",
+        "Gather"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Group Activities",
+        "Exercise",
+        "Construction"
+      ]
+    },
+    {
+      "id": "machamp",
+      "name": "Machamp",
+      "pokedexNumber": 68,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Build",
+        "Gather"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Group Activities",
+        "Exercise",
+        "Construction"
+      ]
+    },
+    {
+      "id": "bellsprout",
+      "name": "Bellsprout",
+      "pokedexNumber": 69,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Lots of water",
+        "Lots of dirt",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "weepinbell",
+      "name": "Weepinbell",
+      "pokedexNumber": 70,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Lots of dirt",
+        "Pretty flowers",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "victreebel",
+      "name": "Victreebel",
+      "pokedexNumber": 71,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Grow",
+        "Chop"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Lots of dirt",
+        "Pretty flowers",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "geodude",
+      "name": "Geodude",
+      "pokedexNumber": 74,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Crush"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Round stuff",
+        "Stone stuff",
+        "Exercise",
+        "Spinning stuff"
+      ]
+    },
+    {
+      "id": "graveler",
+      "name": "Graveler",
+      "pokedexNumber": 75,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Crush"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Round stuff",
+        "Stone stuff",
+        "Exercise",
+        "Spinning stuff"
+      ]
+    },
+    {
+      "id": "golem",
+      "name": "Golem",
+      "pokedexNumber": 76,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Crush",
+        "Trade"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Round stuff",
+        "Stone stuff",
+        "Exercise",
+        "Spinning stuff"
+      ]
+    },
+    {
+      "id": "slowpoke",
+      "name": "Slowpoke",
+      "pokedexNumber": 79,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Yawn"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Strange stuff",
+        "Lots of water",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "slowbro",
+      "name": "Slowbro",
+      "pokedexNumber": 80,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Trade"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Lots of water",
+        "Group Activities",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "magnemite",
+      "name": "Magnemite",
+      "pokedexNumber": 81,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Electronics",
+        "Group Activities",
+        "Shiny stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "magneton",
+      "name": "Magneton",
+      "pokedexNumber": 82,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Electronics",
+        "Group Activities",
+        "Shiny stuff",
+        "Metal stuff",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "grimer",
+      "name": "Grimer",
+      "pokedexNumber": 88,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Litter"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Garbage",
+        "Containers",
+        "Shiny stuff",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "muk",
+      "name": "Muk",
+      "pokedexNumber": 89,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Litter"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Garbage",
+        "Shiny stuff",
+        "Colorful stuff",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "gastly",
+      "name": "Gastly",
+      "pokedexNumber": 92,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Gather",
+        "Trade"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Strange stuff",
+        "Garbage",
+        "Group Activities",
+        "Containers"
+      ]
+    },
+    {
+      "id": "haunter",
+      "name": "Haunter",
+      "pokedexNumber": 93,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Gather",
+        "Trade"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Strange stuff",
+        "Garbage",
+        "Wobbly stuff",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "gengar",
+      "name": "Gengar",
+      "pokedexNumber": 94,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Gather",
+        "Trade"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Strange stuff",
+        "Garbage",
+        "Rides",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "onix",
+      "name": "Onix",
+      "pokedexNumber": 95,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Crush",
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Stone stuff",
+        "Exercise",
+        "Lots of dirt",
+        "Blocky stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "voltorb",
+      "name": "Voltorb",
+      "pokedexNumber": 100,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Explode"
+      ],
+      "favorites": [
+        "Electronics",
+        "Round stuff",
+        "Shiny stuff",
+        "Spinning stuff",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "electrode",
+      "name": "Electrode",
+      "pokedexNumber": 101,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Explode"
+      ],
+      "favorites": [
+        "Electronics",
+        "Round stuff",
+        "Play spaces",
+        "Shiny stuff",
+        "Spinning stuff"
+      ]
+    },
+    {
+      "id": "exeggcute",
+      "name": "Exeggcute",
+      "pokedexNumber": 102,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow",
+        "Teleport"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Lots of nature",
+        "Group Activities",
+        "Watching stuff",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "exeggutor",
+      "name": "Exeggutor",
+      "pokedexNumber": 103,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow",
+        "Teleport"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Strange stuff",
+        "Lots of nature",
+        "Watching stuff",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "cubone",
+      "name": "Cubone",
+      "pokedexNumber": 104,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Build"
+      ],
+      "favorites": [
+        "Group Activities",
+        "Exercise",
+        "Construction",
+        "Lots of dirt",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "marowak",
+      "name": "Marowak",
+      "pokedexNumber": 105,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Build"
+      ],
+      "favorites": [
+        "Exercise",
+        "Luxury",
+        "Construction",
+        "Lots of dirt",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "hitmonlee",
+      "name": "Hitmonlee",
+      "pokedexNumber": 106,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Round stuff",
+        "Fabric",
+        "Stone stuff",
+        "Group Activities",
+        "Exercise"
+      ]
+    },
+    {
+      "id": "hitmonchan",
+      "name": "Hitmonchan",
+      "pokedexNumber": 107,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Round stuff",
+        "Fabric",
+        "Stone stuff",
+        "Group Activities",
+        "Exercise"
+      ]
+    },
+    {
+      "id": "koffing",
+      "name": "Koffing",
+      "pokedexNumber": 109,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Recycle"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Garbage",
+        "Wobbly stuff",
+        "Complicated stuff",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "weezing",
+      "name": "Weezing",
+      "pokedexNumber": 110,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Recycle"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Garbage",
+        "Wobbly stuff",
+        "Complicated stuff",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "chansey",
+      "name": "Chansey",
+      "pokedexNumber": 113,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Round stuff",
+        "Fabric",
+        "Group Activities",
+        "Healing"
+      ]
+    },
+    {
+      "id": "tangela",
+      "name": "Tangela",
+      "pokedexNumber": 114,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Lots of nature",
+        "Lots of water",
+        "Slender objects",
+        "Pretty flowers",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "scyther",
+      "name": "Scyther",
+      "pokedexNumber": 123,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Chop"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Exercise",
+        "Nice breezes",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "electabuzz",
+      "name": "Electabuzz",
+      "pokedexNumber": 125,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Electronics",
+        "Glass stuff",
+        "Exercise",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "magmar",
+      "name": "Magmar",
+      "pokedexNumber": 126,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of fire",
+        "Electronics",
+        "Stone stuff",
+        "Exercise"
+      ]
+    },
+    {
+      "id": "pinsir",
+      "name": "Pinsir",
+      "pokedexNumber": 127,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Chop",
+        "Build"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Exercise",
+        "Pretty flowers",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "magikarp",
+      "name": "Magikarp",
+      "pokedexNumber": 129,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "???"
+      ],
+      "favorites": [
+        "Rides",
+        "Lots of water",
+        "Wobbly stuff",
+        "Group Activities",
+        "Ocean vibes"
+      ]
+    },
+    {
+      "id": "gyarados",
+      "name": "Gyarados",
+      "pokedexNumber": 130,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Nice breezes",
+        "Ocean vibes",
+        "Slender objects",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "lapras",
+      "name": "Lapras",
+      "pokedexNumber": 131,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Watching stuff",
+        "Ocean vibes",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "eevee",
+      "name": "Eevee",
+      "pokedexNumber": 133,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Stone stuff",
+        "Letters and words",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "vaporeon",
+      "name": "Vaporeon",
+      "pokedexNumber": 134,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Lots of water",
+        "Watching stuff",
+        "Cleanliness",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "jolteon",
+      "name": "Jolteon",
+      "pokedexNumber": 135,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "flareon",
+      "name": "Flareon",
+      "pokedexNumber": 136,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of fire",
+        "Cute stuff",
+        "Rides",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "porygon",
+      "name": "Porygon",
+      "pokedexNumber": 137,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Recycle"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Strange stuff",
+        "Construction",
+        "Blocky stuff",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "aerodactyl",
+      "name": "Aerodactyl",
+      "pokedexNumber": 142,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Fly"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Nice breezes",
+        "Shiny stuff",
+        "Spinning stuff"
+      ]
+    },
+    {
+      "id": "snorlax",
+      "name": "Snorlax",
+      "pokedexNumber": 143,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Trade",
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Rides",
+        "Fabric",
+        "Looks like food",
+        "Wobbly stuff"
+      ]
+    },
+    {
+      "id": "articuno",
+      "name": "Articuno",
+      "pokedexNumber": 144,
+      "idealHabitat": "Cool",
+      "specialty": [
+        "Fly"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Luxury",
+        "Nice breezes",
+        "Shiny stuff",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "zapdos",
+      "name": "Zapdos",
+      "pokedexNumber": 145,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Fly"
+      ],
+      "favorites": [
+        "Electronics",
+        "Glass stuff",
+        "Luxury",
+        "Nice breezes",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "moltres",
+      "name": "Moltres",
+      "pokedexNumber": 146,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Fly"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Luxury",
+        "Nice breezes",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "dratini",
+      "name": "Dratini",
+      "pokedexNumber": 147,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Cute stuff",
+        "Lots of water",
+        "Slender objects",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "dragonair",
+      "name": "Dragonair",
+      "pokedexNumber": 148,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Glass stuff",
+        "Lots of water",
+        "Slender objects",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "dragonite",
+      "name": "Dragonite",
+      "pokedexNumber": 149,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Fly"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Nice breezes",
+        "Cleanliness",
+        "Pretty flowers",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "mewtwo",
+      "name": "Mewtwo",
+      "pokedexNumber": 150,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Teleport"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Stone stuff",
+        "Letters and words",
+        "Watching stuff",
+        "Complicated stuff"
+      ]
+    },
+    {
+      "id": "mew",
+      "name": "Mew",
+      "pokedexNumber": 151,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Teleport"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Watching stuff",
+        "Complicated stuff",
+        "Play spaces",
+        "Luxury"
+      ]
+    },
+    {
+      "id": "cyndaquil",
+      "name": "Cyndaquil",
+      "pokedexNumber": 155,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Rides",
+        "Fabric",
+        "Metal stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "quilava",
+      "name": "Quilava",
+      "pokedexNumber": 156,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Rides",
+        "Fabric",
+        "Metal stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "typhlosion",
+      "name": "Typhlosion",
+      "pokedexNumber": 157,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Rides",
+        "Fabric",
+        "Metal stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "hoothoot",
+      "name": "Hoothoot",
+      "pokedexNumber": 163,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Trade",
+        "Fly"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Fabric",
+        "Wobbly stuff",
+        "Watching stuff",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "noctowl",
+      "name": "Noctowl",
+      "pokedexNumber": 164,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Trade",
+        "Fly"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Letters and words",
+        "Watching stuff",
+        "Nice breezes",
+        "Containers"
+      ]
+    },
+    {
+      "id": "spinarak",
+      "name": "Spinarak",
+      "pokedexNumber": 167,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Litter"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Garbage",
+        "Rides",
+        "Lots of nature",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "ariados",
+      "name": "Ariados",
+      "pokedexNumber": 168,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Litter"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Garbage",
+        "Rides",
+        "Lots of nature",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "crobat",
+      "name": "Crobat",
+      "pokedexNumber": 169,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search",
+        "Chop"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Spooky stuff",
+        "Garbage",
+        "Watching stuff",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "pichu",
+      "name": "Pichu",
+      "pokedexNumber": 172,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Fabric",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "cleffa",
+      "name": "Cleffa",
+      "pokedexNumber": 173,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Hype"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Round stuff",
+        "Rides",
+        "Healing",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "igglybuff",
+      "name": "Igglybuff",
+      "pokedexNumber": 174,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Hype"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Play spaces",
+        "Healing"
+      ]
+    },
+    {
+      "id": "mareep",
+      "name": "Mareep",
+      "pokedexNumber": 179,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Litter"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Fabric",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "flaaffy",
+      "name": "Flaaffy",
+      "pokedexNumber": 180,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Litter"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Rides",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "ampharos",
+      "name": "Ampharos",
+      "pokedexNumber": 181,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Trade"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "bellossom",
+      "name": "Bellossom",
+      "pokedexNumber": 182,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow",
+        "Hype"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Lots of nature",
+        "Play spaces",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "marill",
+      "name": "Marill",
+      "pokedexNumber": 183,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Hype"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Round stuff",
+        "Lots of water",
+        "Cleanliness",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "azumarill",
+      "name": "Azumarill",
+      "pokedexNumber": 184,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Build"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Lots of water",
+        "Wobbly stuff",
+        "Construction",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "sudowoodo",
+      "name": "Sudowoodo",
+      "pokedexNumber": 185,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Wooden stuff",
+        "Lots of nature",
+        "Stone stuff",
+        "Watching stuff"
+      ]
+    },
+    {
+      "id": "politoed",
+      "name": "Politoed",
+      "pokedexNumber": 186,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Hype"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Group Activities",
+        "Play spaces",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "hoppip",
+      "name": "Hoppip",
+      "pokedexNumber": 187,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Lots of nature",
+        "Wobbly stuff",
+        "Nice breezes",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "skiploom",
+      "name": "Skiploom",
+      "pokedexNumber": 188,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Lots of nature",
+        "Nice breezes",
+        "Spinning stuff",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "jumpluff",
+      "name": "Jumpluff",
+      "pokedexNumber": 189,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Round stuff",
+        "Lots of nature",
+        "Nice breezes",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "espeon",
+      "name": "Espeon",
+      "pokedexNumber": 196,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Gather"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Strange stuff",
+        "Watching stuff",
+        "Complicated stuff",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "umbreon",
+      "name": "Umbreon",
+      "pokedexNumber": 197,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Letters and words",
+        "Watching stuff",
+        "Luxury",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "murkrow",
+      "name": "Murkrow",
+      "pokedexNumber": 198,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Trade",
+        "Fly"
+      ],
+      "favorites": [
+        "Fabric",
+        "Group Activities",
+        "Luxury",
+        "Nice breezes",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "slowking",
+      "name": "Slowking",
+      "pokedexNumber": 199,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Teleport"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Lots of water",
+        "Group Activities",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "misdreavus",
+      "name": "Misdreavus",
+      "pokedexNumber": 200,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Strange stuff",
+        "Watching stuff",
+        "Shiny stuff",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "girafarig",
+      "name": "Girafarig",
+      "pokedexNumber": 203,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Gather"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Strange stuff",
+        "Rides",
+        "Watching stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "steelix",
+      "name": "Steelix",
+      "pokedexNumber": 208,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Crush",
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Metal stuff",
+        "Lots of dirt",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "scizor",
+      "name": "Scizor",
+      "pokedexNumber": 212,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Chop"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Wooden stuff",
+        "Lots of nature",
+        "Exercise",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "heracross",
+      "name": "Heracross",
+      "pokedexNumber": 214,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Chop",
+        "Build"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Looks like food",
+        "Exercise",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "porygon2",
+      "name": "Porygon2",
+      "pokedexNumber": 233,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Recycle"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Round stuff",
+        "Strange stuff",
+        "Construction",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "tyrogue",
+      "name": "Tyrogue",
+      "pokedexNumber": 236,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Round stuff",
+        "Fabric",
+        "Stone stuff",
+        "Group Activities",
+        "Exercise"
+      ]
+    },
+    {
+      "id": "hitmontop",
+      "name": "Hitmontop",
+      "pokedexNumber": 237,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Round stuff",
+        "Fabric",
+        "Stone stuff",
+        "Group Activities",
+        "Exercise"
+      ]
+    },
+    {
+      "id": "elekid",
+      "name": "Elekid",
+      "pokedexNumber": 239,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Round stuff",
+        "Spinning stuff"
+      ]
+    },
+    {
+      "id": "magby",
+      "name": "Magby",
+      "pokedexNumber": 240,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Cute stuff",
+        "Wobbly stuff",
+        "Stone stuff",
+        "Watching stuff"
+      ]
+    },
+    {
+      "id": "blissey",
+      "name": "Blissey",
+      "pokedexNumber": 242,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Trade",
+        "Litter"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Round stuff",
+        "Fabric",
+        "Group Activities",
+        "Healing"
+      ]
+    },
+    {
+      "id": "raikou",
+      "name": "Raikou",
+      "pokedexNumber": 243,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Electronics",
+        "Glass stuff",
+        "Luxury",
+        "Nice breezes",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "entei",
+      "name": "Entei",
+      "pokedexNumber": 244,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Exercise",
+        "Luxury",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "suicune",
+      "name": "Suicune",
+      "pokedexNumber": 245,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Watching stuff",
+        "Healing",
+        "Ocean vibes",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "larvitar",
+      "name": "Larvitar",
+      "pokedexNumber": 246,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Crush",
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Looks like food",
+        "Stone stuff",
+        "Luxury",
+        "Shiny stuff",
+        "Lots of dirt"
+      ]
+    },
+    {
+      "id": "pupitar",
+      "name": "Pupitar",
+      "pokedexNumber": 247,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Crush",
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Watching stuff",
+        "Luxury",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "tyranitar",
+      "name": "Tyranitar",
+      "pokedexNumber": 248,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Crush",
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Exercise",
+        "Luxury",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "lugia",
+      "name": "Lugia",
+      "pokedexNumber": 249,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "???"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Lots of water",
+        "Nice breezes",
+        "Ocean vibes",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "ho-oh",
+      "name": "Ho-Oh",
+      "pokedexNumber": 250,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "???"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of fire",
+        "Lots of nature",
+        "Nice breezes",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "torchic",
+      "name": "Torchic",
+      "pokedexNumber": 255,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Cute stuff",
+        "Stone stuff",
+        "Containers",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "combusken",
+      "name": "Combusken",
+      "pokedexNumber": 256,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Build"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Exercise",
+        "Construction",
+        "Containers"
+      ]
+    },
+    {
+      "id": "blaziken",
+      "name": "Blaziken",
+      "pokedexNumber": 257,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Build"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Exercise",
+        "Luxury",
+        "Construction",
+        "Containers"
+      ]
+    },
+    {
+      "id": "lotad",
+      "name": "Lotad",
+      "pokedexNumber": 270,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of nature",
+        "Lots of water",
+        "Containers",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "lombre",
+      "name": "Lombre",
+      "pokedexNumber": 271,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of nature",
+        "Lots of water",
+        "Containers",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "ludicolo",
+      "name": "Ludicolo",
+      "pokedexNumber": 272,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Hype"
+      ],
+      "favorites": [
+        "Lots of nature",
+        "Lots of water",
+        "Play spaces",
+        "Containers"
+      ]
+    },
+    {
+      "id": "wingull",
+      "name": "Wingull",
+      "pokedexNumber": 278,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Fly"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Watching stuff",
+        "Nice breezes",
+        "Ocean vibes",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "pelipper",
+      "name": "Pelipper",
+      "pokedexNumber": 279,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Fly"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Watching stuff",
+        "Nice breezes",
+        "Ocean vibes",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "ralts",
+      "name": "Ralts",
+      "pokedexNumber": 280,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Teleport"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Strange stuff",
+        "Watching stuff",
+        "Healing",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "kirlia",
+      "name": "Kirlia",
+      "pokedexNumber": 281,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Teleport"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Strange stuff",
+        "Watching stuff",
+        "Healing",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "gardevoir",
+      "name": "Gardevoir",
+      "pokedexNumber": 282,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Teleport",
+        "Trade"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Watching stuff",
+        "Healing",
+        "Luxury",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "makuhita",
+      "name": "Makuhita",
+      "pokedexNumber": 296,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Build",
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Round stuff",
+        "Fabric",
+        "Exercise",
+        "Construction"
+      ]
+    },
+    {
+      "id": "hariyama",
+      "name": "Hariyama",
+      "pokedexNumber": 297,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Build",
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Round stuff",
+        "Rides",
+        "Fabric",
+        "Exercise",
+        "Construction"
+      ]
+    },
+    {
+      "id": "azurill",
+      "name": "Azurill",
+      "pokedexNumber": 298,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Hype"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Rides",
+        "Lots of water",
+        "Healing",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "sableye",
+      "name": "Sableye",
+      "pokedexNumber": 302,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Looks like food",
+        "Watching stuff",
+        "Luxury",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "mawile",
+      "name": "Mawile",
+      "pokedexNumber": 303,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Trade",
+        "Build"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Looks like food",
+        "Group Activities",
+        "Metal stuff",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "plusle",
+      "name": "Plusle",
+      "pokedexNumber": 311,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "minun",
+      "name": "Minun",
+      "pokedexNumber": 312,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "volbeat",
+      "name": "Volbeat",
+      "pokedexNumber": 313,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Hype"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Cute stuff",
+        "Lots of nature",
+        "Group Activities",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "illumise",
+      "name": "Illumise",
+      "pokedexNumber": 314,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Hype"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Cute stuff",
+        "Lots of nature",
+        "Group Activities",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "gulpin",
+      "name": "Gulpin",
+      "pokedexNumber": 316,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Storage"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Round stuff",
+        "Looks like food",
+        "Containers",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "swalot",
+      "name": "Swalot",
+      "pokedexNumber": 317,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Storage"
+      ],
+      "favorites": [
+        "Round stuff",
+        "Garbage",
+        "Looks like food",
+        "Containers",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "torkoal",
+      "name": "Torkoal",
+      "pokedexNumber": 324,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of fire",
+        "Stone stuff",
+        "Watching stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "trapinch",
+      "name": "Trapinch",
+      "pokedexNumber": 328,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Bulldoze",
+        "Litter"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Strange stuff",
+        "Watching stuff",
+        "Exercise",
+        "Lots of dirt"
+      ]
+    },
+    {
+      "id": "vibrava",
+      "name": "Vibrava",
+      "pokedexNumber": 329,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Bulldoze",
+        "Fly"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Lots of nature",
+        "Luxury",
+        "Lots of dirt"
+      ]
+    },
+    {
+      "id": "flygon",
+      "name": "Flygon",
+      "pokedexNumber": 330,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Bulldoze",
+        "Fly"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of fire",
+        "Lots of nature",
+        "Stone stuff",
+        "Lots of dirt"
+      ]
+    },
+    {
+      "id": "cacnea",
+      "name": "Cacnea",
+      "pokedexNumber": 331,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Round stuff",
+        "Lots of nature",
+        "Pretty flowers",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "cacturne",
+      "name": "Cacturne",
+      "pokedexNumber": 332,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Lots of nature",
+        "Luxury",
+        "Nice breezes",
+        "Shiny stuff",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "swablu",
+      "name": "Swablu",
+      "pokedexNumber": 333,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Litter"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Watching stuff",
+        "Nice breezes",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "altaria",
+      "name": "Altaria",
+      "pokedexNumber": 334,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Litter",
+        "Fly"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Watching stuff",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "duskull",
+      "name": "Duskull",
+      "pokedexNumber": 355,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Gather"
+      ],
+      "favorites": [
+        "Glass stuff",
+        "Spooky stuff",
+        "Strange stuff",
+        "Rides",
+        "Fabric"
+      ]
+    },
+    {
+      "id": "dusclops",
+      "name": "Dusclops",
+      "pokedexNumber": 356,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Gather"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Spooky stuff",
+        "Strange stuff",
+        "Rides",
+        "Containers"
+      ]
+    },
+    {
+      "id": "absol",
+      "name": "Absol",
+      "pokedexNumber": 359,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Chop"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Letters and words",
+        "Complicated stuff",
+        "Exercise",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "beldum",
+      "name": "Beldum",
+      "pokedexNumber": 374,
+      "idealHabitat": "Cool",
+      "specialty": [
+        "Recycle"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Strange stuff",
+        "Stone stuff",
+        "Complicated stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "metang",
+      "name": "Metang",
+      "pokedexNumber": 375,
+      "idealHabitat": "Cool",
+      "specialty": [
+        "Recycle"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Strange stuff",
+        "Stone stuff",
+        "Complicated stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "metagross",
+      "name": "Metagross",
+      "pokedexNumber": 376,
+      "idealHabitat": "Cool",
+      "specialty": [
+        "Recycle",
+        "Crush"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Strange stuff",
+        "Exercise",
+        "Luxury",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "kyogre",
+      "name": "Kyogre",
+      "pokedexNumber": 382,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "???"
+      ],
+      "favorites": [
+        "Glass stuff",
+        "Lots of water",
+        "Luxury",
+        "Ocean vibes",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "piplup",
+      "name": "Piplup",
+      "pokedexNumber": 393,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Nice breezes",
+        "Ocean vibes",
+        "Containers",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "prinplup",
+      "name": "Prinplup",
+      "pokedexNumber": 394,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Nice breezes",
+        "Ocean vibes",
+        "Containers",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "empoleon",
+      "name": "Empoleon",
+      "pokedexNumber": 395,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Letters and words",
+        "Ocean vibes",
+        "Metal stuff",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "kricketot",
+      "name": "Kricketot",
+      "pokedexNumber": 401,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Hype"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Watching stuff",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "kricketune",
+      "name": "Kricketune",
+      "pokedexNumber": 402,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Hype"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Watching stuff",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "cranidos",
+      "name": "Cranidos",
+      "pokedexNumber": 408,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Crush"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Wobbly stuff",
+        "Stone stuff",
+        "Group Activities",
+        "Exercise"
+      ]
+    },
+    {
+      "id": "rampardos",
+      "name": "Rampardos",
+      "pokedexNumber": 409,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Crush",
+        "Litter"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Exercise",
+        "Luxury",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "shieldon",
+      "name": "Shieldon",
+      "pokedexNumber": 410,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Crush"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Round stuff",
+        "Stone stuff",
+        "Luxury",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "bastiodon",
+      "name": "Bastiodon",
+      "pokedexNumber": 411,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Crush",
+        "Litter"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Exercise",
+        "Luxury",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "combee",
+      "name": "Combee",
+      "pokedexNumber": 415,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Litter"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Group Activities",
+        "Nice breezes",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "vespiquen",
+      "name": "Vespiquen",
+      "pokedexNumber": 416,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Gather Honey",
+        "Search"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Complicated stuff",
+        "Nice breezes",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "shellos",
+      "name": "Shellos",
+      "pokedexNumber": 422,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Containers",
+        "Cleanliness",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "gastrodon",
+      "name": "Gastrodon",
+      "pokedexNumber": 423,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Containers",
+        "Lots of dirt",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "drifloon",
+      "name": "Drifloon",
+      "pokedexNumber": 425,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Dream Island"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Round stuff",
+        "Spooky stuff",
+        "Strange stuff",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "drifblim",
+      "name": "Drifblim",
+      "pokedexNumber": 426,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Fly",
+        "Gather"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Strange stuff",
+        "Wobbly stuff",
+        "Nice breezes",
+        "Spinning stuff"
+      ]
+    },
+    {
+      "id": "mismagius",
+      "name": "Mismagius",
+      "pokedexNumber": 429,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Gather",
+        "Trade"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Strange stuff",
+        "Wobbly stuff",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "honchkrow",
+      "name": "Honchkrow",
+      "pokedexNumber": 430,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Trade",
+        "Fly"
+      ],
+      "favorites": [
+        "Glass stuff",
+        "Spooky stuff",
+        "Letters and words",
+        "Nice breezes",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "bonsly",
+      "name": "Bonsly",
+      "pokedexNumber": 438,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Wooden stuff",
+        "Round stuff",
+        "Lots of nature",
+        "Stone stuff"
+      ]
+    },
+    {
+      "id": "happiny",
+      "name": "Happiny",
+      "pokedexNumber": 440,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Round stuff",
+        "Fabric",
+        "Healing",
+        "Containers"
+      ]
+    },
+    {
+      "id": "chatot",
+      "name": "Chatot",
+      "pokedexNumber": 441,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Hype",
+        "Fly"
+      ],
+      "favorites": [
+        "Fabric",
+        "Play spaces",
+        "Nice breezes",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "munchlax",
+      "name": "Munchlax",
+      "pokedexNumber": 446,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Lots of nature",
+        "Looks like food",
+        "Wobbly stuff",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "riolu",
+      "name": "Riolu",
+      "pokedexNumber": 447,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Build"
+      ],
+      "favorites": [
+        "Fabric",
+        "Watching stuff",
+        "Exercise",
+        "Construction",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "lucario",
+      "name": "Lucario",
+      "pokedexNumber": 448,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Build"
+      ],
+      "favorites": [
+        "Complicated stuff",
+        "Healing",
+        "Exercise",
+        "Construction",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "magnezone",
+      "name": "Magnezone",
+      "pokedexNumber": 462,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Recycle"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Electronics",
+        "Luxury",
+        "Metal stuff",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "tangrowth",
+      "name": "Tangrowth",
+      "pokedexNumber": 465,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Lots of nature",
+        "Lots of water",
+        "Watching stuff",
+        "Pretty flowers",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "electivire",
+      "name": "Electivire",
+      "pokedexNumber": 466,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Crush"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of fire",
+        "Electronics",
+        "Glass stuff",
+        "Exercise"
+      ]
+    },
+    {
+      "id": "magmortar",
+      "name": "Magmortar",
+      "pokedexNumber": 467,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Crush"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of fire",
+        "Electronics",
+        "Stone stuff",
+        "Exercise"
+      ]
+    },
+    {
+      "id": "leafeon",
+      "name": "Leafeon",
+      "pokedexNumber": 470,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Lots of nature",
+        "Fabric",
+        "Healing",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "glaceon",
+      "name": "Glaceon",
+      "pokedexNumber": 471,
+      "idealHabitat": "Cool",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Glass stuff",
+        "Lots of water",
+        "Group Activities",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "porygon-z",
+      "name": "Porygon-Z",
+      "pokedexNumber": 474,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Rarify"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Strange stuff",
+        "Fabric",
+        "Watching stuff",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "gallade",
+      "name": "Gallade",
+      "pokedexNumber": 475,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Teleport",
+        "Build"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Fabric",
+        "Healing",
+        "Exercise",
+        "Construction"
+      ]
+    },
+    {
+      "id": "dusknoir",
+      "name": "Dusknoir",
+      "pokedexNumber": 477,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Gather",
+        "Trade"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Strange stuff",
+        "Rides",
+        "Group Activities",
+        "Containers"
+      ]
+    },
+    {
+      "id": "snivy",
+      "name": "Snivy",
+      "pokedexNumber": 495,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Lots of water",
+        "Wobbly stuff",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "servine",
+      "name": "Servine",
+      "pokedexNumber": 496,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Lots of water",
+        "Shiny stuff",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "serperior",
+      "name": "Serperior",
+      "pokedexNumber": 497,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Grow",
+        "Litter"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Lots of water",
+        "Containers",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "drilbur",
+      "name": "Drilbur",
+      "pokedexNumber": 529,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Lots of nature",
+        "Watching stuff",
+        "Lots of dirt",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "excadrill",
+      "name": "Excadrill",
+      "pokedexNumber": 530,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search",
+        "Chop"
+      ],
+      "favorites": [
+        "Watching stuff",
+        "Exercise",
+        "Metal stuff",
+        "Lots of dirt",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "audino",
+      "name": "Audino",
+      "pokedexNumber": 531,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Round stuff",
+        "Fabric",
+        "Healing"
+      ]
+    },
+    {
+      "id": "timburr",
+      "name": "Timburr",
+      "pokedexNumber": 532,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Build"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Exercise",
+        "Construction",
+        "Blocky stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "gurdurr",
+      "name": "Gurdurr",
+      "pokedexNumber": 533,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Build"
+      ],
+      "favorites": [
+        "Group Activities",
+        "Exercise",
+        "Construction",
+        "Metal stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "conkeldurr",
+      "name": "Conkeldurr",
+      "pokedexNumber": 534,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Build",
+        "Crush"
+      ],
+      "favorites": [
+        "Stone stuff",
+        "Group Activities",
+        "Exercise",
+        "Construction",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "trubbish",
+      "name": "Trubbish",
+      "pokedexNumber": 568,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Recycle"
+      ],
+      "favorites": [
+        "Garbage",
+        "Complicated stuff",
+        "Construction",
+        "Shiny stuff",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "garbodor",
+      "name": "Garbodor",
+      "pokedexNumber": 569,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Recycle",
+        "Litter"
+      ],
+      "favorites": [
+        "Garbage",
+        "Complicated stuff",
+        "Containers",
+        "Shiny stuff",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "zorua",
+      "name": "Zorua",
+      "pokedexNumber": 570,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Glass stuff",
+        "Group Activities",
+        "Luxury",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "zoroark",
+      "name": "Zoroark",
+      "pokedexNumber": 571,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Trade",
+        "Chop"
+      ],
+      "favorites": [
+        "Glass stuff",
+        "Strange stuff",
+        "Group Activities",
+        "Luxury",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "minccino",
+      "name": "Minccino",
+      "pokedexNumber": 572,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Gather"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Rides",
+        "Fabric",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "cinccino",
+      "name": "Cinccino",
+      "pokedexNumber": 573,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Gather",
+        "Recycle"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Cute stuff",
+        "Rides",
+        "Fabric",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "litwick",
+      "name": "Litwick",
+      "pokedexNumber": 607,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Spooky stuff",
+        "Strange stuff",
+        "Wobbly stuff",
+        "Blocky stuff"
+      ]
+    },
+    {
+      "id": "lampent",
+      "name": "Lampent",
+      "pokedexNumber": 608,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Spooky stuff",
+        "Strange stuff",
+        "Wobbly stuff",
+        "Containers"
+      ]
+    },
+    {
+      "id": "chandelure",
+      "name": "Chandelure",
+      "pokedexNumber": 609,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Spooky stuff",
+        "Strange stuff",
+        "Wobbly stuff",
+        "Watching stuff"
+      ]
+    },
+    {
+      "id": "axew",
+      "name": "Axew",
+      "pokedexNumber": 610,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Chop"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of fire",
+        "Luxury",
+        "Lots of dirt",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "fraxure",
+      "name": "Fraxure",
+      "pokedexNumber": 611,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Chop"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Exercise",
+        "Luxury",
+        "Lots of dirt",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "haxorus",
+      "name": "Haxorus",
+      "pokedexNumber": 612,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Chop",
+        "Litter"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Exercise",
+        "Luxury",
+        "Lots of dirt",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "larvesta",
+      "name": "Larvesta",
+      "pokedexNumber": 636,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Burn",
+        "Litter"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of fire",
+        "Lots of nature",
+        "Sharp stuff",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "volcarona",
+      "name": "Volcarona",
+      "pokedexNumber": 637,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Burn",
+        "Litter"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of fire",
+        "Lots of nature",
+        "Letters and words",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "froakie",
+      "name": "Froakie",
+      "pokedexNumber": 656,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Watching stuff",
+        "Ocean vibes",
+        "Containers",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "frogadier",
+      "name": "Frogadier",
+      "pokedexNumber": 657,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Watching stuff",
+        "Exercise",
+        "Ocean vibes",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "greninja",
+      "name": "Greninja",
+      "pokedexNumber": 658,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Chop"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Exercise",
+        "Ocean vibes",
+        "Shiny stuff",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "tyrunt",
+      "name": "Tyrunt",
+      "pokedexNumber": 696,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Crush"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of fire",
+        "Stone stuff",
+        "Exercise",
+        "Luxury"
+      ]
+    },
+    {
+      "id": "tyrantrum",
+      "name": "Tyrantrum",
+      "pokedexNumber": 697,
+      "idealHabitat": "Dry",
+      "specialty": [
+        "Crush",
+        "Litter"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of fire",
+        "Stone stuff",
+        "Exercise",
+        "Luxury"
+      ]
+    },
+    {
+      "id": "amaura",
+      "name": "Amaura",
+      "pokedexNumber": 698,
+      "idealHabitat": "Cool",
+      "specialty": [
+        "Crush"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Group Activities",
+        "Containers",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "aurorus",
+      "name": "Aurorus",
+      "pokedexNumber": 699,
+      "idealHabitat": "Cool",
+      "specialty": [
+        "Crush",
+        "Litter"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Stone stuff",
+        "Shiny stuff",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "sylveon",
+      "name": "Sylveon",
+      "pokedexNumber": 700,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Hype"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Round stuff",
+        "Lots of nature",
+        "Fabric"
+      ]
+    },
+    {
+      "id": "dedenne",
+      "name": "Dedenne",
+      "pokedexNumber": 702,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Electronics",
+        "Looks like food",
+        "Group Activities",
+        "Watching stuff"
+      ]
+    },
+    {
+      "id": "goomy",
+      "name": "Goomy",
+      "pokedexNumber": 704,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of nature",
+        "Lots of water",
+        "Luxury",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "sliggoo",
+      "name": "Sliggoo",
+      "pokedexNumber": 705,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Lots of water",
+        "Luxury",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "goodra",
+      "name": "Goodra",
+      "pokedexNumber": 706,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Exercise",
+        "Luxury",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "noibat",
+      "name": "Noibat",
+      "pokedexNumber": 714,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Looks like food",
+        "Watching stuff",
+        "Luxury",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "noivern",
+      "name": "Noivern",
+      "pokedexNumber": 715,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Search",
+        "Fly"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Looks like food",
+        "Watching stuff",
+        "Play spaces",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "volcanion",
+      "name": "Volcanion",
+      "pokedexNumber": 721,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Lots of water",
+        "Stone stuff",
+        "Containers",
+        "Symbols"
+      ]
+    },
+    {
+      "id": "rowlet",
+      "name": "Rowlet",
+      "pokedexNumber": 722,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Nice breezes",
+        "Containers",
+        "Spinning stuff"
+      ]
+    },
+    {
+      "id": "dartrix",
+      "name": "Dartrix",
+      "pokedexNumber": 723,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Grow",
+        "Chop"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Lots of nature",
+        "Nice breezes",
+        "Slender objects",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "decidueye",
+      "name": "Decidueye",
+      "pokedexNumber": 724,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Grow",
+        "Chop"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Spooky stuff",
+        "Lots of nature",
+        "Letters and words",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "grubbin",
+      "name": "Grubbin",
+      "pokedexNumber": 736,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Chop"
+      ],
+      "favorites": [
+        "Electronics",
+        "Lots of nature",
+        "Watching stuff",
+        "Containers",
+        "Lots of dirt"
+      ]
+    },
+    {
+      "id": "charjabug",
+      "name": "Charjabug",
+      "pokedexNumber": 737,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Chop"
+      ],
+      "favorites": [
+        "Electronics",
+        "Glass stuff",
+        "Lots of nature",
+        "Watching stuff",
+        "Blocky stuff"
+      ]
+    },
+    {
+      "id": "vikavolt",
+      "name": "Vikavolt",
+      "pokedexNumber": 738,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Chop"
+      ],
+      "favorites": [
+        "Electronics",
+        "Glass stuff",
+        "Lots of nature",
+        "Exercise",
+        "Nice breezes"
+      ]
+    },
+    {
+      "id": "mimikyu",
+      "name": "Mimikyu",
+      "pokedexNumber": 778,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Electronics",
+        "Spooky stuff",
+        "Fabric",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "scorbunny",
+      "name": "Scorbunny",
+      "pokedexNumber": 813,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Soft stuff",
+        "Stone stuff",
+        "Group Activities",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "raboot",
+      "name": "Raboot",
+      "pokedexNumber": 814,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Group Activities",
+        "Play spaces",
+        "Containers"
+      ]
+    },
+    {
+      "id": "cinderace",
+      "name": "Cinderace",
+      "pokedexNumber": 815,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Hype"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Round stuff",
+        "Stone stuff",
+        "Group Activities",
+        "Play spaces"
+      ]
+    },
+    {
+      "id": "skwovet",
+      "name": "Skwovet",
+      "pokedexNumber": 819,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Search",
+        "Hype"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Soft stuff",
+        "Round stuff",
+        "Looks like food",
+        "Watching stuff"
+      ]
+    },
+    {
+      "id": "rookidee",
+      "name": "Rookidee",
+      "pokedexNumber": 821,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Chop"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Nice breezes",
+        "Containers",
+        "Shiny stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "corvisquire",
+      "name": "Corvisquire",
+      "pokedexNumber": 822,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Chop"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Nice breezes",
+        "Containers",
+        "Shiny stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "corviknight",
+      "name": "Corviknight",
+      "pokedexNumber": 823,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Chop",
+        "Fly"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Nice breezes",
+        "Containers",
+        "Shiny stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "rolycoly",
+      "name": "Rolycoly",
+      "pokedexNumber": 837,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Gather"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of fire",
+        "Rides",
+        "Stone stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "carkol",
+      "name": "Carkol",
+      "pokedexNumber": 838,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Gather"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of fire",
+        "Rides",
+        "Stone stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "coalossal",
+      "name": "Coalossal",
+      "pokedexNumber": 839,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Gather"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Lots of fire",
+        "Rides",
+        "Stone stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "cramorant",
+      "name": "Cramorant",
+      "pokedexNumber": 845,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Fly",
+        "Water"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Looks like food",
+        "Nice breezes",
+        "Ocean vibes",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "toxel",
+      "name": "Toxel",
+      "pokedexNumber": 848,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Electronics",
+        "Glass stuff",
+        "Garbage",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "dreepy",
+      "name": "Dreepy",
+      "pokedexNumber": 885,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Gather",
+        "Search"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Spooky stuff",
+        "Strange stuff",
+        "Rides",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "drakloak",
+      "name": "Drakloak",
+      "pokedexNumber": 886,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Gather",
+        "Search"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Spooky stuff",
+        "Strange stuff",
+        "Rides",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "dragapult",
+      "name": "Dragapult",
+      "pokedexNumber": 887,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Gather",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Spooky stuff",
+        "Strange stuff",
+        "Rides",
+        "Group Activities"
+      ]
+    },
+    {
+      "id": "sprigatito",
+      "name": "Sprigatito",
+      "pokedexNumber": 906,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Lots of nature",
+        "Containers",
+        "Pretty flowers",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "floragato",
+      "name": "Floragato",
+      "pokedexNumber": 907,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Lots of nature",
+        "Pretty flowers",
+        "Colorful stuff",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "meowscarada",
+      "name": "Meowscarada",
+      "pokedexNumber": 908,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Grow",
+        "Hype"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Lots of nature",
+        "Luxury",
+        "Shiny stuff",
+        "Pretty flowers"
+      ]
+    },
+    {
+      "id": "pawmi",
+      "name": "Pawmi",
+      "pokedexNumber": 921,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Group Activities",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "pawmo",
+      "name": "Pawmo",
+      "pokedexNumber": 922,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Crush"
+      ],
+      "favorites": [
+        "Electronics",
+        "Glass stuff",
+        "Group Activities",
+        "Exercise",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "pawmot",
+      "name": "Pawmot",
+      "pokedexNumber": 923,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Crush"
+      ],
+      "favorites": [
+        "Electronics",
+        "Group Activities",
+        "Healing",
+        "Exercise",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "fidough",
+      "name": "Fidough",
+      "pokedexNumber": 926,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Search"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Soft stuff",
+        "Cute stuff",
+        "Letters and words",
+        "Watching stuff"
+      ]
+    },
+    {
+      "id": "dachsbun",
+      "name": "Dachsbun",
+      "pokedexNumber": 927,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Search",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Cute stuff",
+        "Looks like food",
+        "Group Activities",
+        "Watching stuff"
+      ]
+    },
+    {
+      "id": "charcadet",
+      "name": "Charcadet",
+      "pokedexNumber": 935,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Strange stuff",
+        "Stone stuff",
+        "Exercise",
+        "Luxury"
+      ]
+    },
+    {
+      "id": "armarouge",
+      "name": "Armarouge",
+      "pokedexNumber": 936,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Strange stuff",
+        "Stone stuff",
+        "Exercise",
+        "Luxury"
+      ]
+    },
+    {
+      "id": "ceruledge",
+      "name": "Ceruledge",
+      "pokedexNumber": 937,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Burn",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of fire",
+        "Spooky stuff",
+        "Strange stuff",
+        "Stone stuff",
+        "Luxury"
+      ]
+    },
+    {
+      "id": "wattrel",
+      "name": "Wattrel",
+      "pokedexNumber": 940,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate"
+      ],
+      "favorites": [
+        "Electronics",
+        "Complicated stuff",
+        "Nice breezes",
+        "Ocean vibes",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "kilowattrel",
+      "name": "Kilowattrel",
+      "pokedexNumber": 941,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Generate",
+        "Fly"
+      ],
+      "favorites": [
+        "Electronics",
+        "Nice breezes",
+        "Ocean vibes",
+        "Slender objects",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "tinkatink",
+      "name": "Tinkatink",
+      "pokedexNumber": 957,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Build"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Looks like food",
+        "Exercise",
+        "Construction",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "tinkatuff",
+      "name": "Tinkatuff",
+      "pokedexNumber": 958,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Build"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Group Activities",
+        "Exercise",
+        "Construction",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "glimmet",
+      "name": "Glimmet",
+      "pokedexNumber": 969,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Litter"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Garbage",
+        "Stone stuff",
+        "Complicated stuff",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "glimmora",
+      "name": "Glimmora",
+      "pokedexNumber": 970,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Litter"
+      ],
+      "favorites": [
+        "Hard stuff",
+        "Garbage",
+        "Stone stuff",
+        "Complicated stuff",
+        "Shiny stuff"
+      ]
+    },
+    {
+      "id": "clodsire",
+      "name": "Clodsire",
+      "pokedexNumber": 980,
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Litter",
+        "Bulldoze"
+      ],
+      "favorites": [
+        "Round stuff",
+        "Garbage",
+        "Lots of water",
+        "Lots of dirt",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "farigiraf",
+      "name": "Farigiraf",
+      "pokedexNumber": 981,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Gather",
+        "Search"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Strange stuff",
+        "Rides",
+        "Watching stuff",
+        "Slender objects"
+      ]
+    },
+    {
+      "id": "gimmighoul",
+      "name": "Gimmighoul",
+      "pokedexNumber": 999,
+      "idealHabitat": "Dark",
+      "specialty": [
+        "Collect"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Strange stuff",
+        "Complicated stuff",
+        "Shiny stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "gholdengo",
+      "name": "Gholdengo",
+      "pokedexNumber": 1000,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Collect"
+      ],
+      "favorites": [
+        "Spooky stuff",
+        "Strange stuff",
+        "Complicated stuff",
+        "Shiny stuff",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "mosslax",
+      "name": "Mosslax",
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Eat"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Strange stuff",
+        "Fabric",
+        "Looks like food",
+        "Watching stuff"
+      ]
+    },
+    {
+      "id": "smeargle",
+      "name": "Smeargle",
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Paint"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Strange stuff",
+        "Fabric",
+        "Shiny stuff",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "greedent",
+      "name": "Greedent",
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Party"
+      ],
+      "favorites": [
+        "Soft stuff",
+        "Looks like food",
+        "Group Activities",
+        "Luxury",
+        "Metal stuff"
+      ]
+    },
+    {
+      "id": "peakychu",
+      "name": "Peakychu",
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Illuminate"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Letters and words",
+        "Healing"
+      ]
+    },
+    {
+      "id": "tinkaton",
+      "name": "Tinkaton",
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Engineer"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Exercise",
+        "Construction",
+        "Metal stuff",
+        "Blocky stuff"
+      ]
+    },
+    {
+      "id": "toxtricity-amped-form",
+      "name": "Toxtricity Amped Form",
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Generate",
+        "Hype"
+      ],
+      "favorites": [
+        "Electronics",
+        "Play spaces",
+        "Slender objects",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "toxtricity-low-key-form",
+      "name": "Toxtricity Low Key Form",
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Generate",
+        "Hype"
+      ],
+      "favorites": [
+        "Electronics",
+        "Play spaces",
+        "Slender objects",
+        "Sharp stuff"
+      ]
+    },
+    {
+      "id": "stereo-rotom",
+      "name": "Stereo Rotom",
+      "idealHabitat": "Bright",
+      "specialty": [
+        "DJ"
+      ],
+      "favorites": [
+        "Glass stuff",
+        "Group Activities",
+        "Shiny stuff",
+        "Blocky stuff"
+      ]
+    },
+    {
+      "id": "professor-tangrowth",
+      "name": "Professor Tangrowth",
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Appraise"
+      ],
+      "favorites": [
+        "Strange stuff",
+        "Lots of nature",
+        "Letters and words",
+        "Group Activities",
+        "Complicated stuff"
+      ]
+    },
+    {
+      "id": "paldean-wooper",
+      "name": "Paldean Wooper",
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Litter"
+      ],
+      "favorites": [
+        "Garbage",
+        "Stone stuff",
+        "Group Activities",
+        "Lots of dirt",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "shellos-east-sea",
+      "name": "Shellos East Sea",
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Containers",
+        "Cleanliness",
+        "Colorful stuff"
+      ]
+    },
+    {
+      "id": "gastrodon-east-sea",
+      "name": "Gastrodon East Sea",
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Water",
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Containers",
+        "Lots of dirt",
+        "Cleanliness"
+      ]
+    },
+    {
+      "id": "tatsugiri-curly-form",
+      "name": "Tatsugiri Curly Form",
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Group Activities",
+        "Ocean vibes",
+        "Gatherings"
+      ]
+    },
+    {
+      "id": "tatsugiri-droopy-form",
+      "name": "Tatsugiri Droopy Form",
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Group Activities",
+        "Ocean vibes",
+        "Spinning stuff",
+        "Blocky stuff"
+      ]
+    },
+    {
+      "id": "tatsugiri-stretchy-form",
+      "name": "Tatsugiri Stretchy Form",
+      "idealHabitat": "Humid",
+      "specialty": [
+        "Trade"
+      ],
+      "favorites": [
+        "Lots of water",
+        "Letters and words",
+        "Group Activities",
+        "Ocean vibes",
+        "Containers"
+      ]
+    }
+  ],
+  "furniture": [
+    {
+      "id": "stone",
+      "name": "Stone",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "iron-stand",
+      "name": "Iron stand",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "iron-table",
+      "name": "Iron table",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "iron-rack",
+      "name": "Iron rack",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-table",
+      "name": "Stone table",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-bench",
+      "name": "Stone bench",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-fireplace",
+      "name": "Stone fireplace",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "strength-rock",
+      "name": "Strength rock",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-tiling-wallpaper",
+      "name": "Stone tiling (wallpaper)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-flooring-wallpaper",
+      "name": "Stone flooring (wallpaper)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-brick-wall-wallpaper",
+      "name": "Stone brick wall (wallpaper)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "iron-ball",
+      "name": "Iron Ball",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "lagging-tail",
+      "name": "Lagging Tail",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "skull-fossil",
+      "name": "Skull Fossil",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "armor-fossil",
+      "name": "Armor Fossil",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "jaw-fossil",
+      "name": "Jaw Fossil",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "sail-fossil",
+      "name": "Sail Fossil",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "wing-fossil-head",
+      "name": "Wing Fossil (head)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "wing-fossil-right-wing",
+      "name": "Wing Fossil (right wing)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "wing-fossil-left-wing",
+      "name": "Wing Fossil (left wing)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "wing-fossil-body",
+      "name": "Wing fossil (body)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "wing-fossil-tail",
+      "name": "Wing Fossil (tail)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "headbutt-fossil-head",
+      "name": "Headbutt Fossil (head)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "headbutt-fossil-body",
+      "name": "Headbutt Fossil (body)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "headbutt-fossil-tail",
+      "name": "Headbutt Fossil (tail)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "shield-fossil-head",
+      "name": "Shield Fossil (Head)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "shield-fossil-body",
+      "name": "Shield Fossil (body)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "shield-fossil-tail",
+      "name": "Shield Fossil (tail)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "despot-fossil-head",
+      "name": "Despot Fossil (head)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "despot-fossil-body",
+      "name": "Despot Fossil (body)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "despot-fossil-legs",
+      "name": "Despot Fossil (legs)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "despot-fossil-tail",
+      "name": "Despot Fossil (tail)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "tundra-fossil-head",
+      "name": "Tundra Fossil (head)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "tundra-fossil-body",
+      "name": "Tundra Fossil (body)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "tundra-fossil-tail",
+      "name": "Tundra Fossil (tail)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-brick-wall",
+      "name": "Stone brick wall",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-pillar-upper",
+      "name": "Stone pillar (upper)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-pillar-middle",
+      "name": "Stone pillar (middle)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-pillar-lower",
+      "name": "Stone pillar (lower)",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-flooring",
+      "name": "Stone flooring",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-tiling",
+      "name": "Stone tiling",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-steps",
+      "name": "Stone steps",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-hipped-roof",
+      "name": "Stone hipped roof",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-roof-valley",
+      "name": "Stone roof valley",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-roof-decoration",
+      "name": "Stone roof decoration",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "stone-debris",
+      "name": "Stone debris",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "metal-debris",
+      "name": "Metal Debris",
+      "category": "Hard stuff"
+    },
+    {
+      "id": "storage-box",
+      "name": "Storage box",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "wall-storage-box",
+      "name": "Wall storage box",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "big-storage-box",
+      "name": "Big storage box",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "plain-chest",
+      "name": "Plain chest",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "office-cabinet",
+      "name": "Office cabinet",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "antique-chest",
+      "name": "Antique chest",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "plain-closet",
+      "name": "Plain closet",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "antique-closet",
+      "name": "Antique closet",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "log-table",
+      "name": "Log table",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "plain-stand",
+      "name": "Plain stand",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "food-counter",
+      "name": "Food counter",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "plain-table",
+      "name": "Plain table",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "antique-table",
+      "name": "Antique table",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "study-desk",
+      "name": "Study desk",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "log-chair",
+      "name": "Log chair",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "plain-chair",
+      "name": "Plain chair",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "log-bed",
+      "name": "Log Bed",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "guest-room-bed",
+      "name": "Guest-room bed",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "wooden-plate",
+      "name": "Wooden plate",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "cd-rack",
+      "name": "CD rack",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "magazine-rack",
+      "name": "Magazine rack",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "mini-bookcase",
+      "name": "Mini bookcase",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "bookcase",
+      "name": "Bookcase",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "dining-cabinet",
+      "name": "Dining cabinet",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "toy-blocks",
+      "name": "Toy blocks",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "wreath",
+      "name": "Wreath",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "antique-clock",
+      "name": "Antique clock",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "slide",
+      "name": "Slide",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "water-basin",
+      "name": "Water basin",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "arrow-sign",
+      "name": "Arrow sign",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "menu-board",
+      "name": "Menu board",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "sign",
+      "name": "Sign",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "worn-wooden-crate",
+      "name": "Worn wooden crate",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "wooden-crate",
+      "name": "Wooden crate",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "barrel",
+      "name": "Barrel",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "frame",
+      "name": "Frame",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "cutting-board",
+      "name": "Cutting board",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "mushroom-lamp",
+      "name": "Mushroom lamp",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "stone-fragments",
+      "name": "Stone fragments",
+      "category": "Wooden stuff"
+    },
+    {
+      "id": "cooking-stove",
+      "name": "Cooking stove",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "fiery-magby-statue",
+      "name": "Fiery Magby statue",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "campfire",
+      "name": "Campfire",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "torch",
+      "name": "Torch",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "slender-candle",
+      "name": "Slender candle",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "eerie-candle",
+      "name": "Eerie candle",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "wall-torch",
+      "name": "Wall torch",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "firepit",
+      "name": "Firepit",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "bonfire",
+      "name": "Bonfire",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "smelting-furnace",
+      "name": "Smelting furnace",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "metallic-smelting-furnace",
+      "name": "Metallic smelting furnace",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "charcoal",
+      "name": "Charcoal",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "oil-lantern",
+      "name": "Oil lantern",
+      "category": "Lots of fire"
+    },
+    {
+      "id": "squishy-clay",
+      "name": "Squishy clay",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "fluff",
+      "name": "Fluff",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "straw-stool",
+      "name": "Straw stool",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "berry-chair",
+      "name": "Berry chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "simple-cushion",
+      "name": "Simple cushion",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "plain-stool",
+      "name": "Plain stool",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "resort-stool",
+      "name": "Resort stool",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "stylish-stool",
+      "name": "Stylish stool",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "soft-seat",
+      "name": "Soft seat",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "box-sofa",
+      "name": "Box Sofa",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "resort-chair",
+      "name": "Resort chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "chic-chair",
+      "name": "Chic chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "fancy-chair",
+      "name": "Fancy chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "antique-chair",
+      "name": "Antique Chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "office-chair",
+      "name": "Office chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "cute-chair",
+      "name": "Cute chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "pop-art-chair",
+      "name": "Pop art chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "gaming-chair",
+      "name": "Gaming chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "plain-sofa",
+      "name": "Plain sofa",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "resort-sofa",
+      "name": "Resort sofa",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "chic-sofa",
+      "name": "Chic sofa",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "antique-sofa",
+      "name": "Antique sofa",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "luxury-sofa",
+      "name": "Luxury sofa",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "cute-sofa",
+      "name": "Cute sofa",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "pop-art-sofa",
+      "name": "Pop art sofa",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "pikachu-sofa",
+      "name": "Pikachu sofa",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "mini-plain-bed",
+      "name": "Mini plain bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "resort-bed",
+      "name": "Resort bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "iron-bed",
+      "name": "Iron bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "beach-chair",
+      "name": "Beach chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "straw-bed",
+      "name": "Straw bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "pop-art-bed",
+      "name": "Pop art bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "poke-ball-bed",
+      "name": "Poké Ball bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "berry-bed",
+      "name": "Berry bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "wooden-bed",
+      "name": "Wooden Bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "plain-bed",
+      "name": "Plain bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "resort-hammock",
+      "name": "Resort hammock",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "antique-bed",
+      "name": "Antique bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "industrial-bed",
+      "name": "Industrial bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "luxury-bed",
+      "name": "Luxury bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "cute-bed",
+      "name": "Cute bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "gaming-bed",
+      "name": "Gaming bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "naptime-bed",
+      "name": "Naptime bed",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "towel-rack",
+      "name": "Towel rack",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "knitting-supplies",
+      "name": "Knitting supplies",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "eevee-doll",
+      "name": "Eevee doll",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "pikachu-doll",
+      "name": "Pikachu doll",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "clefairy-doll",
+      "name": "Clefairy doll",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "dragonite-doll",
+      "name": "Dragonite doll",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "ditto-doll",
+      "name": "Ditto doll",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "substitute-doll",
+      "name": "Substitute doll",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "soft-sand",
+      "name": "Soft Sand",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "light-clay",
+      "name": "Light Clay",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "cotton-spores",
+      "name": "Cotton Spores",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "flower-cushion",
+      "name": "Flower cushion",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "flowery-table-setting",
+      "name": "Flowery table setting",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "flower-garland",
+      "name": "Flower garland",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "flower-backpack",
+      "name": "Flower backpack",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "camping-chair",
+      "name": "Camping chair",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "sleeping-bag",
+      "name": "Sleeping bag",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "adventure-kit",
+      "name": "Adventure kit",
+      "category": "Soft stuff"
+    },
+    {
+      "id": "poke-ball-chest",
+      "name": "Poké Ball Chest",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "berry-case",
+      "name": "Berry case",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "polygonal-shelf",
+      "name": "Polygonal Shelf",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "cute-table",
+      "name": "Cute table",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "pop-art-table",
+      "name": "Pop art table",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "cute-dresser",
+      "name": "Cute dresser",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "wiggly-mirror",
+      "name": "Wiggly mirror",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "ribbon-cake",
+      "name": "Ribbon cake",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "munna-bank",
+      "name": "Munna bank",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "bathtime-set",
+      "name": "Bathtime set",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "bouncy-blue-bathtub",
+      "name": "Bouncy blue bathtub",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "wobbuffet-wobbler",
+      "name": "Wobbuffet Wobbler",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "berry-clock",
+      "name": "Berry clock",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "rowlet-clock",
+      "name": "Rowlet clock",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "castform-weather-charm",
+      "name": "Castform weather charm",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "arcanine-doll",
+      "name": "Arcanine doll",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "chansey-plant",
+      "name": "Chansey plant",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "photo-cutout-board",
+      "name": "Photo cutout board",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "berry-table-lamp",
+      "name": "Berry table lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "cute-lamp",
+      "name": "Cute lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "model-planet",
+      "name": "Model planet",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "red-meteor-lamp",
+      "name": "Red meteor lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "orange-meteor-lamp",
+      "name": "Orange meteor lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "yellow-meteor-lamp",
+      "name": "Yellow meteor lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "green-meteor-lamp",
+      "name": "Green meteor lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "blue-meteor-lamp",
+      "name": "Blue meteor lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "indigo-meteor-lamp",
+      "name": "Indigo meteor lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "violet-meteor-lamp",
+      "name": "Violet meteor lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "luxury-lamp",
+      "name": "Luxury lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "shell-lamp",
+      "name": "Shell lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "berry-hanging-lamp",
+      "name": "Berry hanging lamp",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "cute-flower",
+      "name": "Cute flower",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "heart-scale",
+      "name": "Heart Scale",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "fairy-feather",
+      "name": "Fairy Feather",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "lunch-box",
+      "name": "Lunch box",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "hoppip-water-bottle",
+      "name": "Hoppip water bottle",
+      "category": "Cute stuff"
+    },
+    {
+      "id": "gaming-fridge",
+      "name": "Gaming fridge",
+      "category": "Electronics"
+    },
+    {
+      "id": "microwave-oven",
+      "name": "Microwave oven",
+      "category": "Electronics"
+    },
+    {
+      "id": "refrigerator",
+      "name": "Refrigerator",
+      "category": "Electronics"
+    },
+    {
+      "id": "fan",
+      "name": "Fan",
+      "category": "Electronics"
+    },
+    {
+      "id": "air-conditioner",
+      "name": "Air conditioner",
+      "category": "Electronics"
+    },
+    {
+      "id": "printer",
+      "name": "Printer",
+      "category": "Electronics"
+    },
+    {
+      "id": "washing-machine",
+      "name": "Washing machine",
+      "category": "Electronics"
+    },
+    {
+      "id": "toilet",
+      "name": "Toilet",
+      "category": "Electronics"
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "category": "Electronics"
+    },
+    {
+      "id": "cell-phone",
+      "name": "Cell phone",
+      "category": "Electronics"
+    },
+    {
+      "id": "laptop",
+      "name": "Laptop",
+      "category": "Electronics"
+    },
+    {
+      "id": "computer",
+      "name": "Computer",
+      "category": "Electronics"
+    },
+    {
+      "id": "gaming-pc",
+      "name": "Gaming PC",
+      "category": "Electronics"
+    },
+    {
+      "id": "television",
+      "name": "Television",
+      "category": "Electronics"
+    },
+    {
+      "id": "wall-monitor",
+      "name": "Wall monitor",
+      "category": "Electronics"
+    },
+    {
+      "id": "arcade-machine",
+      "name": "Arcade machine",
+      "category": "Electronics"
+    },
+    {
+      "id": "game-boy-system",
+      "name": "Game Boy system",
+      "category": "Electronics"
+    },
+    {
+      "id": "humidifier",
+      "name": "Humidifier",
+      "category": "Electronics"
+    },
+    {
+      "id": "jumbled-cords",
+      "name": "Jumbled cords",
+      "category": "Electronics"
+    },
+    {
+      "id": "cd-player",
+      "name": "CD player",
+      "category": "Electronics"
+    },
+    {
+      "id": "tabletop-mic",
+      "name": "Tabletop mic",
+      "category": "Electronics"
+    },
+    {
+      "id": "standing-mic",
+      "name": "Standing mic",
+      "category": "Electronics"
+    },
+    {
+      "id": "cool-electric-guitar",
+      "name": "Cool electric guitar",
+      "category": "Electronics"
+    },
+    {
+      "id": "cool-bass-guitar",
+      "name": "Cool bass guitar",
+      "category": "Electronics"
+    },
+    {
+      "id": "audio-mixer",
+      "name": "Audio mixer",
+      "category": "Electronics"
+    },
+    {
+      "id": "speaker",
+      "name": "Speaker",
+      "category": "Electronics"
+    },
+    {
+      "id": "ceiling-fan",
+      "name": "Ceiling fan",
+      "category": "Electronics"
+    },
+    {
+      "id": "utility-pole",
+      "name": "Utility pole",
+      "category": "Electronics"
+    },
+    {
+      "id": "wireless-power-transmitter-switch",
+      "name": "Wireless power-transmitter switch",
+      "category": "Electronics"
+    },
+    {
+      "id": "wireless-power-transmitter",
+      "name": "Wireless power transmitter",
+      "category": "Electronics"
+    },
+    {
+      "id": "mini-generator",
+      "name": "Mini generator",
+      "category": "Electronics"
+    },
+    {
+      "id": "floor-switch",
+      "name": "Floor switch",
+      "category": "Electronics"
+    },
+    {
+      "id": "wall-switch",
+      "name": "Wall switch",
+      "category": "Electronics"
+    },
+    {
+      "id": "card-reader",
+      "name": "Card reader",
+      "category": "Electronics"
+    },
+    {
+      "id": "laser-sensor",
+      "name": "Laser sensor",
+      "category": "Electronics"
+    },
+    {
+      "id": "security-camera",
+      "name": "Security camera",
+      "category": "Electronics"
+    },
+    {
+      "id": "town-streetlight",
+      "name": "Town streetlight",
+      "category": "Electronics"
+    },
+    {
+      "id": "harbor-streetlight",
+      "name": "Harbor streetlight",
+      "category": "Electronics"
+    },
+    {
+      "id": "chic-streetlight",
+      "name": "Chic streetlight",
+      "category": "Electronics"
+    },
+    {
+      "id": "double-streetlight",
+      "name": "Double streetlight",
+      "category": "Electronics"
+    },
+    {
+      "id": "plain-lamp",
+      "name": "Plain lamp",
+      "category": "Electronics"
+    },
+    {
+      "id": "desk-light",
+      "name": "Desk light",
+      "category": "Electronics"
+    },
+    {
+      "id": "poke-ball-light",
+      "name": "Poké Ball light",
+      "category": "Electronics"
+    },
+    {
+      "id": "poke-ball-lamp",
+      "name": "Poké Ball lamp",
+      "category": "Electronics"
+    },
+    {
+      "id": "garden-light",
+      "name": "Garden light",
+      "category": "Electronics"
+    },
+    {
+      "id": "lantern",
+      "name": "Lantern",
+      "category": "Electronics"
+    },
+    {
+      "id": "seedot-lamp",
+      "name": "Seedot Lamp",
+      "category": "Electronics"
+    },
+    {
+      "id": "mirror-ball",
+      "name": "Mirror ball",
+      "category": "Electronics"
+    },
+    {
+      "id": "wall-light",
+      "name": "Wall light",
+      "category": "Electronics"
+    },
+    {
+      "id": "fluorescent-light",
+      "name": "Fluorescent light",
+      "category": "Electronics"
+    },
+    {
+      "id": "gaming-light",
+      "name": "Gaming light",
+      "category": "Electronics"
+    },
+    {
+      "id": "resort-light",
+      "name": "Resort light",
+      "category": "Electronics"
+    },
+    {
+      "id": "string-lights",
+      "name": "String lights",
+      "category": "Electronics"
+    },
+    {
+      "id": "pop-art-lamp",
+      "name": "Pop art lamp",
+      "category": "Electronics"
+    },
+    {
+      "id": "surface-light",
+      "name": "Surface light",
+      "category": "Electronics"
+    },
+    {
+      "id": "spotlight",
+      "name": "Spotlight",
+      "category": "Electronics"
+    },
+    {
+      "id": "antique-chandelier",
+      "name": "Antique chandelier",
+      "category": "Electronics"
+    },
+    {
+      "id": "sea-glass-fragments",
+      "name": "Sea glass fragments",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "crystal-fragment",
+      "name": "Crystal fragment",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "glass",
+      "name": "Glass",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "office-shelf",
+      "name": "Office shelf",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "wall-mirror",
+      "name": "Wall mirror",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "large-mirror",
+      "name": "Large mirror",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "antique-dresser",
+      "name": "Antique dresser",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "luxury-dresser",
+      "name": "Luxury dresser",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "alarm-clock",
+      "name": "Alarm Clock",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "crystal-ball",
+      "name": "Crystal ball",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "microscope",
+      "name": "Microscope",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "science-experiment",
+      "name": "Science experiment",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "spacesuit",
+      "name": "Spacesuit",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "spaceship",
+      "name": "Spaceship",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "vending-machine",
+      "name": "Vending machine",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "raichu-sign",
+      "name": "Raichu sign",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "clear-amulet",
+      "name": "Clear Amulet",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "modern-door",
+      "name": "Modern door",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "glass-window",
+      "name": "Glass window",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "window-pane",
+      "name": "Window pane",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "stained-glass-window-upper",
+      "name": "Stained-glass window (upper)",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "stained-glass-window-middle",
+      "name": "Stained-glass window (middle)",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "stained-glass-window-lower",
+      "name": "Stained-glass window (lower)",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "sash-window",
+      "name": "Sash window",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "water-pillar-quarter",
+      "name": "Water pillar quarter",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "juice-trio",
+      "name": "Juice trio",
+      "category": "Glass stuff"
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "category": "Round stuff"
+    },
+    {
+      "id": "chocolate-cookies",
+      "name": "Chocolate cookies",
+      "category": "Round stuff"
+    },
+    {
+      "id": "small-garbage-can",
+      "name": "Small garbage can",
+      "category": "Round stuff"
+    },
+    {
+      "id": "big-drum",
+      "name": "Big drum",
+      "category": "Round stuff"
+    },
+    {
+      "id": "big-nugget",
+      "name": "Big Nugget",
+      "category": "Round stuff"
+    },
+    {
+      "id": "balloons",
+      "name": "Balloons",
+      "category": "Round stuff"
+    },
+    {
+      "id": "clear-bell",
+      "name": "Clear Bell",
+      "category": "Round stuff"
+    },
+    {
+      "id": "tidal-bell",
+      "name": "Tidal Bell",
+      "category": "Round stuff"
+    },
+    {
+      "id": "ships-wheel",
+      "name": "Ship's Wheel",
+      "category": "Round stuff"
+    },
+    {
+      "id": "tire-toy",
+      "name": "Tire toy",
+      "category": "Round stuff"
+    },
+    {
+      "id": "concrete-pipe",
+      "name": "Concrete pipe",
+      "category": "Round stuff"
+    },
+    {
+      "id": "small-stage",
+      "name": "Small stage",
+      "category": "Round stuff"
+    },
+    {
+      "id": "canoe",
+      "name": "Canoe",
+      "category": "Round stuff"
+    },
+    {
+      "id": "tires",
+      "name": "Tires",
+      "category": "Round stuff"
+    },
+    {
+      "id": "metal-drum",
+      "name": "Metal drum",
+      "category": "Round stuff"
+    },
+    {
+      "id": "construction-supplies",
+      "name": "Construction supplies",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-white",
+      "name": "Paint balloon (white)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-red",
+      "name": "Paint balloon (red)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-yellow",
+      "name": "Paint balloon (yellow)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-green",
+      "name": "Paint balloon (green)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-rose",
+      "name": "Paint balloon (rose)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-pink",
+      "name": "Paint balloon (pink)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-orange",
+      "name": "Paint balloon (orange)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-purple",
+      "name": "Paint balloon (purple)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-brown",
+      "name": "Paint balloon (brown)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-beige",
+      "name": "Paint balloon (beige)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-black",
+      "name": "Paint balloon (black)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-lime",
+      "name": "Paint balloon (lime)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-plum",
+      "name": "Paint balloon (plum)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-navy",
+      "name": "Paint balloon (navy)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-blue",
+      "name": "Paint balloon (blue)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-cyan",
+      "name": "Paint balloon (cyan)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-gray",
+      "name": "Paint balloon (gray)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "paint-balloon-aquamarine",
+      "name": "Paint balloon (aquamarine)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "firework-white",
+      "name": "Firework (white)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "firework-red",
+      "name": "Firework (red)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "firework-green",
+      "name": "Firework (green)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "firework-yellow",
+      "name": "Firework (yellow)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "firework-blue",
+      "name": "Firework (blue)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "title-screen",
+      "name": "Title Screen",
+      "category": "Round stuff"
+    },
+    {
+      "id": "pallet-town",
+      "name": "Pallet Town",
+      "category": "Round stuff"
+    },
+    {
+      "id": "oaks-lab",
+      "name": "Oak's Lab",
+      "category": "Round stuff"
+    },
+    {
+      "id": "road-to-viridian-city",
+      "name": "Road to Viridian City",
+      "category": "Round stuff"
+    },
+    {
+      "id": "pewter-city-theme",
+      "name": "Pewter City Theme",
+      "category": "Round stuff"
+    },
+    {
+      "id": "pokemon-center",
+      "name": "Pokémon Center",
+      "category": "Round stuff"
+    },
+    {
+      "id": "caves-of-mt-moon",
+      "name": "Caves of Mt. Moon",
+      "category": "Round stuff"
+    },
+    {
+      "id": "road-to-cerulean-city",
+      "name": "Road to Cerulean City",
+      "category": "Round stuff"
+    },
+    {
+      "id": "fuchsia-city-theme",
+      "name": "Fuchsia City Theme",
+      "category": "Round stuff"
+    },
+    {
+      "id": "pokemon-gym",
+      "name": "Pokémon Gym",
+      "category": "Round stuff"
+    },
+    {
+      "id": "road-to-bill",
+      "name": "Road to Bill",
+      "category": "Round stuff"
+    },
+    {
+      "id": "vermilion-city-theme",
+      "name": "Vermilion City Theme",
+      "category": "Round stuff"
+    },
+    {
+      "id": "the-ss-anne",
+      "name": "The S.S. Anne",
+      "category": "Round stuff"
+    },
+    {
+      "id": "rocket-hideout",
+      "name": "Rocket Hideout",
+      "category": "Round stuff"
+    },
+    {
+      "id": "silph-co",
+      "name": "Silph Co.",
+      "category": "Round stuff"
+    },
+    {
+      "id": "battle-gym-leader-battle",
+      "name": "Battle! (Gym Leader Battle)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "union-cave",
+      "name": "Union Cave",
+      "category": "Round stuff"
+    },
+    {
+      "id": "ecruteak-city",
+      "name": "Ecruteak City",
+      "category": "Round stuff"
+    },
+    {
+      "id": "bell-tower",
+      "name": "Bell Tower",
+      "category": "Round stuff"
+    },
+    {
+      "id": "fortree-city",
+      "name": "Fortree City",
+      "category": "Round stuff"
+    },
+    {
+      "id": "sootopolis-city",
+      "name": "Sootopolis City",
+      "category": "Round stuff"
+    },
+    {
+      "id": "route-209-day",
+      "name": "Route 209 (Day)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "mt-coronet",
+      "name": "Mt. Coronet",
+      "category": "Round stuff"
+    },
+    {
+      "id": "game-corner",
+      "name": "Game Corner",
+      "category": "Round stuff"
+    },
+    {
+      "id": "driftveil-city",
+      "name": "Driftveil City",
+      "category": "Round stuff"
+    },
+    {
+      "id": "route-10-unova",
+      "name": "Route 10 (Unova)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "dress-up-with-props",
+      "name": "Dress Up With Props",
+      "category": "Round stuff"
+    },
+    {
+      "id": "snowbelle-city",
+      "name": "Snowbelle City",
+      "category": "Round stuff"
+    },
+    {
+      "id": "boutique",
+      "name": "Boutique",
+      "category": "Round stuff"
+    },
+    {
+      "id": "super-training",
+      "name": "Super Training!",
+      "category": "Round stuff"
+    },
+    {
+      "id": "contest-spectacular",
+      "name": "Contest Spectacular",
+      "category": "Round stuff"
+    },
+    {
+      "id": "hauoli-city-day",
+      "name": "Hau'oli City (Day)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "aether-paradise",
+      "name": "Aether Paradise",
+      "category": "Round stuff"
+    },
+    {
+      "id": "ultra-ruin",
+      "name": "Ultra Ruin",
+      "category": "Round stuff"
+    },
+    {
+      "id": "wild-area-north",
+      "name": "Wild Area (North)",
+      "category": "Round stuff"
+    },
+    {
+      "id": "wyndon",
+      "name": "Wyndon",
+      "category": "Round stuff"
+    },
+    {
+      "id": "rose-tower",
+      "name": "Rose Tower",
+      "category": "Round stuff"
+    },
+    {
+      "id": "battle-gym-leader-1",
+      "name": "Battle! (Gym Leader) 1",
+      "category": "Round stuff"
+    },
+    {
+      "id": "jubilife-village",
+      "name": "Jubilife Village",
+      "category": "Round stuff"
+    },
+    {
+      "id": "south-province",
+      "name": "South Province",
+      "category": "Round stuff"
+    },
+    {
+      "id": "the-academy",
+      "name": "The Academy",
+      "category": "Round stuff"
+    },
+    {
+      "id": "area-zero",
+      "name": "Area Zero",
+      "category": "Round stuff"
+    },
+    {
+      "id": "battle-gym-leader-2",
+      "name": "Battle! (Gym Leader) 2",
+      "category": "Round stuff"
+    },
+    {
+      "id": "nugget",
+      "name": "Nugget",
+      "category": "Round stuff"
+    },
+    {
+      "id": "silver-bottle-cap",
+      "name": "Silver Bottle Cap",
+      "category": "Round stuff"
+    },
+    {
+      "id": "gold-bottle-cap",
+      "name": "Gold Bottle Cap",
+      "category": "Round stuff"
+    },
+    {
+      "id": "lucky-egg",
+      "name": "Lucky Egg",
+      "category": "Round stuff"
+    },
+    {
+      "id": "life-orb",
+      "name": "Life Orb",
+      "category": "Round stuff"
+    },
+    {
+      "id": "adrenaline-orb",
+      "name": "Adrenaline Orb",
+      "category": "Round stuff"
+    },
+    {
+      "id": "flame-orb",
+      "name": "Flame Orb",
+      "category": "Round stuff"
+    },
+    {
+      "id": "ring-target",
+      "name": "Ring Target",
+      "category": "Round stuff"
+    },
+    {
+      "id": "luxury-chair",
+      "name": "Luxury chair",
+      "category": "Spooky stuff"
+    },
+    {
+      "id": "pitcher-plant-pot",
+      "name": "Pitcher-plant pot",
+      "category": "Spooky stuff"
+    },
+    {
+      "id": "boo-in-the-box",
+      "name": "Boo-in-the-box",
+      "category": "Spooky stuff"
+    },
+    {
+      "id": "mysterious-statue",
+      "name": "Mysterious statue",
+      "category": "Spooky stuff"
+    },
+    {
+      "id": "gravestone",
+      "name": "Gravestone",
+      "category": "Spooky stuff"
+    },
+    {
+      "id": "mushroom-streetlight",
+      "name": "Mushroom streetlight",
+      "category": "Spooky stuff"
+    },
+    {
+      "id": "spell-tag",
+      "name": "Spell Tag",
+      "category": "Spooky stuff"
+    },
+    {
+      "id": "armor-fragment",
+      "name": "Armor fragment",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "modern-sink",
+      "name": "Modern sink",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "sink",
+      "name": "Sink",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "shower",
+      "name": "Shower",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "bathtub",
+      "name": "Bathtub",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "funky-diffuser",
+      "name": "Funky diffuser",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "gold-teeth",
+      "name": "Gold Teeth",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "repel",
+      "name": "Repel",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "auspicious-armor",
+      "name": "Auspicious Armor",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "malicious-armor",
+      "name": "Malicious Armor",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "decorative-storage-shelf",
+      "name": "Decorative storage shelf",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "hanging-scroll",
+      "name": "Hanging scroll",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "bike",
+      "name": "Bike",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "cannon",
+      "name": "Cannon",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "bell",
+      "name": "Bell",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "horsea-fountain",
+      "name": "Horsea fountain",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "excavation-tools",
+      "name": "Excavation tools",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "large-ventilation-fan",
+      "name": "Large ventilation fan",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "cash-register",
+      "name": "Cash register",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "sprinkler",
+      "name": "Sprinkler",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "music-mat-low-do",
+      "name": "Music mat (low do)",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "music-mat-re",
+      "name": "Music mat (Re)",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "music-mat-mi",
+      "name": "Music mat (Mi)",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "music-mat-fa",
+      "name": "Music mat (Fa)",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "music-mat-sol",
+      "name": "Music mat (Sol)",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "music-mat-la",
+      "name": "Music mat (La)",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "music-mat-ti",
+      "name": "Music mat (Ti)",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "music-mat-high-do",
+      "name": "Music mat (High do)",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "large-lost-relic",
+      "name": "Large Lost Relic",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "small-lost-relic",
+      "name": "Small Lost Relic",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "twisted-spoon",
+      "name": "Twisted Spoon",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "town-map",
+      "name": "Town map",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "inflatable-sudowoodo",
+      "name": "Inflatable Sudowoodo",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "digital-camera",
+      "name": "Digital camera",
+      "category": "Strange stuff"
+    },
+    {
+      "id": "nonburnable-garbage",
+      "name": "Nonburnable garbage",
+      "category": "Garbage"
+    },
+    {
+      "id": "wastepaper",
+      "name": "Wastepaper",
+      "category": "Garbage"
+    },
+    {
+      "id": "grubby-letter",
+      "name": "Grubby letter",
+      "category": "Garbage"
+    },
+    {
+      "id": "grubby-notepad",
+      "name": "Grubby notepad",
+      "category": "Garbage"
+    },
+    {
+      "id": "grubby-book",
+      "name": "Grubby book",
+      "category": "Garbage"
+    },
+    {
+      "id": "grubby-papers",
+      "name": "Grubby papers",
+      "category": "Garbage"
+    },
+    {
+      "id": "grubby-newspaper",
+      "name": "Grubby newspaper",
+      "category": "Garbage"
+    },
+    {
+      "id": "grubby-tablet",
+      "name": "Grubby tablet",
+      "category": "Garbage"
+    },
+    {
+      "id": "grubby-cell-phone",
+      "name": "Grubby cell phone",
+      "category": "Garbage"
+    },
+    {
+      "id": "garbage-bags",
+      "name": "Garbage bags",
+      "category": "Garbage"
+    },
+    {
+      "id": "garbage-bin",
+      "name": "Garbage bin",
+      "category": "Garbage"
+    },
+    {
+      "id": "recycling-bin",
+      "name": "Recycling bin",
+      "category": "Garbage"
+    },
+    {
+      "id": "nonburnable-garbage-outdoor",
+      "name": "Nonburnable garbage (outdoor)",
+      "category": "Garbage"
+    },
+    {
+      "id": "step-stool",
+      "name": "Step stool",
+      "category": "Rides"
+    },
+    {
+      "id": "model-space-shuttle",
+      "name": "Model space shuttle",
+      "category": "Rides"
+    },
+    {
+      "id": "handcar",
+      "name": "Handcar",
+      "category": "Rides"
+    },
+    {
+      "id": "straw-table",
+      "name": "Straw table",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "garden-table",
+      "name": "Garden table",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "berry-table",
+      "name": "Berry table",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "garden-chair",
+      "name": "Garden chair",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "garden-bench",
+      "name": "Garden bench",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "berry-basket",
+      "name": "Berry basket",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "tall-potted-plant",
+      "name": "Tall potted plant",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "flat-leaf-plant",
+      "name": "Flat-leaf plant",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "twisted-potted-plant",
+      "name": "Twisted potted plant",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "vine-wall-decoration",
+      "name": "Vine wall decoration",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "berry-wall-decoration",
+      "name": "Berry wall decoration",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "berry-print-wallpaper",
+      "name": "Berry print (wallpaper)",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "miracle-seed",
+      "name": "Miracle Seed",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "silver-powder",
+      "name": "Silver Powder",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "big-root",
+      "name": "Big Root",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "berry-print",
+      "name": "Berry print",
+      "category": "Lots of nature"
+    },
+    {
+      "id": "table-setting",
+      "name": "Table setting",
+      "category": "Lots of water"
+    },
+    {
+      "id": "paper-party-cups",
+      "name": "Paper Party cups",
+      "category": "Lots of water"
+    },
+    {
+      "id": "soda-float",
+      "name": "Soda float",
+      "category": "Lots of water"
+    },
+    {
+      "id": "shaved-ice",
+      "name": "Shaved ice",
+      "category": "Lots of water"
+    },
+    {
+      "id": "cleaning-supplies",
+      "name": "Cleaning supplies",
+      "category": "Lots of water"
+    },
+    {
+      "id": "inflatable-boat",
+      "name": "Inflatable boat",
+      "category": "Lots of water"
+    },
+    {
+      "id": "beach-parasol",
+      "name": "Beach parasol",
+      "category": "Lots of water"
+    },
+    {
+      "id": "fire-hydrant",
+      "name": "Fire hydrant",
+      "category": "Lots of water"
+    },
+    {
+      "id": "mystic-water",
+      "name": "Mystic Water",
+      "category": "Lots of water"
+    },
+    {
+      "id": "picnic-basket",
+      "name": "Picnic basket",
+      "category": "Fabric"
+    },
+    {
+      "id": "hanging-banner",
+      "name": "Hanging banner",
+      "category": "Fabric"
+    },
+    {
+      "id": "party-bunting",
+      "name": "Party bunting",
+      "category": "Fabric"
+    },
+    {
+      "id": "punching-bag",
+      "name": "Punching bag",
+      "category": "Fabric"
+    },
+    {
+      "id": "blank-canvas",
+      "name": "Blank canvas",
+      "category": "Fabric"
+    },
+    {
+      "id": "painting-landscape",
+      "name": "Painting (landscape)",
+      "category": "Fabric"
+    },
+    {
+      "id": "painting-portrait",
+      "name": "Painting (portrait)",
+      "category": "Fabric"
+    },
+    {
+      "id": "painting-still-life",
+      "name": "Painting (still life)",
+      "category": "Fabric"
+    },
+    {
+      "id": "sandbags",
+      "name": "Sandbags",
+      "category": "Fabric"
+    },
+    {
+      "id": "silk-scarf",
+      "name": "Silk Scarf",
+      "category": "Fabric"
+    },
+    {
+      "id": "room-service",
+      "name": "Room Service",
+      "category": "Fabric"
+    },
+    {
+      "id": "fried-potatoes",
+      "name": "Fried potatoes",
+      "category": "Looks like food"
+    },
+    {
+      "id": "afternoon-tea-set",
+      "name": "Afternoon tea set",
+      "category": "Looks like food"
+    },
+    {
+      "id": "sandwiches",
+      "name": "Sandwiches",
+      "category": "Looks like food"
+    },
+    {
+      "id": "leftovers",
+      "name": "Leftovers",
+      "category": "Looks like food"
+    },
+    {
+      "id": "folding-chair",
+      "name": "Folding chair",
+      "category": "Wobbly stuff"
+    },
+    {
+      "id": "leafy-plant",
+      "name": "Leafy plant",
+      "category": "Wobbly stuff"
+    },
+    {
+      "id": "extravagant-flowers",
+      "name": "Extravagant flowers",
+      "category": "Wobbly stuff"
+    },
+    {
+      "id": "punching-game",
+      "name": "Punching game",
+      "category": "Wobbly stuff"
+    },
+    {
+      "id": "fishing-rod",
+      "name": "Fishing rod",
+      "category": "Wobbly stuff"
+    },
+    {
+      "id": "small-vase",
+      "name": "Small vase",
+      "category": "Stone stuff"
+    },
+    {
+      "id": "pencil-holder",
+      "name": "Pencil holder",
+      "category": "Stone stuff"
+    },
+    {
+      "id": "gym-emblem-statue",
+      "name": "Gym emblem statue",
+      "category": "Stone stuff"
+    },
+    {
+      "id": "garden-ornament",
+      "name": "Garden ornament",
+      "category": "Stone stuff"
+    },
+    {
+      "id": "signpost",
+      "name": "Signpost",
+      "category": "Stone stuff"
+    },
+    {
+      "id": "information-board",
+      "name": "Information board",
+      "category": "Stone stuff"
+    },
+    {
+      "id": "ditto-flag",
+      "name": "Ditto Flag",
+      "category": "Stone stuff"
+    },
+    {
+      "id": "jewel-wall-decoration",
+      "name": "Jewel wall decoration",
+      "category": "Stone stuff"
+    },
+    {
+      "id": "treasure",
+      "name": "Treasure",
+      "category": "Stone stuff"
+    },
+    {
+      "id": "letter",
+      "name": "Letter",
+      "category": "Letters and words"
+    },
+    {
+      "id": "notepad",
+      "name": "Notepad",
+      "category": "Letters and words"
+    },
+    {
+      "id": "book",
+      "name": "Book",
+      "category": "Letters and words"
+    },
+    {
+      "id": "open-book",
+      "name": "Open Book",
+      "category": "Letters and words"
+    },
+    {
+      "id": "papers",
+      "name": "Papers",
+      "category": "Letters and words"
+    },
+    {
+      "id": "newspaper",
+      "name": "Newspaper",
+      "category": "Letters and words"
+    },
+    {
+      "id": "whiteboard",
+      "name": "Whiteboard",
+      "category": "Letters and words"
+    },
+    {
+      "id": "wall-calendar",
+      "name": "Wall Calendar",
+      "category": "Letters and words"
+    },
+    {
+      "id": "decorative-bookshelf",
+      "name": "Decorative bookshelf",
+      "category": "Letters and words"
+    },
+    {
+      "id": "weakness-policy",
+      "name": "Weakness Policy",
+      "category": "Letters and words"
+    },
+    {
+      "id": "map-and-compass",
+      "name": "Map and compass",
+      "category": "Letters and words"
+    },
+    {
+      "id": "wooden-bench",
+      "name": "Wooden bench",
+      "category": "Group Activities"
+    },
+    {
+      "id": "iron-bench",
+      "name": "Iron bench",
+      "category": "Group Activities"
+    },
+    {
+      "id": "industrial-bench",
+      "name": "Industrial bench",
+      "category": "Group Activities"
+    },
+    {
+      "id": "poke-ball-sofa",
+      "name": "Poké Ball Sofa",
+      "category": "Group Activities"
+    },
+    {
+      "id": "tea-set",
+      "name": "Tea set",
+      "category": "Group Activities"
+    },
+    {
+      "id": "photo-frame",
+      "name": "Photo frame",
+      "category": "Group Activities"
+    },
+    {
+      "id": "sandbox",
+      "name": "Sandbox",
+      "category": "Group Activities"
+    },
+    {
+      "id": "wall-photo-frame",
+      "name": "Wall photo frame",
+      "category": "Watching stuff"
+    },
+    {
+      "id": "corkboard",
+      "name": "Corkboard",
+      "category": "Watching stuff"
+    },
+    {
+      "id": "pinwheels",
+      "name": "Pinwheels",
+      "category": "Watching stuff"
+    },
+    {
+      "id": "team-rocket-wall-hanging",
+      "name": "Team Rocket Wall Hanging",
+      "category": "Watching stuff"
+    },
+    {
+      "id": "fancy-pen",
+      "name": "Fancy pen",
+      "category": "Complicated stuff"
+    },
+    {
+      "id": "control-unit",
+      "name": "Control unit",
+      "category": "Complicated stuff"
+    },
+    {
+      "id": "first-aid-kit",
+      "name": "First aid kit",
+      "category": "Healing"
+    },
+    {
+      "id": "chic-table",
+      "name": "Chic table",
+      "category": "Luxury"
+    },
+    {
+      "id": "luxury-table",
+      "name": "Luxury table",
+      "category": "Luxury"
+    },
+    {
+      "id": "weather-vane",
+      "name": "Weather vane",
+      "category": "Nice breezes"
+    },
+    {
+      "id": "deck-chair",
+      "name": "Deck chair",
+      "category": "Ocean vibes"
+    },
+    {
+      "id": "iron-pipes",
+      "name": "Iron pipes",
+      "category": "Construction"
+    },
+    {
+      "id": "wheelbarrow",
+      "name": "Wheelbarrow",
+      "category": "Construction"
+    },
+    {
+      "id": "iron-scaffold-plank",
+      "name": "Iron-scaffold plank",
+      "category": "Construction"
+    },
+    {
+      "id": "iron-scaffold",
+      "name": "Iron scaffold",
+      "category": "Construction"
+    },
+    {
+      "id": "office-locker",
+      "name": "Office locker",
+      "category": "Containers"
+    },
+    {
+      "id": "mug",
+      "name": "Mug",
+      "category": "Containers"
+    },
+    {
+      "id": "cardboard-boxes",
+      "name": "Cardboard boxes",
+      "category": "Containers"
+    },
+    {
+      "id": "wooden-birdhouse",
+      "name": "Wooden birdhouse",
+      "category": "Containers"
+    },
+    {
+      "id": "mailbox",
+      "name": "Mailbox",
+      "category": "Containers"
+    },
+    {
+      "id": "stardust",
+      "name": "Stardust",
+      "category": "Shiny stuff"
+    },
+    {
+      "id": "star-piece",
+      "name": "Star Piece",
+      "category": "Shiny stuff"
+    },
+    {
+      "id": "metal-powder",
+      "name": "Metal Powder",
+      "category": "Shiny stuff"
+    },
+    {
+      "id": "rainbow-feather",
+      "name": "Rainbow Feather",
+      "category": "Shiny stuff"
+    },
+    {
+      "id": "silver-feather",
+      "name": "Silver Feather",
+      "category": "Shiny stuff"
+    },
+    {
+      "id": "copper-ore",
+      "name": "Copper ore",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-ore",
+      "name": "Iron ore",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "gold-ore",
+      "name": "Gold ore",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "pokemetal-fragment",
+      "name": "Pokémetal fragment",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "rare-pokemetal-fragment",
+      "name": "Rare Pokémetal fragment",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "copper-ingot",
+      "name": "Copper ingot",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-ingot",
+      "name": "Iron ingot",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "gold-ingot",
+      "name": "Gold ingot",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "pokemetal",
+      "name": "Pokémetal",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "industrial-desk",
+      "name": "Industrial desk",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "office-desk",
+      "name": "Office desk",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "industrial-chair",
+      "name": "Industrial chair",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-chair",
+      "name": "Iron chair",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "public-seat",
+      "name": "Public seat",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "spectator-chair",
+      "name": "Spectator chair",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-plate-flooring-wallpaper",
+      "name": "Iron-plate flooring (wallpaper)",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-wall",
+      "name": "Iron wall",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-plate-flooring",
+      "name": "Iron-plate flooring",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-deposit",
+      "name": "Iron deposit",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-steps",
+      "name": "Iron steps",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-ladder",
+      "name": "Iron ladder",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "metal-chain",
+      "name": "Metal chain",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-door",
+      "name": "Iron door",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "iron-gate",
+      "name": "Iron gate",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "corrugated-metal",
+      "name": "Corrugated metal",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "metal-fragments",
+      "name": "Metal fragments",
+      "category": "Metal stuff"
+    },
+    {
+      "id": "red-paint",
+      "name": "Red paint",
+      "category": "Lots of dirt"
+    },
+    {
+      "id": "blue-paint",
+      "name": "Blue paint",
+      "category": "Lots of dirt"
+    },
+    {
+      "id": "green-paint",
+      "name": "Green paint",
+      "category": "Lots of dirt"
+    },
+    {
+      "id": "yellow-paint",
+      "name": "Yellow paint",
+      "category": "Lots of dirt"
+    },
+    {
+      "id": "pink-paint",
+      "name": "Pink paint",
+      "category": "Lots of dirt"
+    },
+    {
+      "id": "cyan-paint",
+      "name": "Cyan paint",
+      "category": "Lots of dirt"
+    },
+    {
+      "id": "white-paint",
+      "name": "White paint",
+      "category": "Lots of dirt"
+    },
+    {
+      "id": "black-paint",
+      "name": "Black paint",
+      "category": "Lots of dirt"
+    },
+    {
+      "id": "mud",
+      "name": "Mud",
+      "category": "Lots of dirt"
+    },
+    {
+      "id": "wooden-stool",
+      "name": "Wooden stool",
+      "category": "Blocky stuff"
+    },
+    {
+      "id": "vine-rope",
+      "name": "Vine rope",
+      "category": "Slender objects"
+    },
+    {
+      "id": "twine",
+      "name": "Twine",
+      "category": "Slender objects"
+    },
+    {
+      "id": "wire",
+      "name": "Wire",
+      "category": "Slender objects"
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "category": "Slender objects"
+    },
+    {
+      "id": "broken-streetlight",
+      "name": "Broken streetlight",
+      "category": "Slender objects"
+    },
+    {
+      "id": "waterproof-seat",
+      "name": "Waterproof seat",
+      "category": "Cleanliness"
+    },
+    {
+      "id": "decorative-plant-shelf",
+      "name": "Decorative plant shelf",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "wall-mounted-flowers",
+      "name": "Wall-mounted flowers",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "garden-flowers",
+      "name": "Garden flowers",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "wildflowers",
+      "name": "Wildflowers",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "seashore-flowers",
+      "name": "Seashore flowers",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "mountain-flowers",
+      "name": "Mountain flowers",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "skyland-flowers",
+      "name": "Skyland flowers",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "beautiful-flower",
+      "name": "Beautiful flower",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "elegant-flower",
+      "name": "Elegant flower",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "robust-flower",
+      "name": "Robust flower",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "wildflowers-orange",
+      "name": "Wildflowers (orange)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "wildflowers-purple",
+      "name": "Wildflowers (purple)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "wildflowers-red",
+      "name": "Wildflowers (red)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "wildflowers-blue",
+      "name": "Wildflowers (blue)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "seashore-flowers-blue",
+      "name": "Seashore flowers (blue)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "seashore-flowers-orange",
+      "name": "Seashore flowers (orange)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "seashore-flowers-white",
+      "name": "Seashore flowers (white)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "seashore-flowers-yellow",
+      "name": "Seashore flowers (yellow)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "mountain-flowers-pink",
+      "name": "Mountain flowers (pink)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "mountain-flowers-purple",
+      "name": "Mountain flowers (purple)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "mountain-flowers-red",
+      "name": "Mountain flowers (red)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "mountain-flowers-white",
+      "name": "Mountain flowers (white)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "skyland-flowers-blue",
+      "name": "Skyland flowers (blue)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "skyland-flowers-orange",
+      "name": "Skyland flowers (orange)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "skyland-flowers-pink",
+      "name": "Skyland flowers (pink)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "skyland-flowers-yellow",
+      "name": "Skyland flowers (yellow)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "beautiful-flower-pink",
+      "name": "Beautiful flower (pink)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "beautiful-flower-purple",
+      "name": "Beautiful flower (purple)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "beautiful-flower-white",
+      "name": "Beautiful flower (white)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "beautiful-flower-yellow",
+      "name": "Beautiful flower (yellow)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "cute-flower-blue",
+      "name": "Cute flower (blue)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "cute-flower-pink",
+      "name": "Cute flower (pink)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "cute-flower-white",
+      "name": "Cute flower (white)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "cute-flower-yellow",
+      "name": "Cute flower (yellow)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "elegant-flower-orange",
+      "name": "Elegant flower (orange)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "elegant-flower-pink",
+      "name": "Elegant flower (pink)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "elegant-flower-red",
+      "name": "Elegant flower (red)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "elegant-flower-yellow",
+      "name": "Elegant flower (yellow)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "robust-flower-blue",
+      "name": "Robust flower (blue)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "robust-flower-orange",
+      "name": "Robust flower (orange)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "robust-flower-purple",
+      "name": "Robust flower (purple)",
+      "category": "Pretty flowers"
+    },
+    {
+      "id": "robust-flower-white",
+      "name": "Robust flower (white)",
+      "category": "Pretty flowers"
+    }
+  ],
+  "houseGroups": []
+}
