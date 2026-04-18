@@ -9,10 +9,25 @@ const SIZE_CLASSES = {
 
 type Size = keyof typeof SIZE_CLASSES;
 
+const SPRITE_BASE = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon';
+
+// Exceptions for pokemon that have no dex number, wrong numbered sprite,
+// or are regional forms whose form-sprite lives at a different path.
+const SPRITE_EXCEPTIONS: Record<string, string> = {
+  'Smeargle':       `${SPRITE_BASE}/235.png`,
+  'Greedent':       `${SPRITE_BASE}/820.png`,
+  'Tinkaton':       `${SPRITE_BASE}/959.png`,
+  'Toxtricity':     `${SPRITE_BASE}/849.png`,
+  'Tatsugiri':      `${SPRITE_BASE}/952.png`,
+  'Paldean Wooper': `${SPRITE_BASE}/10254.png`,
+  'Stereo Rotom':   `${SPRITE_BASE}/479.png`,
+};
+
 function spriteUrl(pokemon: Pokemon): string | null {
   if (pokemon.image) return pokemon.image;
+  if (SPRITE_EXCEPTIONS[pokemon.name]) return SPRITE_EXCEPTIONS[pokemon.name];
   if (pokemon.pokedexNumber) {
-    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.pokedexNumber}.png`;
+    return `${SPRITE_BASE}/${pokemon.pokedexNumber}.png`;
   }
   return null;
 }

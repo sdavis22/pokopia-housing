@@ -12,10 +12,22 @@ type AppContextValue = {
 
 const AppContext = createContext<AppContextValue | null>(null);
 
+function migrateData(data: AppData): AppData {
+  // v1→v2: furniture.category: string → furniture.categories: string[]
+  const furniture = data.furniture.map(f => {
+    if (!Array.isArray((f as unknown as Record<string, unknown>).categories)) {
+      const legacy = (f as unknown as Record<string, unknown>).category as string | undefined;
+      return { ...f, categories: legacy ? [legacy] : [] };
+    }
+    return f;
+  });
+  return { ...data, furniture };
+}
+
 function loadFromStorage(): AppData | null {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return JSON.parse(raw) as AppData;
+    if (raw) return migrateData(JSON.parse(raw) as AppData);
   } catch {
     // corrupt storage, start fresh
   }
