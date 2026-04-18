@@ -189,7 +189,7 @@ export default function GroupBuilderPage() {
       </div>
 
       {showNewForm && (
-        <div className="bg-white border border-gray-200 rounded-lg p-4 mb-4 flex gap-2">
+        <div className="bg-white border border-gray-200 rounded-lg p-4 mb-4 flex flex-wrap gap-2">
           <input
             className="input flex-1"
             placeholder="House name..."

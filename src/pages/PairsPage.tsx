@@ -78,10 +78,10 @@ function SeedPicker({
   }
 
   return (
-    <div className="relative">
+    <div className="relative w-full">
       <div className="flex gap-1">
         <input
-          className="border border-gray-300 rounded px-2 py-1.5 text-sm w-48 focus:outline-none focus:border-indigo-400"
+          className="border border-gray-300 rounded px-2 py-1.5 text-sm w-full focus:outline-none focus:border-indigo-400"
           placeholder="Seed pokemon…"
           value={query}
           onChange={e => { setQuery(e.target.value); setOpen(true); onSelect(null); }}
@@ -98,7 +98,7 @@ function SeedPicker({
         )}
       </div>
       {open && suggestions.length > 0 && (
-        <ul className="absolute z-10 bg-white border border-gray-200 rounded shadow-md mt-1 w-48 text-sm">
+        <ul className="absolute z-10 bg-white border border-gray-200 rounded shadow-md mt-1 w-full text-sm">
           {suggestions.map(p => (
             <li
               key={p.id}
@@ -222,7 +222,7 @@ export default function PairsPage() {
       {/* Filters */}
       <div className="flex flex-wrap gap-3 items-center">
         <input
-          className="border border-gray-300 rounded px-2 py-1.5 text-sm w-48 focus:outline-none focus:border-indigo-400"
+          className="border border-gray-300 rounded px-2 py-1.5 text-sm w-full focus:outline-none focus:border-indigo-400"
           placeholder="Search by name…"
           value={search}
           onChange={e => setSearch(e.target.value)}
@@ -260,9 +260,11 @@ export default function PairsPage() {
           <option value={10}>≥ 10 pts</option>
         </select>
 
-        <div className="flex items-center gap-2">
-          <span className="text-sm text-gray-500">Seed:</span>
-          <SeedPicker allPokemon={pokemon} seed={seed} onSelect={setSeed} />
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          <span className="text-sm text-gray-500 shrink-0">Seed:</span>
+          <div className="flex-1">
+            <SeedPicker allPokemon={pokemon} seed={seed} onSelect={setSeed} />
+          </div>
         </div>
       </div>
 

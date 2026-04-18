@@ -94,7 +94,7 @@ function IslandEditor({ selected, onClose }: { selected: Selection; onClose: () 
           <div className="flex items-center justify-between">
             <p className="text-xs font-semibold text-gray-500 uppercase">Houses</p>
             <input
-              className="border border-gray-200 rounded px-2 py-0.5 text-xs w-32 focus:outline-none focus:border-indigo-400"
+              className="border border-gray-200 rounded px-2 py-0.5 text-xs w-24 sm:w-32 focus:outline-none focus:border-indigo-400"
               placeholder="Filter…"
               value={groupSearch}
               onChange={e => setGroupSearch(e.target.value)}
@@ -225,7 +225,7 @@ export default function IslandsPage() {
               onClick={() => toggle('__unassigned__')}
               className="w-full text-left px-4 pb-4 hover:brightness-95 transition-all"
             >
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <p className="text-xs font-semibold text-gray-400 uppercase mb-1.5">Pokemon ({unassignedPokemon.length})</p>
                   <div className="flex flex-wrap gap-1">

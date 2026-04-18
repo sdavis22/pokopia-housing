@@ -250,7 +250,7 @@ export default function PokemonExplorerPage() {
 
       <div className="flex gap-2 mb-4 flex-wrap">
         <input
-          className="input flex-1 min-w-40"
+          className="input flex-1 min-w-0"
           placeholder="Search Pokemon..."
           value={search}
           onChange={e => setSearch(e.target.value)}
