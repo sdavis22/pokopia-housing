@@ -82,7 +82,7 @@ function parsePage(html, categoryName) {
   }
 
   // --- Pokemon rows: match name+habitat, then grab specialties from the block up to next </tr>
-  const rowRe = /\/pokemonpokopia\/pokedex\/([a-z0-9-]+)\.shtml"><u>([^<]+)<\/u><\/a><\/td>[\s\S]*?\/idealhabitat\/(\w+)\.shtml[^>]*>(\w+)<\/a>([\s\S]*?)<\/tr>/g;
+  const rowRe = /\/pokemonpokopia\/pokedex\/([a-z0-9'.-]+)\.shtml"><u>([^<]+)<\/u><\/a><\/td>[\s\S]*?\/idealhabitat\/(\w+)\.shtml[^>]*>(\w+)<\/a>([\s\S]*?)<\/tr>/g;
 
   while ((m = rowRe.exec(html)) !== null) {
     const name = decodeHtml(m[2]);
@@ -207,4 +207,4 @@ function main() {
   if (charmander) console.log(`Charmander favorites: ${charmander.favorites.join(', ')}`);
 }
 
-main().catch(console.error);
+main();

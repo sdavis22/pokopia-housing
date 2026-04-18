@@ -993,6 +993,23 @@
       ]
     },
     {
+      "id": "farfetchd",
+      "name": "Farfetch'd",
+      "pokedexNumber": 83,
+      "idealHabitat": "Warm",
+      "specialty": [
+        "Chop",
+        "Build"
+      ],
+      "favorites": [
+        "Wooden stuff",
+        "Soft stuff",
+        "Exercise",
+        "Nice breezes",
+        "Slender objects"
+      ]
+    },
+    {
       "id": "grimer",
       "name": "Grimer",
       "pokedexNumber": 88,
@@ -1287,6 +1304,23 @@
         "Slender objects",
         "Pretty flowers",
         "Gatherings"
+      ]
+    },
+    {
+      "id": "mr-mime",
+      "name": "Mr. Mime",
+      "pokedexNumber": 122,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Gather",
+        "Build"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Strange stuff",
+        "Rides",
+        "Wobbly stuff",
+        "Watching stuff"
       ]
     },
     {
@@ -3277,6 +3311,22 @@
       ]
     },
     {
+      "id": "mime-jr",
+      "name": "Mime Jr.",
+      "pokedexNumber": 439,
+      "idealHabitat": "Bright",
+      "specialty": [
+        "Gather"
+      ],
+      "favorites": [
+        "Cute stuff",
+        "Strange stuff",
+        "Rides",
+        "Play spaces",
+        "Colorful stuff"
+      ]
+    },
+    {
       "id": "happiny",
       "name": "Happiny",
       "pokedexNumber": 440,
@@ -4978,21 +5028,27 @@
       "id": "stone",
       "name": "Stone",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "iron-stand",
       "name": "Iron stand",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Containers",
+        "Shiny stuff",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "iron-table",
       "name": "Iron table",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Metal stuff"
       ]
     },
     {
@@ -5013,14 +5069,20 @@
       "id": "stone-bench",
       "name": "Stone bench",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff",
+        "Group Activities"
       ]
     },
     {
       "id": "stone-fireplace",
       "name": "Stone fireplace",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff",
+        "Luxury",
+        "Blocky stuff",
+        "Colorful stuff"
       ]
     },
     {
@@ -5034,28 +5096,32 @@
       "id": "stone-tiling-wallpaper",
       "name": "Stone tiling (wallpaper)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-flooring-wallpaper",
       "name": "Stone flooring (wallpaper)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-brick-wall-wallpaper",
       "name": "Stone brick wall (wallpaper)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "iron-ball",
       "name": "Iron Ball",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Round stuff"
       ]
     },
     {
@@ -5069,238 +5135,309 @@
       "id": "skull-fossil",
       "name": "Skull Fossil",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt"
       ]
     },
     {
       "id": "armor-fossil",
       "name": "Armor Fossil",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Round stuff",
+        "Strange stuff",
+        "Lots of dirt"
       ]
     },
     {
       "id": "jaw-fossil",
       "name": "Jaw Fossil",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt"
       ]
     },
     {
       "id": "sail-fossil",
       "name": "Sail Fossil",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt"
       ]
     },
     {
       "id": "wing-fossil-head",
       "name": "Wing Fossil (head)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt"
       ]
     },
     {
       "id": "wing-fossil-right-wing",
       "name": "Wing Fossil (right wing)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "wing-fossil-left-wing",
       "name": "Wing Fossil (left wing)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "wing-fossil-body",
       "name": "Wing fossil (body)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "wing-fossil-tail",
       "name": "Wing Fossil (tail)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "headbutt-fossil-head",
       "name": "Headbutt Fossil (head)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt"
       ]
     },
     {
       "id": "headbutt-fossil-body",
       "name": "Headbutt Fossil (body)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "headbutt-fossil-tail",
       "name": "Headbutt Fossil (tail)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "shield-fossil-head",
       "name": "Shield Fossil (Head)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt"
       ]
     },
     {
       "id": "shield-fossil-body",
       "name": "Shield Fossil (body)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "shield-fossil-tail",
       "name": "Shield Fossil (tail)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "despot-fossil-head",
       "name": "Despot Fossil (head)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt"
       ]
     },
     {
       "id": "despot-fossil-body",
       "name": "Despot Fossil (body)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "despot-fossil-legs",
       "name": "Despot Fossil (legs)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "despot-fossil-tail",
       "name": "Despot Fossil (tail)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "tundra-fossil-head",
       "name": "Tundra Fossil (head)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt"
       ]
     },
     {
       "id": "tundra-fossil-body",
       "name": "Tundra Fossil (body)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "tundra-fossil-tail",
       "name": "Tundra Fossil (tail)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Strange stuff",
+        "Lots of dirt",
+        "Slender objects"
       ]
     },
     {
       "id": "stone-brick-wall",
       "name": "Stone brick wall",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-pillar-upper",
       "name": "Stone pillar (upper)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-pillar-middle",
       "name": "Stone pillar (middle)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-pillar-lower",
       "name": "Stone pillar (lower)",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-flooring",
       "name": "Stone flooring",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-tiling",
       "name": "Stone tiling",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-steps",
       "name": "Stone steps",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-hipped-roof",
       "name": "Stone hipped roof",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-roof-valley",
       "name": "Stone roof valley",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-roof-decoration",
       "name": "Stone roof decoration",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "stone-debris",
       "name": "Stone debris",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "metal-debris",
       "name": "Metal Debris",
       "categories": [
-        "Hard stuff"
+        "Hard stuff",
+        "Stone stuff",
+        "Metal stuff"
       ]
     },
     {
@@ -5314,7 +5451,9 @@
       "id": "wall-storage-box",
       "name": "Wall storage box",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
@@ -5328,49 +5467,68 @@
       "id": "plain-chest",
       "name": "Plain chest",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Fabric",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "office-cabinet",
       "name": "Office cabinet",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Containers",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "antique-chest",
       "name": "Antique chest",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Luxury",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "plain-closet",
       "name": "Plain closet",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Fabric",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "antique-closet",
       "name": "Antique closet",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Luxury",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "log-table",
       "name": "Log table",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Lots of nature"
       ]
     },
     {
       "id": "plain-stand",
       "name": "Plain stand",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Fabric",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
@@ -5391,7 +5549,8 @@
       "id": "antique-table",
       "name": "Antique table",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Luxury"
       ]
     },
     {
@@ -5405,28 +5564,40 @@
       "id": "log-chair",
       "name": "Log chair",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Lots of nature"
       ]
     },
     {
       "id": "plain-chair",
       "name": "Plain chair",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Soft stuff",
+        "Fabric"
       ]
     },
     {
       "id": "log-bed",
       "name": "Log Bed",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Soft stuff",
+        "Lots of nature",
+        "Fabric",
+        "Blocky stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "guest-room-bed",
       "name": "Guest-room bed",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Soft stuff",
+        "Fabric",
+        "Group Activities",
+        "Luxury"
       ]
     },
     {
@@ -5440,119 +5611,173 @@
       "id": "cd-rack",
       "name": "CD rack",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Strange stuff",
+        "Watching stuff",
+        "Complicated stuff",
+        "Containers",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "magazine-rack",
       "name": "Magazine rack",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Watching stuff",
+        "Complicated stuff",
+        "Containers",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "mini-bookcase",
       "name": "Mini bookcase",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Watching stuff",
+        "Complicated stuff",
+        "Containers",
+        "Blocky stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "bookcase",
       "name": "Bookcase",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Watching stuff",
+        "Complicated stuff",
+        "Containers",
+        "Blocky stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "dining-cabinet",
       "name": "Dining cabinet",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Glass stuff",
+        "Luxury",
+        "Containers",
+        "Gatherings"
       ]
     },
     {
       "id": "toy-blocks",
       "name": "Toy blocks",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Play spaces",
+        "Gatherings"
       ]
     },
     {
       "id": "wreath",
       "name": "Wreath",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Round stuff"
       ]
     },
     {
       "id": "antique-clock",
       "name": "Antique clock",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Glass stuff",
+        "Complicated stuff",
+        "Luxury"
       ]
     },
     {
       "id": "slide",
       "name": "Slide",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Group Activities",
+        "Play spaces"
       ]
     },
     {
       "id": "water-basin",
       "name": "Water basin",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Round stuff",
+        "Lots of water",
+        "Cleanliness",
+        "Colorful stuff"
       ]
     },
     {
       "id": "arrow-sign",
       "name": "Arrow sign",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Letters and words"
       ]
     },
     {
       "id": "menu-board",
       "name": "Menu board",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Letters and words",
+        "Complicated stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "sign",
       "name": "Sign",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Letters and words",
+        "Symbols"
       ]
     },
     {
       "id": "worn-wooden-crate",
       "name": "Worn wooden crate",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "wooden-crate",
       "name": "Wooden crate",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "barrel",
       "name": "Barrel",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Round stuff",
+        "Containers",
+        "Metal stuff"
       ]
     },
     {
       "id": "frame",
       "name": "Frame",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Letters and words",
+        "Watching stuff",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
@@ -5566,7 +5791,8 @@
       "id": "mushroom-lamp",
       "name": "Mushroom lamp",
       "categories": [
-        "Wooden stuff"
+        "Wooden stuff",
+        "Electronics"
       ]
     },
     {
@@ -5580,21 +5806,28 @@
       "id": "cooking-stove",
       "name": "Cooking stove",
       "categories": [
-        "Lots of fire"
+        "Lots of fire",
+        "Strange stuff",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "fiery-magby-statue",
       "name": "Fiery Magby statue",
       "categories": [
-        "Lots of fire"
+        "Lots of fire",
+        "Strange stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "campfire",
       "name": "Campfire",
       "categories": [
-        "Lots of fire"
+        "Lots of fire",
+        "Stone stuff",
+        "Group Activities"
       ]
     },
     {
@@ -5608,35 +5841,47 @@
       "id": "slender-candle",
       "name": "Slender candle",
       "categories": [
-        "Lots of fire"
+        "Lots of fire",
+        "Spooky stuff",
+        "Stone stuff",
+        "Slender objects"
       ]
     },
     {
       "id": "eerie-candle",
       "name": "Eerie candle",
       "categories": [
-        "Lots of fire"
+        "Lots of fire",
+        "Cute stuff",
+        "Spooky stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "wall-torch",
       "name": "Wall torch",
       "categories": [
-        "Lots of fire"
+        "Lots of fire",
+        "Stone stuff"
       ]
     },
     {
       "id": "firepit",
       "name": "Firepit",
       "categories": [
-        "Lots of fire"
+        "Lots of fire",
+        "Round stuff",
+        "Stone stuff",
+        "Group Activities"
       ]
     },
     {
       "id": "bonfire",
       "name": "Bonfire",
       "categories": [
-        "Lots of fire"
+        "Lots of fire",
+        "Group Activities",
+        "Watching stuff"
       ]
     },
     {
@@ -5664,7 +5909,8 @@
       "id": "oil-lantern",
       "name": "Oil lantern",
       "categories": [
-        "Lots of fire"
+        "Lots of fire",
+        "Metal stuff"
       ]
     },
     {
@@ -5678,7 +5924,9 @@
       "id": "fluff",
       "name": "Fluff",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Round stuff",
+        "Fabric"
       ]
     },
     {
@@ -5692,273 +5940,377 @@
       "id": "berry-chair",
       "name": "Berry chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Lots of nature",
+        "Looks like food"
       ]
     },
     {
       "id": "simple-cushion",
       "name": "Simple cushion",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric"
       ]
     },
     {
       "id": "plain-stool",
       "name": "Plain stool",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric"
       ]
     },
     {
       "id": "resort-stool",
       "name": "Resort stool",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Ocean vibes"
       ]
     },
     {
       "id": "stylish-stool",
       "name": "Stylish stool",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric",
+        "Colorful stuff"
       ]
     },
     {
       "id": "soft-seat",
       "name": "Soft seat",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Blocky stuff"
       ]
     },
     {
       "id": "box-sofa",
       "name": "Box Sofa",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Blocky stuff"
       ]
     },
     {
       "id": "resort-chair",
       "name": "Resort chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Ocean vibes"
       ]
     },
     {
       "id": "chic-chair",
       "name": "Chic chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Luxury"
       ]
     },
     {
       "id": "fancy-chair",
       "name": "Fancy chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Luxury",
+        "Spinning stuff"
       ]
     },
     {
       "id": "antique-chair",
       "name": "Antique Chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Luxury",
+        "Colorful stuff"
       ]
     },
     {
       "id": "office-chair",
       "name": "Office chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Metal stuff",
+        "Spinning stuff"
       ]
     },
     {
       "id": "cute-chair",
       "name": "Cute chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric"
       ]
     },
     {
       "id": "pop-art-chair",
       "name": "Pop art chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric",
+        "Colorful stuff"
       ]
     },
     {
       "id": "gaming-chair",
       "name": "Gaming chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Electronics",
+        "Fabric",
+        "Luxury",
+        "Shiny stuff",
+        "Spinning stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "plain-sofa",
       "name": "Plain sofa",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Group Activities"
       ]
     },
     {
       "id": "resort-sofa",
       "name": "Resort sofa",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Group Activities",
+        "Ocean vibes"
       ]
     },
     {
       "id": "chic-sofa",
       "name": "Chic sofa",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Group Activities",
+        "Luxury"
       ]
     },
     {
       "id": "antique-sofa",
       "name": "Antique sofa",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Group Activities",
+        "Luxury",
+        "Colorful stuff"
       ]
     },
     {
       "id": "luxury-sofa",
       "name": "Luxury sofa",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Group Activities",
+        "Luxury"
       ]
     },
     {
       "id": "cute-sofa",
       "name": "Cute sofa",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric",
+        "Group Activities"
       ]
     },
     {
       "id": "pop-art-sofa",
       "name": "Pop art sofa",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric",
+        "Group Activities",
+        "Colorful stuff"
       ]
     },
     {
       "id": "pikachu-sofa",
       "name": "Pikachu sofa",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric",
+        "Group Activities",
+        "Colorful stuff"
       ]
     },
     {
       "id": "mini-plain-bed",
       "name": "Mini plain bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Blocky stuff"
       ]
     },
     {
       "id": "resort-bed",
       "name": "Resort bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Ocean vibes"
       ]
     },
     {
       "id": "iron-bed",
       "name": "Iron bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Metal stuff"
       ]
     },
     {
       "id": "beach-chair",
       "name": "Beach chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Ocean vibes"
       ]
     },
     {
       "id": "straw-bed",
       "name": "Straw bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Lots of nature"
       ]
     },
     {
       "id": "pop-art-bed",
       "name": "Pop art bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric",
+        "Group Activities"
       ]
     },
     {
       "id": "poke-ball-bed",
       "name": "Poké Ball bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric"
       ]
     },
     {
       "id": "berry-bed",
       "name": "Berry bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Lots of nature",
+        "Fabric",
+        "Looks like food"
       ]
     },
     {
       "id": "wooden-bed",
       "name": "Wooden Bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Lots of nature",
+        "Group Activities"
       ]
     },
     {
       "id": "plain-bed",
       "name": "Plain bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Group Activities"
       ]
     },
     {
       "id": "resort-hammock",
       "name": "Resort hammock",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Lots of water",
+        "Fabric",
+        "Wobbly stuff",
+        "Ocean vibes"
       ]
     },
     {
       "id": "antique-bed",
       "name": "Antique bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Group Activities",
+        "Luxury"
       ]
     },
     {
       "id": "industrial-bed",
       "name": "Industrial bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Group Activities",
+        "Metal stuff"
       ]
     },
     {
       "id": "luxury-bed",
       "name": "Luxury bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Stone stuff",
+        "Group Activities",
+        "Luxury"
       ]
     },
     {
       "id": "cute-bed",
       "name": "Cute bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric"
       ]
     },
     {
       "id": "gaming-bed",
       "name": "Gaming bed",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Electronics",
+        "Group Activities",
+        "Shiny stuff",
+        "Colorful stuff"
       ]
     },
     {
@@ -5972,56 +6324,76 @@
       "id": "towel-rack",
       "name": "Towel rack",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Cleanliness"
       ]
     },
     {
       "id": "knitting-supplies",
       "name": "Knitting supplies",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Round stuff",
+        "Fabric",
+        "Group Activities",
+        "Lots of dirt",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "eevee-doll",
       "name": "Eevee doll",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric"
       ]
     },
     {
       "id": "pikachu-doll",
       "name": "Pikachu doll",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric"
       ]
     },
     {
       "id": "clefairy-doll",
       "name": "Clefairy doll",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric"
       ]
     },
     {
       "id": "dragonite-doll",
       "name": "Dragonite doll",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric"
       ]
     },
     {
       "id": "ditto-doll",
       "name": "Ditto doll",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric"
       ]
     },
     {
       "id": "substitute-doll",
       "name": "Substitute doll",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Fabric"
       ]
     },
     {
@@ -6035,7 +6407,8 @@
       "id": "light-clay",
       "name": "Light Clay",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Stone stuff"
       ]
     },
     {
@@ -6049,70 +6422,98 @@
       "id": "flower-cushion",
       "name": "Flower cushion",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Group Activities",
+        "Pretty flowers"
       ]
     },
     {
       "id": "flowery-table-setting",
       "name": "Flowery table setting",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Group Activities",
+        "Pretty flowers",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "flower-garland",
       "name": "Flower garland",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Watching stuff",
+        "Pretty flowers",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "flower-backpack",
       "name": "Flower backpack",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Cute stuff",
+        "Containers",
+        "Pretty flowers"
       ]
     },
     {
       "id": "camping-chair",
       "name": "Camping chair",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric",
+        "Metal stuff"
       ]
     },
     {
       "id": "sleeping-bag",
       "name": "Sleeping bag",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric"
       ]
     },
     {
       "id": "adventure-kit",
       "name": "Adventure kit",
       "categories": [
-        "Soft stuff"
+        "Soft stuff",
+        "Fabric"
       ]
     },
     {
       "id": "poke-ball-chest",
       "name": "Poké Ball Chest",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Round stuff",
+        "Containers",
+        "Shiny stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "berry-case",
       "name": "Berry case",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Lots of nature",
+        "Looks like food",
+        "Containers"
       ]
     },
     {
       "id": "polygonal-shelf",
       "name": "Polygonal Shelf",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Strange stuff",
+        "Containers"
       ]
     },
     {
@@ -6133,189 +6534,277 @@
       "id": "cute-dresser",
       "name": "Cute dresser",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Glass stuff",
+        "Strange stuff",
+        "Containers"
       ]
     },
     {
       "id": "wiggly-mirror",
       "name": "Wiggly mirror",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Glass stuff",
+        "Strange stuff",
+        "Watching stuff"
       ]
     },
     {
       "id": "ribbon-cake",
       "name": "Ribbon cake",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Round stuff",
+        "Looks like food",
+        "Colorful stuff"
       ]
     },
     {
       "id": "munna-bank",
       "name": "Munna bank",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Spooky stuff",
+        "Stone stuff",
+        "Containers"
       ]
     },
     {
       "id": "bathtime-set",
       "name": "Bathtime set",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Lots of water",
+        "Shiny stuff",
+        "Cleanliness"
       ]
     },
     {
       "id": "bouncy-blue-bathtub",
       "name": "Bouncy blue bathtub",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Strange stuff",
+        "Lots of water",
+        "Cleanliness"
       ]
     },
     {
       "id": "wobbuffet-wobbler",
       "name": "Wobbuffet Wobbler",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Round stuff",
+        "Strange stuff",
+        "Wobbly stuff",
+        "Play spaces",
+        "Exercise"
       ]
     },
     {
       "id": "berry-clock",
       "name": "Berry clock",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Round stuff",
+        "Lots of nature",
+        "Fabric",
+        "Looks like food",
+        "Wobbly stuff"
       ]
     },
     {
       "id": "rowlet-clock",
       "name": "Rowlet clock",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Strange stuff",
+        "Watching stuff"
       ]
     },
     {
       "id": "castform-weather-charm",
       "name": "Castform weather charm",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Strange stuff",
+        "Fabric",
+        "Spinning stuff"
       ]
     },
     {
       "id": "arcanine-doll",
       "name": "Arcanine doll",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Fabric"
       ]
     },
     {
       "id": "chansey-plant",
       "name": "Chansey plant",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Round stuff",
+        "Luxury",
+        "Blocky stuff",
+        "Pretty flowers"
       ]
     },
     {
       "id": "photo-cutout-board",
       "name": "Photo cutout board",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Group Activities",
+        "Watching stuff",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "berry-table-lamp",
       "name": "Berry table lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Lots of nature",
+        "Looks like food"
       ]
     },
     {
       "id": "cute-lamp",
       "name": "Cute lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff"
       ]
     },
     {
       "id": "model-planet",
       "name": "Model planet",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Round stuff",
+        "Metal stuff",
+        "Spinning stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "red-meteor-lamp",
       "name": "Red meteor lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "orange-meteor-lamp",
       "name": "Orange meteor lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "yellow-meteor-lamp",
       "name": "Yellow meteor lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "green-meteor-lamp",
       "name": "Green meteor lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "blue-meteor-lamp",
       "name": "Blue meteor lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "indigo-meteor-lamp",
       "name": "Indigo meteor lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "violet-meteor-lamp",
       "name": "Violet meteor lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "luxury-lamp",
       "name": "Luxury lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Fabric",
+        "Luxury",
+        "Slender objects"
       ]
     },
     {
       "id": "shell-lamp",
       "name": "Shell lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Ocean vibes"
       ]
     },
     {
       "id": "berry-hanging-lamp",
       "name": "Berry hanging lamp",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Electronics",
+        "Glass stuff",
+        "Lots of nature",
+        "Looks like food",
+        "Slender objects"
       ]
     },
     {
       "id": "cute-flower",
       "name": "Cute flower",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Pretty flowers"
       ]
     },
     {
@@ -6336,203 +6825,305 @@
       "id": "lunch-box",
       "name": "Lunch box",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Looks like food",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "hoppip-water-bottle",
       "name": "Hoppip water bottle",
       "categories": [
-        "Cute stuff"
+        "Cute stuff",
+        "Lots of water",
+        "Containers",
+        "Colorful stuff"
       ]
     },
     {
       "id": "gaming-fridge",
       "name": "Gaming fridge",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Containers",
+        "Metal stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "microwave-oven",
       "name": "Microwave oven",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Strange stuff",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "refrigerator",
       "name": "Refrigerator",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Strange stuff",
+        "Containers",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "fan",
       "name": "Fan",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Nice breezes",
+        "Metal stuff",
+        "Spinning stuff"
       ]
     },
     {
       "id": "air-conditioner",
       "name": "Air conditioner",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Strange stuff",
+        "Nice breezes",
+        "Metal stuff"
       ]
     },
     {
       "id": "printer",
       "name": "Printer",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Strange stuff",
+        "Complicated stuff"
       ]
     },
     {
       "id": "washing-machine",
       "name": "Washing machine",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Strange stuff",
+        "Containers",
+        "Metal stuff",
+        "Blocky stuff",
+        "Cleanliness"
       ]
     },
     {
       "id": "toilet",
       "name": "Toilet",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Strange stuff",
+        "Lots of water",
+        "Stone stuff",
+        "Cleanliness"
       ]
     },
     {
       "id": "tablet",
       "name": "Tablet",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "cell-phone",
       "name": "Cell phone",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "laptop",
       "name": "Laptop",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "computer",
       "name": "Computer",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Complicated stuff",
+        "Shiny stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "gaming-pc",
       "name": "Gaming PC",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff",
+        "Metal stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "television",
       "name": "Television",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Letters and words",
+        "Group Activities",
+        "Watching stuff",
+        "Shiny stuff",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "wall-monitor",
       "name": "Wall monitor",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Letters and words",
+        "Group Activities",
+        "Watching stuff",
+        "Shiny stuff",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "arcade-machine",
       "name": "Arcade machine",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Group Activities",
+        "Play spaces",
+        "Blocky stuff"
       ]
     },
     {
       "id": "game-boy-system",
       "name": "Game Boy system",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Group Activities",
+        "Blocky stuff"
       ]
     },
     {
       "id": "humidifier",
       "name": "Humidifier",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Round stuff",
+        "Strange stuff",
+        "Lots of water",
+        "Healing"
       ]
     },
     {
       "id": "jumbled-cords",
       "name": "Jumbled cords",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Garbage",
+        "Group Activities",
+        "Complicated stuff",
+        "Containers",
+        "Metal stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "cd-player",
       "name": "CD player",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Group Activities"
       ]
     },
     {
       "id": "tabletop-mic",
       "name": "Tabletop mic",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Shiny stuff"
       ]
     },
     {
       "id": "standing-mic",
       "name": "Standing mic",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Strange stuff",
+        "Group Activities",
+        "Shiny stuff"
       ]
     },
     {
       "id": "cool-electric-guitar",
       "name": "Cool electric guitar",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Strange stuff"
       ]
     },
     {
       "id": "cool-bass-guitar",
       "name": "Cool bass guitar",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Strange stuff"
       ]
     },
     {
       "id": "audio-mixer",
       "name": "Audio mixer",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Strange stuff",
+        "Complicated stuff"
       ]
     },
     {
       "id": "speaker",
       "name": "Speaker",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Blocky stuff"
       ]
     },
     {
       "id": "ceiling-fan",
       "name": "Ceiling fan",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Strange stuff",
+        "Wobbly stuff",
+        "Nice breezes",
+        "Spinning stuff"
       ]
     },
     {
@@ -6560,7 +7151,12 @@
       "id": "mini-generator",
       "name": "Mini generator",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Strange stuff",
+        "Complicated stuff",
+        "Shiny stuff",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
@@ -6581,7 +7177,11 @@
       "id": "card-reader",
       "name": "Card reader",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Strange stuff",
+        "Complicated stuff",
+        "Metal stuff"
       ]
     },
     {
@@ -6602,147 +7202,206 @@
       "id": "town-streetlight",
       "name": "Town streetlight",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Metal stuff",
+        "Slender objects"
       ]
     },
     {
       "id": "harbor-streetlight",
       "name": "Harbor streetlight",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Ocean vibes",
+        "Metal stuff",
+        "Slender objects"
       ]
     },
     {
       "id": "chic-streetlight",
       "name": "Chic streetlight",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff",
+        "Metal stuff",
+        "Slender objects"
       ]
     },
     {
       "id": "double-streetlight",
       "name": "Double streetlight",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Metal stuff",
+        "Slender objects"
       ]
     },
     {
       "id": "plain-lamp",
       "name": "Plain lamp",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Fabric"
       ]
     },
     {
       "id": "desk-light",
       "name": "Desk light",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Metal stuff",
+        "Slender objects"
       ]
     },
     {
       "id": "poke-ball-light",
       "name": "Poké Ball light",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Luxury",
+        "Metal stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "poke-ball-lamp",
       "name": "Poké Ball lamp",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Round stuff",
+        "Strange stuff",
+        "Luxury"
       ]
     },
     {
       "id": "garden-light",
       "name": "Garden light",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "lantern",
       "name": "Lantern",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "seedot-lamp",
       "name": "Seedot Lamp",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Round stuff",
+        "Lots of nature"
       ]
     },
     {
       "id": "mirror-ball",
       "name": "Mirror ball",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Round stuff",
+        "Shiny stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "wall-light",
       "name": "Wall light",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "fluorescent-light",
       "name": "Fluorescent light",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Shiny stuff",
+        "Slender objects"
       ]
     },
     {
       "id": "gaming-light",
       "name": "Gaming light",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "resort-light",
       "name": "Resort light",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Wobbly stuff",
+        "Ocean vibes",
+        "Metal stuff"
       ]
     },
     {
       "id": "string-lights",
       "name": "String lights",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "pop-art-lamp",
       "name": "Pop art lamp",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff"
       ]
     },
     {
       "id": "surface-light",
       "name": "Surface light",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Round stuff"
       ]
     },
     {
       "id": "spotlight",
       "name": "Spotlight",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "antique-chandelier",
       "name": "Antique chandelier",
       "categories": [
-        "Electronics"
+        "Electronics",
+        "Glass stuff",
+        "Luxury",
+        "Metal stuff"
       ]
     },
     {
@@ -6756,7 +7415,8 @@
       "id": "crystal-fragment",
       "name": "Crystal fragment",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Shiny stuff"
       ]
     },
     {
@@ -6770,98 +7430,144 @@
       "id": "office-shelf",
       "name": "Office shelf",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Letters and words",
+        "Containers",
+        "Metal stuff",
+        "Blocky stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "wall-mirror",
       "name": "Wall mirror",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Strange stuff",
+        "Watching stuff",
+        "Luxury",
+        "Blocky stuff"
       ]
     },
     {
       "id": "large-mirror",
       "name": "Large mirror",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Strange stuff",
+        "Luxury",
+        "Blocky stuff"
       ]
     },
     {
       "id": "antique-dresser",
       "name": "Antique dresser",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Luxury"
       ]
     },
     {
       "id": "luxury-dresser",
       "name": "Luxury dresser",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Strange stuff",
+        "Luxury",
+        "Containers"
       ]
     },
     {
       "id": "alarm-clock",
       "name": "Alarm Clock",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Round stuff",
+        "Strange stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "crystal-ball",
       "name": "Crystal ball",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Round stuff",
+        "Strange stuff",
+        "Fabric",
+        "Shiny stuff"
       ]
     },
     {
       "id": "microscope",
       "name": "Microscope",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Strange stuff",
+        "Watching stuff",
+        "Complicated stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "science-experiment",
       "name": "Science experiment",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Letters and words",
+        "Complicated stuff",
+        "Metal stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "spacesuit",
       "name": "Spacesuit",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Stone stuff",
+        "Complicated stuff",
+        "Shiny stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "spaceship",
       "name": "Spaceship",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Round stuff",
+        "Rides",
+        "Stone stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "vending-machine",
       "name": "Vending machine",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Group Activities",
+        "Metal stuff",
+        "Blocky stuff",
+        "Sharp stuff"
       ]
     },
     {
       "id": "raichu-sign",
       "name": "Raichu sign",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Letters and words",
+        "Colorful stuff"
       ]
     },
     {
       "id": "clear-amulet",
       "name": "Clear Amulet",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Shiny stuff"
       ]
     },
     {
@@ -6917,252 +7623,317 @@
       "id": "water-pillar-quarter",
       "name": "Water pillar quarter",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Lots of water",
+        "Watching stuff"
       ]
     },
     {
       "id": "juice-trio",
       "name": "Juice trio",
       "categories": [
-        "Glass stuff"
+        "Glass stuff",
+        "Looks like food",
+        "Containers",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "pizza",
       "name": "Pizza",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Looks like food",
+        "Colorful stuff"
       ]
     },
     {
       "id": "chocolate-cookies",
       "name": "Chocolate cookies",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Looks like food",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "small-garbage-can",
       "name": "Small garbage can",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Garbage",
+        "Containers",
+        "Metal stuff"
       ]
     },
     {
       "id": "big-drum",
       "name": "Big drum",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Wobbly stuff"
       ]
     },
     {
       "id": "big-nugget",
       "name": "Big Nugget",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Stone stuff",
+        "Shiny stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "balloons",
       "name": "Balloons",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Wobbly stuff",
+        "Play spaces",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "clear-bell",
       "name": "Clear Bell",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Strange stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "tidal-bell",
       "name": "Tidal Bell",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Strange stuff",
+        "Nice breezes"
       ]
     },
     {
       "id": "ships-wheel",
       "name": "Ship's Wheel",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Ocean vibes"
       ]
     },
     {
       "id": "tire-toy",
       "name": "Tire toy",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Wobbly stuff",
+        "Group Activities",
+        "Play spaces"
       ]
     },
     {
       "id": "concrete-pipe",
       "name": "Concrete pipe",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "small-stage",
       "name": "Small stage",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Strange stuff",
+        "Group Activities",
+        "Play spaces",
+        "Metal stuff",
+        "Spinning stuff"
       ]
     },
     {
       "id": "canoe",
       "name": "Canoe",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Group Activities"
       ]
     },
     {
       "id": "tires",
       "name": "Tires",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Wobbly stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "metal-drum",
       "name": "Metal drum",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Construction",
+        "Containers",
+        "Metal stuff"
       ]
     },
     {
       "id": "construction-supplies",
       "name": "Construction supplies",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Group Activities",
+        "Construction",
+        "Containers",
+        "Metal stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "paint-balloon-white",
       "name": "Paint balloon (white)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-red",
       "name": "Paint balloon (red)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-yellow",
       "name": "Paint balloon (yellow)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-green",
       "name": "Paint balloon (green)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-rose",
       "name": "Paint balloon (rose)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-pink",
       "name": "Paint balloon (pink)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-orange",
       "name": "Paint balloon (orange)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-purple",
       "name": "Paint balloon (purple)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-brown",
       "name": "Paint balloon (brown)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-beige",
       "name": "Paint balloon (beige)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-black",
       "name": "Paint balloon (black)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-lime",
       "name": "Paint balloon (lime)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-plum",
       "name": "Paint balloon (plum)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-navy",
       "name": "Paint balloon (navy)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-blue",
       "name": "Paint balloon (blue)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-cyan",
       "name": "Paint balloon (cyan)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-gray",
       "name": "Paint balloon (gray)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "paint-balloon-aquamarine",
       "name": "Paint balloon (aquamarine)",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Colorful stuff"
       ]
     },
     {
@@ -7505,21 +8276,24 @@
       "id": "nugget",
       "name": "Nugget",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "silver-bottle-cap",
       "name": "Silver Bottle Cap",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "gold-bottle-cap",
       "name": "Gold Bottle Cap",
       "categories": [
-        "Round stuff"
+        "Round stuff",
+        "Shiny stuff"
       ]
     },
     {
@@ -7561,42 +8335,59 @@
       "id": "luxury-chair",
       "name": "Luxury chair",
       "categories": [
-        "Spooky stuff"
+        "Spooky stuff",
+        "Luxury",
+        "Metal stuff"
       ]
     },
     {
       "id": "pitcher-plant-pot",
       "name": "Pitcher-plant pot",
       "categories": [
-        "Spooky stuff"
+        "Spooky stuff",
+        "Wobbly stuff",
+        "Stone stuff",
+        "Watching stuff",
+        "Containers"
       ]
     },
     {
       "id": "boo-in-the-box",
       "name": "Boo-in-the-box",
       "categories": [
-        "Spooky stuff"
+        "Spooky stuff",
+        "Strange stuff",
+        "Group Activities",
+        "Play spaces",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "mysterious-statue",
       "name": "Mysterious statue",
       "categories": [
-        "Spooky stuff"
+        "Spooky stuff",
+        "Strange stuff",
+        "Stone stuff"
       ]
     },
     {
       "id": "gravestone",
       "name": "Gravestone",
       "categories": [
-        "Spooky stuff"
+        "Spooky stuff",
+        "Strange stuff",
+        "Letters and words"
       ]
     },
     {
       "id": "mushroom-streetlight",
       "name": "Mushroom streetlight",
       "categories": [
-        "Spooky stuff"
+        "Spooky stuff",
+        "Shiny stuff",
+        "Slender objects"
       ]
     },
     {
@@ -7617,42 +8408,62 @@
       "id": "modern-sink",
       "name": "Modern sink",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Lots of water",
+        "Metal stuff",
+        "Blocky stuff",
+        "Cleanliness"
       ]
     },
     {
       "id": "sink",
       "name": "Sink",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Lots of water",
+        "Stone stuff",
+        "Blocky stuff",
+        "Cleanliness"
       ]
     },
     {
       "id": "shower",
       "name": "Shower",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Lots of water",
+        "Metal stuff",
+        "Slender objects",
+        "Cleanliness"
       ]
     },
     {
       "id": "bathtub",
       "name": "Bathtub",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Lots of water",
+        "Stone stuff",
+        "Cleanliness"
       ]
     },
     {
       "id": "funky-diffuser",
       "name": "Funky diffuser",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Lots of water",
+        "Metal stuff"
       ]
     },
     {
       "id": "gold-teeth",
       "name": "Gold Teeth",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Stone stuff",
+        "Shiny stuff",
+        "Metal stuff"
       ]
     },
     {
@@ -7666,140 +8477,185 @@
       "id": "auspicious-armor",
       "name": "Auspicious Armor",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Luxury",
+        "Shiny stuff"
       ]
     },
     {
       "id": "malicious-armor",
       "name": "Malicious Armor",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Luxury"
       ]
     },
     {
       "id": "decorative-storage-shelf",
       "name": "Decorative storage shelf",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Stone stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "hanging-scroll",
       "name": "Hanging scroll",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Letters and words",
+        "Blocky stuff"
       ]
     },
     {
       "id": "bike",
       "name": "Bike",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Rides",
+        "Complicated stuff",
+        "Exercise",
+        "Metal stuff"
       ]
     },
     {
       "id": "cannon",
       "name": "Cannon",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "bell",
       "name": "Bell",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Wobbly stuff",
+        "Shiny stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "horsea-fountain",
       "name": "Horsea fountain",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Lots of water",
+        "Stone stuff",
+        "Ocean vibes"
       ]
     },
     {
       "id": "excavation-tools",
       "name": "Excavation tools",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "large-ventilation-fan",
       "name": "Large ventilation fan",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Nice breezes",
+        "Metal stuff",
+        "Spinning stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "cash-register",
       "name": "Cash register",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Complicated stuff",
+        "Containers",
+        "Metal stuff"
       ]
     },
     {
       "id": "sprinkler",
       "name": "Sprinkler",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Lots of water",
+        "Stone stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "music-mat-low-do",
       "name": "Music mat (low do)",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Play spaces",
+        "Shiny stuff"
       ]
     },
     {
       "id": "music-mat-re",
       "name": "Music mat (Re)",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Play spaces",
+        "Shiny stuff"
       ]
     },
     {
       "id": "music-mat-mi",
       "name": "Music mat (Mi)",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Play spaces",
+        "Shiny stuff"
       ]
     },
     {
       "id": "music-mat-fa",
       "name": "Music mat (Fa)",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Play spaces",
+        "Shiny stuff"
       ]
     },
     {
       "id": "music-mat-sol",
       "name": "Music mat (Sol)",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Play spaces",
+        "Shiny stuff"
       ]
     },
     {
       "id": "music-mat-la",
       "name": "Music mat (La)",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Play spaces",
+        "Shiny stuff"
       ]
     },
     {
       "id": "music-mat-ti",
       "name": "Music mat (Ti)",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Play spaces",
+        "Shiny stuff"
       ]
     },
     {
       "id": "music-mat-high-do",
       "name": "Music mat (High do)",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Play spaces",
+        "Shiny stuff"
       ]
     },
     {
@@ -7827,21 +8683,29 @@
       "id": "town-map",
       "name": "Town map",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Watching stuff",
+        "Complicated stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "inflatable-sudowoodo",
       "name": "Inflatable Sudowoodo",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Wobbly stuff",
+        "Watching stuff",
+        "Slender objects"
       ]
     },
     {
       "id": "digital-camera",
       "name": "Digital camera",
       "categories": [
-        "Strange stuff"
+        "Strange stuff",
+        "Complicated stuff",
+        "Metal stuff"
       ]
     },
     {
@@ -7862,35 +8726,46 @@
       "id": "grubby-letter",
       "name": "Grubby letter",
       "categories": [
-        "Garbage"
+        "Garbage",
+        "Letters and words",
+        "Complicated stuff"
       ]
     },
     {
       "id": "grubby-notepad",
       "name": "Grubby notepad",
       "categories": [
-        "Garbage"
+        "Garbage",
+        "Letters and words",
+        "Complicated stuff"
       ]
     },
     {
       "id": "grubby-book",
       "name": "Grubby book",
       "categories": [
-        "Garbage"
+        "Garbage",
+        "Letters and words",
+        "Complicated stuff"
       ]
     },
     {
       "id": "grubby-papers",
       "name": "Grubby papers",
       "categories": [
-        "Garbage"
+        "Garbage",
+        "Letters and words",
+        "Complicated stuff"
       ]
     },
     {
       "id": "grubby-newspaper",
       "name": "Grubby newspaper",
       "categories": [
-        "Garbage"
+        "Garbage",
+        "Letters and words",
+        "Watching stuff",
+        "Complicated stuff"
       ]
     },
     {
@@ -7911,21 +8786,26 @@
       "id": "garbage-bags",
       "name": "Garbage bags",
       "categories": [
-        "Garbage"
+        "Garbage",
+        "Gatherings"
       ]
     },
     {
       "id": "garbage-bin",
       "name": "Garbage bin",
       "categories": [
-        "Garbage"
+        "Garbage",
+        "Containers",
+        "Metal stuff"
       ]
     },
     {
       "id": "recycling-bin",
       "name": "Recycling bin",
       "categories": [
-        "Garbage"
+        "Garbage",
+        "Containers",
+        "Metal stuff"
       ]
     },
     {
@@ -7939,14 +8819,19 @@
       "id": "step-stool",
       "name": "Step stool",
       "categories": [
-        "Rides"
+        "Rides",
+        "Metal stuff"
       ]
     },
     {
       "id": "model-space-shuttle",
       "name": "Model space shuttle",
       "categories": [
-        "Rides"
+        "Rides",
+        "Stone stuff",
+        "Nice breezes",
+        "Shiny stuff",
+        "Metal stuff"
       ]
     },
     {
@@ -7974,70 +8859,96 @@
       "id": "berry-table",
       "name": "Berry table",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Looks like food"
       ]
     },
     {
       "id": "garden-chair",
       "name": "Garden chair",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Metal stuff"
       ]
     },
     {
       "id": "garden-bench",
       "name": "Garden bench",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Group Activities",
+        "Metal stuff"
       ]
     },
     {
       "id": "berry-basket",
       "name": "Berry basket",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Looks like food",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "tall-potted-plant",
       "name": "Tall potted plant",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Stone stuff",
+        "Watching stuff",
+        "Containers",
+        "Slender objects",
+        "Pretty flowers"
       ]
     },
     {
       "id": "flat-leaf-plant",
       "name": "Flat-leaf plant",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Watching stuff",
+        "Containers",
+        "Slender objects",
+        "Pretty flowers"
       ]
     },
     {
       "id": "twisted-potted-plant",
       "name": "Twisted potted plant",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Watching stuff",
+        "Containers",
+        "Slender objects",
+        "Pretty flowers"
       ]
     },
     {
       "id": "vine-wall-decoration",
       "name": "Vine wall decoration",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Slender objects"
       ]
     },
     {
       "id": "berry-wall-decoration",
       "name": "Berry wall decoration",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Looks like food",
+        "Watching stuff",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "berry-print-wallpaper",
       "name": "Berry print (wallpaper)",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Looks like food"
       ]
     },
     {
@@ -8065,63 +8976,83 @@
       "id": "berry-print",
       "name": "Berry print",
       "categories": [
-        "Lots of nature"
+        "Lots of nature",
+        "Looks like food"
       ]
     },
     {
       "id": "table-setting",
       "name": "Table setting",
       "categories": [
-        "Lots of water"
+        "Lots of water",
+        "Fabric",
+        "Looks like food",
+        "Group Activities",
+        "Gatherings"
       ]
     },
     {
       "id": "paper-party-cups",
       "name": "Paper Party cups",
       "categories": [
-        "Lots of water"
+        "Lots of water",
+        "Group Activities",
+        "Gatherings"
       ]
     },
     {
       "id": "soda-float",
       "name": "Soda float",
       "categories": [
-        "Lots of water"
+        "Lots of water",
+        "Looks like food",
+        "Colorful stuff"
       ]
     },
     {
       "id": "shaved-ice",
       "name": "Shaved ice",
       "categories": [
-        "Lots of water"
+        "Lots of water",
+        "Looks like food",
+        "Colorful stuff"
       ]
     },
     {
       "id": "cleaning-supplies",
       "name": "Cleaning supplies",
       "categories": [
-        "Lots of water"
+        "Lots of water",
+        "Shiny stuff",
+        "Cleanliness"
       ]
     },
     {
       "id": "inflatable-boat",
       "name": "Inflatable boat",
       "categories": [
-        "Lots of water"
+        "Lots of water",
+        "Wobbly stuff",
+        "Group Activities",
+        "Blocky stuff"
       ]
     },
     {
       "id": "beach-parasol",
       "name": "Beach parasol",
       "categories": [
-        "Lots of water"
+        "Lots of water",
+        "Fabric",
+        "Ocean vibes"
       ]
     },
     {
       "id": "fire-hydrant",
       "name": "Fire hydrant",
       "categories": [
-        "Lots of water"
+        "Lots of water",
+        "Shiny stuff",
+        "Metal stuff"
       ]
     },
     {
@@ -8135,63 +9066,81 @@
       "id": "picnic-basket",
       "name": "Picnic basket",
       "categories": [
-        "Fabric"
+        "Fabric",
+        "Group Activities",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "hanging-banner",
       "name": "Hanging banner",
       "categories": [
-        "Fabric"
+        "Fabric",
+        "Colorful stuff"
       ]
     },
     {
       "id": "party-bunting",
       "name": "Party bunting",
       "categories": [
-        "Fabric"
+        "Fabric",
+        "Colorful stuff"
       ]
     },
     {
       "id": "punching-bag",
       "name": "Punching bag",
       "categories": [
-        "Fabric"
+        "Fabric",
+        "Wobbly stuff",
+        "Exercise",
+        "Lots of dirt"
       ]
     },
     {
       "id": "blank-canvas",
       "name": "Blank canvas",
       "categories": [
-        "Fabric"
+        "Fabric",
+        "Watching stuff"
       ]
     },
     {
       "id": "painting-landscape",
       "name": "Painting (landscape)",
       "categories": [
-        "Fabric"
+        "Fabric",
+        "Watching stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "painting-portrait",
       "name": "Painting (portrait)",
       "categories": [
-        "Fabric"
+        "Fabric",
+        "Watching stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "painting-still-life",
       "name": "Painting (still life)",
       "categories": [
-        "Fabric"
+        "Fabric",
+        "Watching stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "sandbags",
       "name": "Sandbags",
       "categories": [
-        "Fabric"
+        "Fabric",
+        "Construction",
+        "Lots of dirt",
+        "Gatherings"
       ]
     },
     {
@@ -8212,21 +9161,29 @@
       "id": "fried-potatoes",
       "name": "Fried potatoes",
       "categories": [
-        "Looks like food"
+        "Looks like food",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "afternoon-tea-set",
       "name": "Afternoon tea set",
       "categories": [
-        "Looks like food"
+        "Looks like food",
+        "Luxury",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "sandwiches",
       "name": "Sandwiches",
       "categories": [
-        "Looks like food"
+        "Looks like food",
+        "Blocky stuff",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
@@ -8240,77 +9197,110 @@
       "id": "folding-chair",
       "name": "Folding chair",
       "categories": [
-        "Wobbly stuff"
+        "Wobbly stuff",
+        "Metal stuff"
       ]
     },
     {
       "id": "leafy-plant",
       "name": "Leafy plant",
       "categories": [
-        "Wobbly stuff"
+        "Wobbly stuff",
+        "Watching stuff",
+        "Containers",
+        "Pretty flowers"
       ]
     },
     {
       "id": "extravagant-flowers",
       "name": "Extravagant flowers",
       "categories": [
-        "Wobbly stuff"
+        "Wobbly stuff",
+        "Stone stuff",
+        "Watching stuff",
+        "Containers",
+        "Pretty flowers"
       ]
     },
     {
       "id": "punching-game",
       "name": "Punching game",
       "categories": [
-        "Wobbly stuff"
+        "Wobbly stuff",
+        "Play spaces",
+        "Exercise",
+        "Colorful stuff"
       ]
     },
     {
       "id": "fishing-rod",
       "name": "Fishing rod",
       "categories": [
-        "Wobbly stuff"
+        "Wobbly stuff",
+        "Ocean vibes",
+        "Metal stuff",
+        "Slender objects"
       ]
     },
     {
       "id": "small-vase",
       "name": "Small vase",
       "categories": [
-        "Stone stuff"
+        "Stone stuff",
+        "Watching stuff",
+        "Containers",
+        "Slender objects",
+        "Pretty flowers"
       ]
     },
     {
       "id": "pencil-holder",
       "name": "Pencil holder",
       "categories": [
-        "Stone stuff"
+        "Stone stuff",
+        "Complicated stuff",
+        "Containers",
+        "Gatherings"
       ]
     },
     {
       "id": "gym-emblem-statue",
       "name": "Gym emblem statue",
       "categories": [
-        "Stone stuff"
+        "Stone stuff",
+        "Shiny stuff"
       ]
     },
     {
       "id": "garden-ornament",
       "name": "Garden ornament",
       "categories": [
-        "Stone stuff"
+        "Stone stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "signpost",
       "name": "Signpost",
       "categories": [
-        "Stone stuff"
+        "Stone stuff",
+        "Letters and words",
+        "Complicated stuff",
+        "Shiny stuff",
+        "Metal stuff",
+        "Symbols"
       ]
     },
     {
       "id": "information-board",
       "name": "Information board",
       "categories": [
-        "Stone stuff"
+        "Stone stuff",
+        "Letters and words",
+        "Complicated stuff",
+        "Shiny stuff",
+        "Metal stuff",
+        "Symbols"
       ]
     },
     {
@@ -8324,77 +9314,110 @@
       "id": "jewel-wall-decoration",
       "name": "Jewel wall decoration",
       "categories": [
-        "Stone stuff"
+        "Stone stuff",
+        "Luxury",
+        "Colorful stuff"
       ]
     },
     {
       "id": "treasure",
       "name": "Treasure",
       "categories": [
-        "Stone stuff"
+        "Stone stuff",
+        "Group Activities",
+        "Luxury",
+        "Metal stuff",
+        "Colorful stuff"
       ]
     },
     {
       "id": "letter",
       "name": "Letter",
       "categories": [
-        "Letters and words"
+        "Letters and words",
+        "Watching stuff",
+        "Complicated stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "notepad",
       "name": "Notepad",
       "categories": [
-        "Letters and words"
+        "Letters and words",
+        "Watching stuff",
+        "Complicated stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "book",
       "name": "Book",
       "categories": [
-        "Letters and words"
+        "Letters and words",
+        "Watching stuff",
+        "Complicated stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "open-book",
       "name": "Open Book",
       "categories": [
-        "Letters and words"
+        "Letters and words",
+        "Watching stuff",
+        "Complicated stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "papers",
       "name": "Papers",
       "categories": [
-        "Letters and words"
+        "Letters and words",
+        "Watching stuff",
+        "Complicated stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "newspaper",
       "name": "Newspaper",
       "categories": [
-        "Letters and words"
+        "Letters and words",
+        "Watching stuff",
+        "Complicated stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "whiteboard",
       "name": "Whiteboard",
       "categories": [
-        "Letters and words"
+        "Letters and words",
+        "Group Activities",
+        "Complicated stuff",
+        "Shiny stuff",
+        "Blocky stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "wall-calendar",
       "name": "Wall Calendar",
       "categories": [
-        "Letters and words"
+        "Letters and words",
+        "Watching stuff",
+        "Complicated stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "decorative-bookshelf",
       "name": "Decorative bookshelf",
       "categories": [
-        "Letters and words"
+        "Letters and words",
+        "Gatherings"
       ]
     },
     {
@@ -8422,91 +9445,122 @@
       "id": "iron-bench",
       "name": "Iron bench",
       "categories": [
-        "Group Activities"
+        "Group Activities",
+        "Metal stuff"
       ]
     },
     {
       "id": "industrial-bench",
       "name": "Industrial bench",
       "categories": [
-        "Group Activities"
+        "Group Activities",
+        "Metal stuff"
       ]
     },
     {
       "id": "poke-ball-sofa",
       "name": "Poké Ball Sofa",
       "categories": [
-        "Group Activities"
+        "Group Activities",
+        "Metal stuff"
       ]
     },
     {
       "id": "tea-set",
       "name": "Tea set",
       "categories": [
-        "Group Activities"
+        "Group Activities",
+        "Containers",
+        "Gatherings"
       ]
     },
     {
       "id": "photo-frame",
       "name": "Photo frame",
       "categories": [
-        "Group Activities"
+        "Group Activities",
+        "Watching stuff",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "sandbox",
       "name": "Sandbox",
       "categories": [
-        "Group Activities"
+        "Group Activities",
+        "Play spaces",
+        "Lots of dirt",
+        "Blocky stuff"
       ]
     },
     {
       "id": "wall-photo-frame",
       "name": "Wall photo frame",
       "categories": [
-        "Watching stuff"
+        "Watching stuff",
+        "Containers",
+        "Blocky stuff"
       ]
     },
     {
       "id": "corkboard",
       "name": "Corkboard",
       "categories": [
-        "Watching stuff"
+        "Watching stuff",
+        "Blocky stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "pinwheels",
       "name": "Pinwheels",
       "categories": [
-        "Watching stuff"
+        "Watching stuff",
+        "Play spaces",
+        "Nice breezes",
+        "Spinning stuff",
+        "Colorful stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "team-rocket-wall-hanging",
       "name": "Team Rocket Wall Hanging",
       "categories": [
-        "Watching stuff"
+        "Watching stuff",
+        "Complicated stuff",
+        "Metal stuff",
+        "Blocky stuff",
+        "Symbols"
       ]
     },
     {
       "id": "fancy-pen",
       "name": "Fancy pen",
       "categories": [
-        "Complicated stuff"
+        "Complicated stuff",
+        "Luxury",
+        "Metal stuff",
+        "Slender objects"
       ]
     },
     {
       "id": "control-unit",
       "name": "Control unit",
       "categories": [
-        "Complicated stuff"
+        "Complicated stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "first-aid-kit",
       "name": "First aid kit",
       "categories": [
-        "Healing"
+        "Healing",
+        "Containers",
+        "Metal stuff",
+        "Colorful stuff"
       ]
     },
     {
@@ -8527,7 +9581,9 @@
       "id": "weather-vane",
       "name": "Weather vane",
       "categories": [
-        "Nice breezes"
+        "Nice breezes",
+        "Metal stuff",
+        "Spinning stuff"
       ]
     },
     {
@@ -8541,14 +9597,19 @@
       "id": "iron-pipes",
       "name": "Iron pipes",
       "categories": [
-        "Construction"
+        "Construction",
+        "Metal stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "wheelbarrow",
       "name": "Wheelbarrow",
       "categories": [
-        "Construction"
+        "Construction",
+        "Containers",
+        "Metal stuff",
+        "Lots of dirt"
       ]
     },
     {
@@ -8569,35 +9630,42 @@
       "id": "office-locker",
       "name": "Office locker",
       "categories": [
-        "Containers"
+        "Containers",
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "mug",
       "name": "Mug",
       "categories": [
-        "Containers"
+        "Containers",
+        "Symbols"
       ]
     },
     {
       "id": "cardboard-boxes",
       "name": "Cardboard boxes",
       "categories": [
-        "Containers"
+        "Containers",
+        "Blocky stuff",
+        "Gatherings"
       ]
     },
     {
       "id": "wooden-birdhouse",
       "name": "Wooden birdhouse",
       "categories": [
-        "Containers"
+        "Containers",
+        "Slender objects"
       ]
     },
     {
       "id": "mailbox",
       "name": "Mailbox",
       "categories": [
-        "Containers"
+        "Containers",
+        "Metal stuff"
       ]
     },
     {
@@ -8695,7 +9763,8 @@
       "id": "pokemetal",
       "name": "Pokémetal",
       "categories": [
-        "Metal stuff"
+        "Metal stuff",
+        "Colorful stuff"
       ]
     },
     {
@@ -8723,14 +9792,16 @@
       "id": "iron-chair",
       "name": "Iron chair",
       "categories": [
-        "Metal stuff"
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
       "id": "public-seat",
       "name": "Public seat",
       "categories": [
-        "Metal stuff"
+        "Metal stuff",
+        "Blocky stuff"
       ]
     },
     {
@@ -8786,7 +9857,8 @@
       "id": "metal-chain",
       "name": "Metal chain",
       "categories": [
-        "Metal stuff"
+        "Metal stuff",
+        "Slender objects"
       ]
     },
     {
@@ -8821,56 +9893,64 @@
       "id": "red-paint",
       "name": "Red paint",
       "categories": [
-        "Lots of dirt"
+        "Lots of dirt",
+        "Colorful stuff"
       ]
     },
     {
       "id": "blue-paint",
       "name": "Blue paint",
       "categories": [
-        "Lots of dirt"
+        "Lots of dirt",
+        "Colorful stuff"
       ]
     },
     {
       "id": "green-paint",
       "name": "Green paint",
       "categories": [
-        "Lots of dirt"
+        "Lots of dirt",
+        "Colorful stuff"
       ]
     },
     {
       "id": "yellow-paint",
       "name": "Yellow paint",
       "categories": [
-        "Lots of dirt"
+        "Lots of dirt",
+        "Colorful stuff"
       ]
     },
     {
       "id": "pink-paint",
       "name": "Pink paint",
       "categories": [
-        "Lots of dirt"
+        "Lots of dirt",
+        "Colorful stuff"
       ]
     },
     {
       "id": "cyan-paint",
       "name": "Cyan paint",
       "categories": [
-        "Lots of dirt"
+        "Lots of dirt",
+        "Colorful stuff"
       ]
     },
     {
       "id": "white-paint",
       "name": "White paint",
       "categories": [
-        "Lots of dirt"
+        "Lots of dirt",
+        "Colorful stuff"
       ]
     },
     {
       "id": "black-paint",
       "name": "Black paint",
       "categories": [
-        "Lots of dirt"
+        "Lots of dirt",
+        "Colorful stuff"
       ]
     },
     {
@@ -8933,21 +10013,24 @@
       "id": "decorative-plant-shelf",
       "name": "Decorative plant shelf",
       "categories": [
-        "Pretty flowers"
+        "Pretty flowers",
+        "Gatherings"
       ]
     },
     {
       "id": "wall-mounted-flowers",
       "name": "Wall-mounted flowers",
       "categories": [
-        "Pretty flowers"
+        "Pretty flowers",
+        "Colorful stuff"
       ]
     },
     {
       "id": "garden-flowers",
       "name": "Garden flowers",
       "categories": [
-        "Pretty flowers"
+        "Pretty flowers",
+        "Colorful stuff"
       ]
     },
     {
