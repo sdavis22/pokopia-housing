@@ -81,13 +81,29 @@ function FurnitureDetail({ furniture }: { furniture: Furniture }) {
     <div className="space-y-4">
       <div>
         <h3 className="text-lg font-bold text-gray-900">{furniture.name}</h3>
-        <div className="flex flex-wrap gap-1 mt-1">
-          {furniture.categories.map(c => (
-            <span key={c} className="inline-block text-xs font-medium bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full">{c}</span>
-          ))}
-        </div>
         {furniture.description && <p className="text-sm text-gray-600 mt-2">{furniture.description}</p>}
         {furniture.notes && <p className="text-sm text-gray-500 mt-1 italic">{furniture.notes}</p>}
+      </div>
+
+      <div>
+        <h4 className="text-sm font-semibold text-gray-700 mb-2">Categories</h4>
+        <div className="flex flex-wrap gap-1">
+          {state.furnitureCategories.map(c => {
+            const isMatch = furniture.categories.includes(c);
+            return (
+              <span
+                key={c}
+                className={`inline-block text-xs font-medium px-2 py-0.5 rounded-full ${
+                  isMatch
+                    ? 'bg-indigo-100 text-indigo-700'
+                    : 'bg-gray-100 text-gray-400'
+                }`}
+              >
+                {c}
+              </span>
+            );
+          })}
+        </div>
       </div>
 
       <div>

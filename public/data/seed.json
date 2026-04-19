@@ -27,6 +27,7 @@
     "Exercise",
     "Luxury",
     "Nice breezes",
+    "Noisy stuff",
     "Ocean vibes",
     "Construction",
     "Containers",
@@ -417,7 +418,8 @@
         "Wooden stuff",
         "Spooky stuff",
         "Complicated stuff",
-        "Nice breezes"
+        "Nice breezes",
+        "Noisy stuff"
       ]
     },
     {
@@ -432,7 +434,8 @@
         "Wooden stuff",
         "Spooky stuff",
         "Complicated stuff",
-        "Nice breezes"
+        "Nice breezes",
+        "Noisy stuff"
       ]
     },
     {
@@ -626,7 +629,8 @@
         "Strange stuff",
         "Lots of water",
         "Complicated stuff",
-        "Ocean vibes"
+        "Ocean vibes",
+        "Healing"
       ]
     },
     {
@@ -941,7 +945,8 @@
         "Soft stuff",
         "Strange stuff",
         "Lots of water",
-        "Cleanliness"
+        "Cleanliness",
+        "Healing"
       ]
     },
     {
@@ -957,7 +962,8 @@
         "Strange stuff",
         "Lots of water",
         "Group Activities",
-        "Cleanliness"
+        "Cleanliness",
+        "Healing"
       ]
     },
     {
@@ -1432,7 +1438,8 @@
         "Lots of water",
         "Watching stuff",
         "Ocean vibes",
-        "Cleanliness"
+        "Cleanliness",
+        "Healing"
       ]
     },
     {
@@ -1853,7 +1860,8 @@
         "Soft stuff",
         "Cute stuff",
         "Play spaces",
-        "Healing"
+        "Healing",
+        "Noisy stuff"
       ]
     },
     {
@@ -1920,6 +1928,7 @@
         "Cute stuff",
         "Lots of nature",
         "Play spaces",
+        "Noisy stuff",
         "Pretty flowers"
       ]
     },
@@ -1986,6 +1995,7 @@
         "Lots of water",
         "Group Activities",
         "Play spaces",
+        "Noisy stuff",
         "Gatherings"
       ]
     },
@@ -2100,7 +2110,8 @@
         "Strange stuff",
         "Lots of water",
         "Group Activities",
-        "Cleanliness"
+        "Cleanliness",
+        "Healing"
       ]
     },
     {
@@ -2474,6 +2485,7 @@
       "favorites": [
         "Lots of nature",
         "Lots of water",
+        "Noisy stuff",
         "Containers",
         "Cleanliness"
       ]
@@ -2489,6 +2501,7 @@
       "favorites": [
         "Lots of nature",
         "Lots of water",
+        "Noisy stuff",
         "Containers",
         "Cleanliness"
       ]
@@ -2506,6 +2519,7 @@
         "Lots of nature",
         "Lots of water",
         "Play spaces",
+        "Noisy stuff",
         "Containers"
       ]
     },
@@ -2818,6 +2832,7 @@
         "Lots of fire",
         "Lots of nature",
         "Luxury",
+        "Noisy stuff",
         "Lots of dirt"
       ]
     },
@@ -2900,7 +2915,8 @@
         "Soft stuff",
         "Cute stuff",
         "Watching stuff",
-        "Nice breezes"
+        "Nice breezes",
+        "Noisy stuff"
       ]
     },
     {
@@ -3078,6 +3094,7 @@
         "Wooden stuff",
         "Lots of nature",
         "Watching stuff",
+        "Noisy stuff",
         "Colorful stuff"
       ]
     },
@@ -3093,6 +3110,7 @@
         "Wooden stuff",
         "Lots of nature",
         "Watching stuff",
+        "Noisy stuff",
         "Colorful stuff"
       ]
     },
@@ -3274,7 +3292,8 @@
         "Spooky stuff",
         "Strange stuff",
         "Wobbly stuff",
-        "Group Activities"
+        "Group Activities",
+        "Noisy stuff"
       ]
     },
     {
@@ -3355,6 +3374,7 @@
         "Fabric",
         "Play spaces",
         "Nice breezes",
+        "Noisy stuff",
         "Slender objects"
       ]
     },
@@ -4045,6 +4065,7 @@
       "favorites": [
         "Hard stuff",
         "Stone stuff",
+        "Noisy stuff",
         "Shiny stuff",
         "Symbols"
       ]
@@ -4061,7 +4082,8 @@
         "Cute stuff",
         "Round stuff",
         "Lots of nature",
-        "Fabric"
+        "Fabric",
+        "Noisy stuff"
       ]
     },
     {
@@ -4092,7 +4114,8 @@
         "Lots of nature",
         "Lots of water",
         "Luxury",
-        "Cleanliness"
+        "Cleanliness",
+        "Healing"
       ]
     },
     {
@@ -4107,7 +4130,8 @@
         "Soft stuff",
         "Lots of water",
         "Luxury",
-        "Cleanliness"
+        "Cleanliness",
+        "Healing"
       ]
     },
     {
@@ -4123,7 +4147,8 @@
         "Lots of water",
         "Exercise",
         "Luxury",
-        "Cleanliness"
+        "Cleanliness",
+        "Healing"
       ]
     },
     {
@@ -4486,6 +4511,7 @@
         "Electronics",
         "Glass stuff",
         "Garbage",
+        "Noisy stuff",
         "Shiny stuff"
       ]
     },
@@ -4970,6 +4996,7 @@
       "favorites": [
         "Glass stuff",
         "Group Activities",
+        "Noisy stuff",
         "Shiny stuff",
         "Blocky stuff"
       ]
@@ -5000,6 +5027,7 @@
       "favorites": [
         "Electronics",
         "Play spaces",
+        "Noisy stuff",
         "Slender objects",
         "Sharp stuff"
       ]
@@ -5910,6 +5938,7 @@
       "name": "Oil lantern",
       "categories": [
         "Lots of fire",
+        "Containers",
         "Metal stuff"
       ]
     },
@@ -6483,7 +6512,8 @@
       "name": "Adventure kit",
       "categories": [
         "Soft stuff",
-        "Fabric"
+        "Fabric",
+        "Containers"
       ]
     },
     {
@@ -7061,7 +7091,8 @@
       "name": "CD player",
       "categories": [
         "Electronics",
-        "Group Activities"
+        "Group Activities",
+        "Noisy stuff"
       ]
     },
     {
@@ -7087,7 +7118,8 @@
       "name": "Cool electric guitar",
       "categories": [
         "Electronics",
-        "Strange stuff"
+        "Strange stuff",
+        "Noisy stuff"
       ]
     },
     {
@@ -7095,7 +7127,8 @@
       "name": "Cool bass guitar",
       "categories": [
         "Electronics",
-        "Strange stuff"
+        "Strange stuff",
+        "Noisy stuff"
       ]
     },
     {
@@ -7112,6 +7145,7 @@
       "name": "Speaker",
       "categories": [
         "Electronics",
+        "Noisy stuff",
         "Blocky stuff"
       ]
     },
@@ -7484,6 +7518,7 @@
         "Glass stuff",
         "Round stuff",
         "Strange stuff",
+        "Noisy stuff",
         "Metal stuff"
       ]
     },
@@ -7703,6 +7738,7 @@
       "categories": [
         "Round stuff",
         "Strange stuff",
+        "Noisy stuff",
         "Shiny stuff"
       ]
     },
@@ -7712,7 +7748,8 @@
       "categories": [
         "Round stuff",
         "Strange stuff",
-        "Nice breezes"
+        "Nice breezes",
+        "Noisy stuff"
       ]
     },
     {
@@ -8592,6 +8629,7 @@
       "categories": [
         "Strange stuff",
         "Play spaces",
+        "Noisy stuff",
         "Shiny stuff"
       ]
     },
@@ -8601,6 +8639,7 @@
       "categories": [
         "Strange stuff",
         "Play spaces",
+        "Noisy stuff",
         "Shiny stuff"
       ]
     },
@@ -8610,6 +8649,7 @@
       "categories": [
         "Strange stuff",
         "Play spaces",
+        "Noisy stuff",
         "Shiny stuff"
       ]
     },
@@ -8619,6 +8659,7 @@
       "categories": [
         "Strange stuff",
         "Play spaces",
+        "Noisy stuff",
         "Shiny stuff"
       ]
     },
@@ -8628,6 +8669,7 @@
       "categories": [
         "Strange stuff",
         "Play spaces",
+        "Noisy stuff",
         "Shiny stuff"
       ]
     },
@@ -8637,6 +8679,7 @@
       "categories": [
         "Strange stuff",
         "Play spaces",
+        "Noisy stuff",
         "Shiny stuff"
       ]
     },
@@ -8646,6 +8689,7 @@
       "categories": [
         "Strange stuff",
         "Play spaces",
+        "Noisy stuff",
         "Shiny stuff"
       ]
     },
@@ -8655,6 +8699,7 @@
       "categories": [
         "Strange stuff",
         "Play spaces",
+        "Noisy stuff",
         "Shiny stuff"
       ]
     },
@@ -9315,6 +9360,7 @@
       "name": "Jewel wall decoration",
       "categories": [
         "Stone stuff",
+        "Watching stuff",
         "Luxury",
         "Colorful stuff"
       ]
@@ -9431,7 +9477,8 @@
       "id": "map-and-compass",
       "name": "Map and compass",
       "categories": [
-        "Letters and words"
+        "Letters and words",
+        "Group Activities"
       ]
     },
     {
@@ -9542,7 +9589,8 @@
         "Complicated stuff",
         "Luxury",
         "Metal stuff",
-        "Slender objects"
+        "Slender objects",
+        "Sharp stuff"
       ]
     },
     {

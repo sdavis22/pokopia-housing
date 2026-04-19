@@ -9,6 +9,7 @@ import {
   type CompatibilityGroup,
 } from '../utils/scoring';
 import { ISLANDS } from '../config/scoring';
+import { groupHasEvoLinePair } from '../config/evoLines';
 
 const HABITAT_COLORS: Record<string, string> = {
   Warm: 'bg-orange-100 text-orange-700',
@@ -126,10 +127,11 @@ export default function PairsPage() {
   const [filterIsland, setFilterIsland] = useState('');
   const [minScore, setMinScore] = useState(0);
   const [seed, setSeed] = useState<Pokemon | null>(null);
+  const [hideEvoLines, setHideEvoLines] = useState(false);
   const [page, setPage] = useState(1);
 
   // Reset page when filters/size/seed change
-  useEffect(() => { setPage(1); }, [groupSize, search, filterHabitat, filterIsland, minScore, seed]);
+  useEffect(() => { setPage(1); }, [groupSize, search, filterHabitat, filterIsland, minScore, seed, hideEvoLines]);
 
   // --- Global pairs (always computed, fast) ---
   const pairs = useMemo(() => allCompatiblePairs(pokemon), [pokemon]);
@@ -189,9 +191,10 @@ export default function PairsPage() {
       if (filterHabitat && !g.members.some(p => p.idealHabitat === filterHabitat)) return false;
       if (filterIsland && !g.members.every(p => p.island === filterIsland)) return false;
       if (g.score < minScore) return false;
+      if (hideEvoLines && groupHasEvoLinePair(g.members.map(p => p.id))) return false;
       return true;
     });
-  }, [activeGroups, search, filterHabitat, filterIsland, minScore]);
+  }, [activeGroups, search, filterHabitat, filterIsland, minScore, hideEvoLines]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const pageSlice = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
@@ -259,6 +262,16 @@ export default function PairsPage() {
           <option value={7}>≥ 7 pts</option>
           <option value={10}>≥ 10 pts</option>
         </select>
+
+        <label className="flex items-center gap-1.5 text-sm text-gray-600 cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={hideEvoLines}
+            onChange={e => setHideEvoLines(e.target.checked)}
+            className="accent-indigo-600"
+          />
+          Hide evo lines
+        </label>
 
         <div className="flex items-center gap-2 w-full sm:w-auto">
           <span className="text-sm text-gray-500 shrink-0">Seed:</span>

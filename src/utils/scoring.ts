@@ -36,11 +36,16 @@ export function furnitureUsefulnessForHouse(
   const coveredBy = members
     .filter(p => furniture.categories.some(c => p.favorites.includes(c)))
     .map(p => p.id);
-  const coversNewCategory = coveredBy.length > 0 &&
-    furniture.categories.some(c => !coveredCategoriesSoFar.has(c));
+  const categoryHits = furniture.categories.reduce((total, c) => {
+    const membersWhoLike = members.filter(p => p.favorites.includes(c)).length;
+    return total + membersWhoLike;
+  }, 0);
+  const newCategoryCount = furniture.categories
+    .filter(c => !coveredCategoriesSoFar.has(c) && members.some(p => p.favorites.includes(c)))
+    .length;
   const score =
-    coveredBy.length * config.furnitureCoveragePoints +
-    (coversNewCategory ? config.furnitureNewCategoryBonus : 0);
+    categoryHits * config.furnitureCoveragePoints +
+    newCategoryCount * config.furnitureNewCategoryBonus;
   return { furniture, score, coveredBy };
 }
 

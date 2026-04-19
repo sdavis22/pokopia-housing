@@ -31,6 +31,7 @@ const CATEGORIES = [
   ['Exercise',          'exercise'],
   ['Luxury',            'luxury'],
   ['Nice breezes',      'nicebreezes'],
+  ['Noisy stuff',       'noisystuff'],
   ['Ocean vibes',       'oceanvibes'],
   ['Construction',      'construction'],
   ['Containers',        'containers'],
@@ -180,6 +181,30 @@ function main() {
       }
     }
     allPokemon.delete(variantId);
+  }
+
+  // -- Manual patches for Pokemon missing from Serebii category pages --
+  // These Pokemon list the favorite on their individual Pokédex pages but
+  // don't appear on the corresponding category listing page.
+  const PATCHES = [
+    ['zubat',    'Noisy stuff'],
+    ['golbat',   'Noisy stuff'],
+    ['psyduck',  'Healing'],
+    ['slowpoke', 'Healing'],
+    ['slowbro',  'Healing'],
+    ['lapras',   'Healing'],
+    ['slowking', 'Healing'],
+    ['goomy',    'Healing'],
+    ['sliggoo',  'Healing'],
+    ['goodra',   'Healing'],
+  ];
+
+  for (const [id, category] of PATCHES) {
+    const mon = allPokemon.get(id);
+    if (mon && !mon.favorites.includes(category)) {
+      mon.favorites.push(category);
+      console.log(`  Patched ${mon.name} += ${category}`);
+    }
   }
 
   console.log('Building JSON...');

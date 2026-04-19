@@ -185,12 +185,15 @@ function PokemonDetail({ pokemon, allPokemon, allFurniture }: {
         <div>
           <h4 className="text-sm font-semibold text-gray-700 mb-2">Matching Furniture</h4>
           <ul className="space-y-1">
-            {furniture.slice(0, 8).map(({ furniture: f }) => (
-              <li key={f.id} className="flex items-center gap-2 text-sm">
-                <span className="font-medium">{f.name}</span>
-                {f.categories.map(c => <TagChip key={c} label={c} />)}
-              </li>
-            ))}
+            {furniture.slice(0, 8).map(({ furniture: f }) => {
+              const matchingCategories = f.categories.filter(c => pokemon.favorites.includes(c));
+              return (
+                <li key={f.id} className="flex items-center gap-2 text-sm">
+                  <span className="font-medium">{f.name}</span>
+                  {matchingCategories.map(c => <TagChip key={c} label={c} />)}
+                </li>
+              );
+            })}
           </ul>
         </div>
       )}
