@@ -1,7 +1,78 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import type { Furniture } from '../types';
 import { PokemonSprite } from '../components/PokemonSprite';
+
+function CategoryFilter({ categories, selected, onChange }: {
+  categories: string[];
+  selected: string[];
+  onChange: (v: string[]) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const [search, setSearch] = useState('');
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    }
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, []);
+
+  const filtered = categories.filter(c => c.toLowerCase().includes(search.toLowerCase()));
+
+  function toggle(c: string) {
+    onChange(selected.includes(c) ? selected.filter(x => x !== c) : [...selected, c]);
+  }
+
+  const label = selected.length === 0 ? 'All categories' : `${selected.length} selected`;
+
+  return (
+    <div ref={ref} className="relative">
+      <button
+        type="button"
+        onClick={() => setOpen(o => !o)}
+        className="input flex items-center gap-2 min-w-[160px] text-left"
+      >
+        <span className="flex-1 truncate text-sm">{label}</span>
+        <svg className="w-4 h-4 text-gray-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+      </button>
+      {open && (
+        <div className="absolute z-20 mt-1 w-56 bg-white border border-gray-200 rounded-lg shadow-lg">
+          <div className="p-2 border-b border-gray-100">
+            <input
+              autoFocus
+              className="input w-full text-sm"
+              placeholder="Search categories..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+            />
+          </div>
+          <div className="max-h-60 overflow-y-auto py-1">
+            {filtered.length === 0 && <p className="text-xs text-gray-400 px-3 py-2">No matches</p>}
+            {filtered.map(c => (
+              <label key={c} className="flex items-center gap-2 px-3 py-1.5 hover:bg-gray-50 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={selected.includes(c)}
+                  onChange={() => toggle(c)}
+                  className="rounded"
+                />
+                <span className="text-sm">{c}</span>
+              </label>
+            ))}
+          </div>
+          {selected.length > 0 && (
+            <div className="border-t border-gray-100 p-2">
+              <button className="text-xs text-indigo-600 hover:underline" onClick={() => onChange([])}>Clear all</button>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
 
 function FurnitureForm({ initial, onSave, onCancel, existingIds }: {
   initial?: Partial<Furniture>;
@@ -88,21 +159,9 @@ function FurnitureDetail({ furniture }: { furniture: Furniture }) {
       <div>
         <h4 className="text-sm font-semibold text-gray-700 mb-2">Categories</h4>
         <div className="flex flex-wrap gap-1">
-          {state.furnitureCategories.map(c => {
-            const isMatch = furniture.categories.includes(c);
-            return (
-              <span
-                key={c}
-                className={`inline-block text-xs font-medium px-2 py-0.5 rounded-full ${
-                  isMatch
-                    ? 'bg-indigo-100 text-indigo-700'
-                    : 'bg-gray-100 text-gray-400'
-                }`}
-              >
-                {c}
-              </span>
-            );
-          })}
+          {furniture.categories.map(c => (
+            <span key={c} className="inline-block text-xs font-medium bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full whitespace-nowrap">{c}</span>
+          ))}
         </div>
       </div>
 
@@ -155,14 +214,14 @@ function FurnitureDetail({ furniture }: { furniture: Furniture }) {
 export default function FurnitureExplorerPage() {
   const { state, dispatch } = useApp();
   const [search, setSearch] = useState('');
-  const [filterCategory, setFilterCategory] = useState('');
+  const [filterCategories, setFilterCategories] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState<'name' | 'matches'>('name');
   const [selected, setSelected] = useState<Furniture | null>(null);
   const [editing, setEditing] = useState<Furniture | null | 'new'>(null);
 
   const filtered = state.furniture
     .filter(f => f.name.toLowerCase().includes(search.toLowerCase()))
-    .filter(f => !filterCategory || f.categories.includes(filterCategory))
+    .filter(f => filterCategories.length === 0 || filterCategories.some(c => f.categories.includes(c)))
     .sort((a, b) => {
       if (sortBy === 'name') return a.name.localeCompare(b.name);
       const aMatches = state.pokemon.filter(p => a.categories.some(c => p.favorites.includes(c))).length;
@@ -200,10 +259,11 @@ export default function FurnitureExplorerPage() {
           value={search}
           onChange={e => setSearch(e.target.value)}
         />
-        <select className="input" value={filterCategory} onChange={e => setFilterCategory(e.target.value)}>
-          <option value="">All categories</option>
-          {state.furnitureCategories.map(c => <option key={c} value={c}>{c}</option>)}
-        </select>
+        <CategoryFilter
+          categories={state.furnitureCategories}
+          selected={filterCategories}
+          onChange={setFilterCategories}
+        />
         <select className="input" value={sortBy} onChange={e => setSortBy(e.target.value as 'name' | 'matches')}>
           <option value="name">Sort: Name</option>
           <option value="matches">Sort: Most Pokemon Matches</option>
@@ -227,12 +287,14 @@ export default function FurnitureExplorerPage() {
                     : 'border-gray-200 bg-white hover:border-indigo-300'
                 }`}
               >
-                <div className="flex items-center gap-2">
+                <div className="flex items-center justify-between gap-2">
                   <span className="font-medium text-sm">{f.name}</span>
+                  <span className="text-xs text-gray-400 shrink-0">{matches} Pokemon</span>
+                </div>
+                <div className="flex flex-wrap gap-1 mt-1">
                   {f.categories.map(c => (
-                    <span key={c} className="text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full">{c}</span>
+                    <span key={c} className="text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full whitespace-nowrap">{c}</span>
                   ))}
-                  <span className="ml-auto text-xs text-gray-400">{matches} Pokemon</span>
                 </div>
               </button>
             );
